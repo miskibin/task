@@ -1,0 +1,2001 @@
+site_id,region,country,site_type,operator,latitude,longitude
+ST-00001,EMEA,Italy,Cell Site,Three,44.65748,-3.44596
+ST-00002,APAC,South Korea,Cell Site,Singtel,19.46501,122.29595
+ST-00003,EMEA,Austria,Warehouse,,41.41491,27.7507
+ST-00004,EMEA,Italy,Integration Center,,51.17115,-1.20329
+ST-00005,AMER,Canada,Cell Site,Verizon,-19.96994,-93.20117
+ST-00006,EMEA,Czechia,Warehouse,,59.34639,-0.53508
+ST-00007,EMEA,France,Cell Site,Deutsche Telekom,39.20934,-3.44041
+ST-00008,EMEA,Spain,Warehouse,,43.60737,14.61263
+ST-00009,EMEA,Czechia,Cell Site,Telia,36.97694,-3.62262
+ST-00010,APAC,India,Warehouse,,39.08165,120.8896
+ST-00011,EMEA,France,Integration Center,,38.49208,12.0039
+ST-00012,EMEA,Poland,Cell Site,Telenor,41.02344,28.94466
+ST-00013,APAC,Singapore,Warehouse,,16.16367,97.11876
+ST-00014,EMEA,Austria,Warehouse,,50.32413,-4.50772
+ST-00015,EMEA,Spain,Warehouse,,47.95175,24.08932
+ST-00016,EMEA,Austria,Cell Site,Vodafone,43.64327,9.09926
+ST-00017,AMER,Colombia,Cell Site,T-Mobile US,-25.25065,-74.14634
+ST-00018,AMER,Colombia,Cell Site,Verizon,-24.90921,-86.92141
+ST-00019,EMEA,Sweden,Warehouse,,56.02957,-4.00326
+ST-00020,APAC,Singapore,Cell Site,Reliance Jio,33.76663,121.52859
+ST-00021,AMER,Mexico,Integration Center,,-22.3061,-93.26031
+ST-00022,AMER,Canada,Integration Center,,24.68921,-70.83315
+ST-00023,APAC,India,Cell Site,Maxis,26.57361,125.7026
+ST-00024,EMEA,France,Cell Site,Telenor,44.03959,-9.94259
+ST-00025,AMER,Mexico,Warehouse,,12.60104,-76.21929
+ST-00026,APAC,Indonesia,Cell Site,Maxis,27.81853,101.56565
+ST-00027,EMEA,Germany,Warehouse,,39.25579,23.21222
+ST-00028,APAC,Vietnam,Integration Center,,33.81059,139.38053
+ST-00029,APAC,Japan,Warehouse,,14.25067,92.9509
+ST-00030,AMER,USA,Data Center,TIM Brasil,7.82954,-80.81016
+ST-00031,EMEA,Netherlands,Warehouse,,35.91325,13.00246
+ST-00032,EMEA,France,Cell Site,Deutsche Telekom,41.52048,-5.23498
+ST-00033,AMER,Colombia,Warehouse,,19.44021,-88.70616
+ST-00034,AMER,Colombia,Cell Site,Rogers,15.54163,-99.3916
+ST-00035,APAC,China,Cell Site,SK Telecom,15.28255,133.27116
+ST-00036,EMEA,Poland,Warehouse,,51.25293,24.70041
+ST-00037,EMEA,UK,Cell Site,Vodafone,53.51186,18.78862
+ST-00038,AMER,Argentina,Cell Site,Verizon,43.30208,-99.21828
+ST-00039,AMER,USA,Integration Center,,2.79985,-61.58344
+ST-00040,APAC,Vietnam,Cell Site,China Mobile,7.90931,122.68637
+ST-00041,APAC,South Korea,Cell Site,Singtel,31.81753,136.68023
+ST-00042,EMEA,Poland,Cell Site,Telenor,56.79494,17.06325
+ST-00043,EMEA,Czechia,Cell Site,Orange,52.77901,3.72145
+ST-00044,EMEA,Spain,Warehouse,,40.59839,28.34491
+ST-00045,APAC,Vietnam,Cell Site,NTT Docomo,39.04707,111.23013
+ST-00046,APAC,South Korea,Warehouse,,17.02216,112.58589
+ST-00047,EMEA,UK,Warehouse,,46.53535,23.68666
+ST-00048,AMER,Colombia,Cell Site,Rogers,3.7625,-64.70595
+ST-00049,AMER,Colombia,Warehouse,,27.56663,-61.38435
+ST-00050,EMEA,Italy,Warehouse,,51.86401,6.48705
+ST-00051,EMEA,Austria,Integration Center,,57.94949,-0.80822
+ST-00052,EMEA,Poland,Cell Site,Telia,59.12389,-8.26284
+ST-00053,EMEA,Poland,Warehouse,,51.02351,-9.27001
+ST-00054,AMER,Mexico,Integration Center,,-16.64236,-81.44099
+ST-00055,EMEA,Italy,Integration Center,,38.95683,29.55295
+ST-00056,AMER,USA,Cell Site,Verizon,34.57112,-65.96582
+ST-00057,EMEA,Sweden,Cell Site,Deutsche Telekom,59.47676,16.99075
+ST-00058,EMEA,UK,Cell Site,Telefónica,41.66495,20.27815
+ST-00059,EMEA,Netherlands,Cell Site,Telia,49.60778,0.69996
+ST-00060,EMEA,Poland,Cell Site,Telenor,44.18211,14.31472
+ST-00061,EMEA,Italy,Cell Site,Deutsche Telekom,44.88636,-0.59472
+ST-00062,EMEA,Czechia,Cell Site,Deutsche Telekom,45.74808,-0.65597
+ST-00063,APAC,Australia,Cell Site,Telstra,35.12931,124.70368
+ST-00064,APAC,Australia,Cell Site,SK Telecom,15.68496,137.27205
+ST-00065,APAC,India,Cell Site,SK Telecom,16.16899,118.72346
+ST-00066,EMEA,Germany,Data Center,Telefónica,47.7968,-5.12334
+ST-00067,APAC,Malaysia,Cell Site,NTT Docomo,17.52789,93.87728
+ST-00068,EMEA,Sweden,Data Center,A1 Telekom,39.26378,21.50113
+ST-00069,EMEA,UK,Cell Site,Vodafone,42.56655,-6.44176
+ST-00070,APAC,Indonesia,Warehouse,,29.03939,130.11983
+ST-00071,AMER,Mexico,Cell Site,Rogers,17.02697,-63.37553
+ST-00072,EMEA,UK,Warehouse,,56.23607,12.10852
+ST-00073,AMER,USA,Integration Center,,31.33094,-86.83033
+ST-00074,EMEA,Poland,Cell Site,Telia,50.90712,29.07713
+ST-00075,EMEA,Spain,Integration Center,,54.99681,4.98147
+ST-00076,AMER,Canada,Integration Center,,48.91293,-66.99454
+ST-00077,EMEA,Italy,Cell Site,Telia,35.93053,19.8402
+ST-00078,AMER,Argentina,Integration Center,,52.87593,-87.29174
+ST-00079,EMEA,Sweden,Warehouse,,41.88341,15.60268
+ST-00080,EMEA,Poland,Cell Site,Deutsche Telekom,37.75305,16.99904
+ST-00081,APAC,India,Cell Site,Telstra,9.8366,112.57655
+ST-00082,EMEA,Spain,Cell Site,Telenor,57.29926,21.87149
+ST-00083,AMER,Colombia,Cell Site,Claro,-25.28072,-69.54462
+ST-00084,EMEA,Sweden,Cell Site,A1 Telekom,45.29277,29.77767
+ST-00085,EMEA,Austria,Cell Site,Orange,42.4934,8.82397
+ST-00086,EMEA,France,Cell Site,Vodafone,43.52944,13.44771
+ST-00087,EMEA,Czechia,Warehouse,,41.64689,26.50587
+ST-00088,EMEA,Germany,Cell Site,Telefónica,50.42473,27.70839
+ST-00089,EMEA,Germany,Cell Site,Orange,52.01294,-2.56662
+ST-00090,APAC,Malaysia,Cell Site,Singtel,1.60137,110.37887
+ST-00091,AMER,Chile,Cell Site,Verizon,54.41595,-64.92289
+ST-00092,EMEA,France,Cell Site,Telefónica,56.17004,12.74737
+ST-00093,EMEA,Netherlands,Cell Site,Deutsche Telekom,37.37098,-9.393
+ST-00094,APAC,Thailand,Warehouse,,33.70629,98.86963
+ST-00095,EMEA,France,Cell Site,Telia,36.91743,18.39024
+ST-00096,EMEA,Germany,Cell Site,Telefónica,35.02936,19.6327
+ST-00097,EMEA,France,Cell Site,Telefónica,39.80829,2.85578
+ST-00098,APAC,Thailand,Cell Site,Maxis,7.69621,128.8574
+ST-00099,EMEA,UK,Integration Center,,47.11932,-3.36681
+ST-00100,EMEA,France,Integration Center,,35.96328,29.46838
+ST-00101,APAC,India,Cell Site,NTT Docomo,28.86033,123.99762
+ST-00102,APAC,Australia,Cell Site,Maxis,20.60955,111.74931
+ST-00103,AMER,Brazil,Warehouse,,36.63681,-66.9357
+ST-00104,EMEA,Germany,Warehouse,,36.52753,24.37682
+ST-00105,APAC,Thailand,Cell Site,Bharti Airtel,30.70046,114.31064
+ST-00106,EMEA,Germany,Cell Site,Telenor,46.90811,23.39187
+ST-00107,APAC,Australia,Warehouse,,31.94892,96.93984
+ST-00108,EMEA,Netherlands,Cell Site,Three,48.72989,28.7743
+ST-00109,APAC,Indonesia,Cell Site,SK Telecom,29.68301,138.64891
+ST-00110,EMEA,Austria,Warehouse,,54.39994,10.98646
+ST-00111,EMEA,France,Integration Center,,50.12257,18.37654
+ST-00112,EMEA,Czechia,Data Center,Telenor,53.22067,19.90235
+ST-00113,EMEA,Netherlands,Warehouse,,58.25648,2.3666
+ST-00114,AMER,Mexico,Cell Site,Rogers,39.65253,-77.21273
+ST-00115,APAC,India,Cell Site,Telstra,35.52786,121.55469
+ST-00116,APAC,South Korea,Warehouse,,37.4708,111.20168
+ST-00117,EMEA,Sweden,Warehouse,,37.48232,15.79453
+ST-00118,EMEA,Netherlands,Cell Site,Telia,54.36474,17.65737
+ST-00119,APAC,India,Cell Site,SK Telecom,29.27428,91.44403
+ST-00120,APAC,Thailand,Warehouse,,38.63203,103.20897
+ST-00121,EMEA,Germany,Cell Site,Telia,45.34655,6.73691
+ST-00122,EMEA,Germany,Cell Site,Vodafone,57.66889,19.75199
+ST-00123,EMEA,Netherlands,Cell Site,Vodafone,50.50516,-5.20111
+ST-00124,EMEA,Sweden,Cell Site,Telia,43.08575,9.67086
+ST-00125,EMEA,Italy,Warehouse,,37.87253,12.85231
+ST-00126,AMER,Chile,Cell Site,Claro,-15.70932,-67.02043
+ST-00127,AMER,Chile,Cell Site,T-Mobile US,39.60449,-76.04217
+ST-00128,EMEA,Netherlands,Cell Site,Three,43.98754,-8.21779
+ST-00129,APAC,India,Cell Site,NTT Docomo,25.53055,129.2293
+ST-00130,APAC,China,Cell Site,Maxis,31.82556,114.22347
+ST-00131,APAC,Singapore,Cell Site,Maxis,6.47654,93.2407
+ST-00132,EMEA,France,Cell Site,Telefónica,36.39325,-0.0209
+ST-00133,EMEA,Germany,Cell Site,Three,38.53712,-3.24532
+ST-00134,AMER,Brazil,Data Center,Bell,27.90935,-92.81971
+ST-00135,EMEA,Netherlands,Cell Site,Deutsche Telekom,52.30838,4.06438
+ST-00136,APAC,Indonesia,Integration Center,,31.21636,97.95271
+ST-00137,EMEA,Sweden,Cell Site,A1 Telekom,35.58414,-6.43122
+ST-00138,AMER,Canada,Warehouse,,51.95331,-78.482
+ST-00139,EMEA,Austria,Cell Site,Vodafone,50.17577,28.68023
+ST-00140,EMEA,Sweden,Cell Site,Telefónica,54.40015,-5.49391
+ST-00141,EMEA,Czechia,Data Center,Telefónica,45.54432,22.85572
+ST-00142,AMER,Argentina,Data Center,Verizon,24.84942,-91.37024
+ST-00143,EMEA,Italy,Cell Site,Telenor,55.14269,12.35339
+ST-00144,EMEA,UK,Cell Site,Vodafone,54.70794,15.0586
+ST-00145,APAC,Australia,Cell Site,Maxis,19.05208,126.42556
+ST-00146,EMEA,Czechia,Integration Center,,56.64117,8.62261
+ST-00147,APAC,Australia,Cell Site,NTT Docomo,2.16172,119.66124
+ST-00148,APAC,Indonesia,Cell Site,Maxis,4.52312,106.2262
+ST-00149,EMEA,Netherlands,Cell Site,Deutsche Telekom,48.74455,3.81091
+ST-00150,EMEA,Germany,Warehouse,,42.02328,-9.19555
+ST-00151,EMEA,UK,Cell Site,Vodafone,41.73175,5.39193
+ST-00152,AMER,Colombia,Cell Site,Bell,-8.87717,-74.86325
+ST-00153,APAC,Indonesia,Warehouse,,26.96662,128.99517
+ST-00154,AMER,Colombia,Cell Site,Bell,-18.26855,-75.24292
+ST-00155,EMEA,France,Warehouse,,45.75149,2.91532
+ST-00156,EMEA,Spain,Data Center,A1 Telekom,47.06937,9.25178
+ST-00157,EMEA,Sweden,Cell Site,Orange,50.98426,12.36873
+ST-00158,AMER,Chile,Cell Site,Rogers,21.8147,-60.78023
+ST-00159,APAC,Malaysia,Warehouse,,32.60814,104.60291
+ST-00160,AMER,Argentina,Integration Center,,13.01379,-90.82556
+ST-00161,AMER,Brazil,Warehouse,,11.69992,-71.51671
+ST-00162,EMEA,Germany,Cell Site,Orange,36.64427,-4.50303
+ST-00163,AMER,Brazil,Cell Site,TIM Brasil,-34.34204,-84.85329
+ST-00164,EMEA,Poland,Warehouse,,54.18288,7.98063
+ST-00165,APAC,Singapore,Warehouse,,23.26054,119.49353
+ST-00166,EMEA,Poland,Warehouse,,37.23851,-3.02171
+ST-00167,AMER,USA,Cell Site,AT&T,47.36928,-81.65156
+ST-00168,AMER,Argentina,Cell Site,Claro,2.67513,-69.96054
+ST-00169,AMER,Canada,Cell Site,AT&T,-30.93261,-66.36875
+ST-00170,EMEA,Czechia,Cell Site,Three,51.76088,-4.20304
+ST-00171,EMEA,Italy,Warehouse,,36.62311,-9.88446
+ST-00172,AMER,Colombia,Cell Site,Verizon,-8.52625,-87.008
+ST-00173,APAC,Vietnam,Warehouse,,7.89548,104.35451
+ST-00174,EMEA,Austria,Integration Center,,49.05094,-5.48563
+ST-00175,EMEA,Italy,Integration Center,,40.02848,12.47962
+ST-00176,EMEA,Netherlands,Cell Site,Three,52.61182,27.25083
+ST-00177,EMEA,France,Integration Center,,47.76385,-5.47103
+ST-00178,APAC,Japan,Cell Site,Maxis,24.0696,139.76817
+ST-00179,AMER,Canada,Warehouse,,44.47581,-68.79349
+ST-00180,EMEA,Germany,Cell Site,Vodafone,53.3649,20.22222
+ST-00181,APAC,South Korea,Cell Site,SK Telecom,4.53764,116.00895
+ST-00182,EMEA,Austria,Cell Site,Telefónica,52.2395,-7.09111
+ST-00183,EMEA,Germany,Warehouse,,57.86894,-4.89249
+ST-00184,EMEA,Poland,Cell Site,Three,37.20489,-5.06227
+ST-00185,APAC,Indonesia,Cell Site,Reliance Jio,17.50619,117.15879
+ST-00186,APAC,India,Integration Center,,4.69482,129.29923
+ST-00187,EMEA,Germany,Cell Site,Vodafone,40.00402,12.41858
+ST-00188,EMEA,Italy,Cell Site,Telefónica,47.27807,26.22542
+ST-00189,AMER,Chile,Data Center,Rogers,45.39731,-90.46352
+ST-00190,EMEA,France,Cell Site,Telia,48.46063,29.41601
+ST-00191,EMEA,Italy,Warehouse,,43.29618,-7.05323
+ST-00192,EMEA,France,Cell Site,Telefónica,52.95081,10.12775
+ST-00193,EMEA,Spain,Warehouse,,58.49082,13.00799
+ST-00194,APAC,Australia,Warehouse,,20.94836,135.74234
+ST-00195,EMEA,Sweden,Cell Site,Orange,44.50959,13.89785
+ST-00196,EMEA,Germany,Data Center,Deutsche Telekom,56.14264,13.90347
+ST-00197,EMEA,Poland,Data Center,Telenor,42.4449,12.33289
+ST-00198,AMER,Argentina,Integration Center,,3.88231,-60.61145
+ST-00199,EMEA,Poland,Warehouse,,36.27356,20.71874
+ST-00200,APAC,Malaysia,Cell Site,Bharti Airtel,1.9366,120.19573
+ST-00201,EMEA,France,Warehouse,,45.77341,26.41775
+ST-00202,EMEA,Italy,Integration Center,,48.48351,23.09334
+ST-00203,EMEA,Netherlands,Cell Site,Telefónica,51.80354,7.88236
+ST-00204,EMEA,Netherlands,Cell Site,Vodafone,43.44278,-5.31853
+ST-00205,EMEA,Sweden,Cell Site,A1 Telekom,35.33798,-9.94415
+ST-00206,APAC,Thailand,Cell Site,China Mobile,9.81029,118.04608
+ST-00207,EMEA,France,Cell Site,Orange,59.38736,18.20916
+ST-00208,EMEA,Sweden,Cell Site,Telefónica,36.76707,15.80829
+ST-00209,EMEA,Austria,Warehouse,,47.13739,15.44734
+ST-00210,APAC,Malaysia,Cell Site,NTT Docomo,25.30448,97.19725
+ST-00211,EMEA,France,Warehouse,,57.98649,12.18166
+ST-00212,EMEA,France,Cell Site,Telefónica,52.51903,5.48315
+ST-00213,EMEA,Sweden,Cell Site,Deutsche Telekom,38.05729,17.63719
+ST-00214,EMEA,UK,Integration Center,,58.56222,13.2453
+ST-00215,EMEA,Spain,Cell Site,Telenor,39.96617,14.93009
+ST-00216,EMEA,Austria,Warehouse,,45.72329,5.96153
+ST-00217,EMEA,Italy,Cell Site,Deutsche Telekom,57.83762,19.48327
+ST-00218,EMEA,Czechia,Cell Site,Telenor,47.71934,6.70006
+ST-00219,EMEA,Spain,Cell Site,Three,41.07319,3.73855
+ST-00220,AMER,USA,Data Center,Rogers,13.65549,-98.06631
+ST-00221,APAC,South Korea,Warehouse,,14.9432,114.70435
+ST-00222,APAC,India,Cell Site,Singtel,24.7235,127.15504
+ST-00223,EMEA,Czechia,Cell Site,Deutsche Telekom,35.34579,1.79215
+ST-00224,AMER,Mexico,Cell Site,TIM Brasil,-11.51387,-79.14882
+ST-00225,AMER,Mexico,Cell Site,AT&T,6.94117,-96.80397
+ST-00226,EMEA,Sweden,Cell Site,Telenor,54.03379,17.49084
+ST-00227,EMEA,Italy,Cell Site,Three,55.52861,-5.55861
+ST-00228,EMEA,Italy,Cell Site,Telenor,47.65581,14.14888
+ST-00229,APAC,India,Cell Site,SK Telecom,2.90865,137.97079
+ST-00230,AMER,Canada,Cell Site,Rogers,36.49907,-90.25393
+ST-00231,EMEA,UK,Warehouse,,50.71879,-4.26494
+ST-00232,AMER,USA,Cell Site,TIM Brasil,43.58893,-96.06635
+ST-00233,AMER,Mexico,Warehouse,,46.3685,-66.88566
+ST-00234,AMER,USA,Warehouse,,8.04036,-73.89602
+ST-00235,AMER,Mexico,Cell Site,TIM Brasil,-12.877,-84.62599
+ST-00236,AMER,USA,Data Center,Verizon,-15.42998,-78.8953
+ST-00237,APAC,Australia,Cell Site,Reliance Jio,13.42849,107.57737
+ST-00238,EMEA,Austria,Cell Site,Orange,46.06913,24.90368
+ST-00239,AMER,Brazil,Data Center,T-Mobile US,14.37575,-67.73616
+ST-00240,EMEA,Germany,Warehouse,,56.2138,-0.18286
+ST-00241,AMER,Canada,Warehouse,,34.99206,-74.05351
+ST-00242,APAC,Singapore,Integration Center,,20.78881,94.43335
+ST-00243,EMEA,Czechia,Cell Site,Telenor,49.30846,-3.78476
+ST-00244,EMEA,Netherlands,Warehouse,,55.40638,27.38487
+ST-00245,EMEA,France,Cell Site,Telefónica,46.95269,7.62109
+ST-00246,EMEA,UK,Warehouse,,47.21956,-7.31272
+ST-00247,APAC,Japan,Warehouse,,10.24228,137.03054
+ST-00248,EMEA,Italy,Cell Site,A1 Telekom,43.62686,13.65431
+ST-00249,EMEA,Spain,Cell Site,Three,51.22854,25.08624
+ST-00250,APAC,Australia,Cell Site,Bharti Airtel,10.28896,134.5065
+ST-00251,EMEA,Spain,Data Center,Three,44.7914,26.87108
+ST-00252,EMEA,Austria,Cell Site,Orange,45.28295,-5.8416
+ST-00253,EMEA,Austria,Warehouse,,36.30307,28.69152
+ST-00254,APAC,Singapore,Cell Site,Singtel,5.73211,117.05958
+ST-00255,EMEA,UK,Cell Site,Telenor,48.17449,6.05429
+ST-00256,EMEA,Sweden,Warehouse,,45.45077,9.02865
+ST-00257,EMEA,Spain,Cell Site,A1 Telekom,37.48836,21.63627
+ST-00258,APAC,Australia,Cell Site,NTT Docomo,15.70549,102.22698
+ST-00259,APAC,Indonesia,Integration Center,,13.41243,120.59349
+ST-00260,EMEA,Poland,Warehouse,,54.37763,-3.86321
+ST-00261,APAC,Indonesia,Data Center,NTT Docomo,24.11018,111.12061
+ST-00262,EMEA,Poland,Cell Site,Telia,56.5493,27.97196
+ST-00263,EMEA,UK,Integration Center,,51.96356,13.59221
+ST-00264,EMEA,Spain,Data Center,A1 Telekom,54.50889,9.83224
+ST-00265,AMER,Canada,Data Center,Rogers,-30.01649,-71.95617
+ST-00266,EMEA,Germany,Cell Site,Telia,49.50961,-3.94249
+ST-00267,APAC,South Korea,Cell Site,Bharti Airtel,9.30571,101.53383
+ST-00268,AMER,Colombia,Cell Site,Claro,30.91687,-79.26512
+ST-00269,APAC,Australia,Cell Site,Singtel,2.86788,131.89825
+ST-00270,EMEA,Spain,Cell Site,Deutsche Telekom,51.12416,19.32601
+ST-00271,APAC,Australia,Data Center,Maxis,37.56004,103.00838
+ST-00272,EMEA,Austria,Cell Site,Telia,49.74021,20.40594
+ST-00273,EMEA,Austria,Integration Center,,47.81979,9.44279
+ST-00274,EMEA,Germany,Cell Site,Telefónica,58.2181,-0.25588
+ST-00275,EMEA,Germany,Cell Site,Deutsche Telekom,51.32212,28.81153
+ST-00276,APAC,Indonesia,Cell Site,China Mobile,9.5795,113.12059
+ST-00277,EMEA,Czechia,Warehouse,,59.38593,-8.56583
+ST-00278,EMEA,Spain,Cell Site,Deutsche Telekom,50.74636,6.18166
+ST-00279,EMEA,Poland,Integration Center,,54.2773,2.92963
+ST-00280,APAC,Japan,Warehouse,,15.54245,115.78184
+ST-00281,EMEA,Austria,Cell Site,Telenor,43.64705,0.38297
+ST-00282,EMEA,Sweden,Integration Center,,43.88334,26.31804
+ST-00283,APAC,India,Cell Site,China Mobile,14.36434,134.97162
+ST-00284,APAC,India,Warehouse,,8.99577,123.60904
+ST-00285,APAC,Japan,Data Center,Reliance Jio,30.05353,95.56829
+ST-00286,EMEA,Netherlands,Cell Site,Vodafone,48.59965,-9.47654
+ST-00287,EMEA,Germany,Integration Center,,58.20565,10.97048
+ST-00288,AMER,Chile,Cell Site,T-Mobile US,-31.69106,-72.67108
+ST-00289,APAC,Singapore,Warehouse,,35.5426,126.87606
+ST-00290,APAC,South Korea,Cell Site,Telstra,6.21592,116.99439
+ST-00291,AMER,Mexico,Warehouse,,30.97887,-67.9772
+ST-00292,AMER,Argentina,Integration Center,,-33.55982,-88.65042
+ST-00293,AMER,Mexico,Data Center,Claro,44.61794,-89.66273
+ST-00294,APAC,Singapore,Warehouse,,19.42875,124.83326
+ST-00295,EMEA,Italy,Cell Site,Vodafone,59.63997,7.03441
+ST-00296,AMER,Chile,Warehouse,,10.33072,-77.65482
+ST-00297,EMEA,Italy,Cell Site,Orange,40.85413,4.74713
+ST-00298,APAC,Thailand,Integration Center,,17.94419,90.96617
+ST-00299,EMEA,UK,Integration Center,,35.19036,-1.02765
+ST-00300,APAC,India,Integration Center,,20.97671,137.78458
+ST-00301,EMEA,Poland,Warehouse,,59.31511,15.88738
+ST-00302,EMEA,Italy,Data Center,Telenor,55.67523,26.02798
+ST-00303,EMEA,Poland,Data Center,Orange,55.97845,11.74829
+ST-00304,APAC,Indonesia,Cell Site,Bharti Airtel,28.46277,90.18206
+ST-00305,AMER,Argentina,Warehouse,,23.3264,-82.96545
+ST-00306,EMEA,Poland,Warehouse,,51.11781,17.77631
+ST-00307,EMEA,Germany,Cell Site,Deutsche Telekom,37.4474,24.98166
+ST-00308,EMEA,Sweden,Data Center,Orange,39.39329,-9.58159
+ST-00309,EMEA,France,Cell Site,Three,45.74268,-6.41337
+ST-00310,EMEA,Sweden,Integration Center,,58.89943,1.35249
+ST-00311,EMEA,Italy,Cell Site,Vodafone,40.58999,0.47959
+ST-00312,AMER,Brazil,Warehouse,,-9.49795,-97.49706
+ST-00313,EMEA,Czechia,Cell Site,Telefónica,48.50016,-9.27979
+ST-00314,APAC,China,Data Center,China Mobile,30.12404,128.38651
+ST-00315,EMEA,UK,Data Center,Deutsche Telekom,44.99245,28.83276
+ST-00316,EMEA,Germany,Warehouse,,54.54484,-5.07738
+ST-00317,AMER,Canada,Cell Site,Claro,53.18634,-66.19511
+ST-00318,EMEA,UK,Cell Site,Orange,52.59976,16.13797
+ST-00319,EMEA,Sweden,Warehouse,,50.11875,29.60904
+ST-00320,EMEA,France,Cell Site,Vodafone,46.96231,-3.36688
+ST-00321,APAC,Malaysia,Cell Site,Telstra,12.48389,108.76083
+ST-00322,EMEA,Austria,Integration Center,,42.91076,-8.78591
+ST-00323,EMEA,Italy,Integration Center,,36.84318,-9.80287
+ST-00324,AMER,Chile,Warehouse,,26.12007,-73.41983
+ST-00325,EMEA,Germany,Data Center,Telenor,36.70323,2.60738
+ST-00326,EMEA,Germany,Cell Site,Vodafone,42.07531,8.14419
+ST-00327,EMEA,France,Cell Site,Three,43.96742,22.82048
+ST-00328,APAC,Malaysia,Warehouse,,35.42454,100.30205
+ST-00329,AMER,Canada,Cell Site,T-Mobile US,-24.11018,-66.42778
+ST-00330,AMER,Brazil,Warehouse,,10.13462,-87.02506
+ST-00331,APAC,India,Cell Site,Singtel,3.00431,120.30624
+ST-00332,AMER,USA,Cell Site,T-Mobile US,-16.30467,-98.49253
+ST-00333,EMEA,Sweden,Cell Site,Deutsche Telekom,46.12022,13.8855
+ST-00334,AMER,Brazil,Integration Center,,-19.57608,-73.94187
+ST-00335,APAC,China,Warehouse,,8.36663,91.03699
+ST-00336,AMER,Mexico,Data Center,Verizon,-21.59608,-76.5202
+ST-00337,APAC,Indonesia,Data Center,Singtel,25.77707,133.23959
+ST-00338,EMEA,Spain,Cell Site,Orange,36.55981,28.11831
+ST-00339,AMER,USA,Warehouse,,11.97315,-90.17647
+ST-00340,EMEA,Sweden,Cell Site,Telenor,44.13538,-7.77291
+ST-00341,EMEA,UK,Cell Site,Telefónica,37.75229,25.29606
+ST-00342,EMEA,Italy,Cell Site,Orange,37.6477,-7.76642
+ST-00343,EMEA,Netherlands,Cell Site,Telia,49.9567,5.30939
+ST-00344,EMEA,Sweden,Warehouse,,45.14823,-5.18907
+ST-00345,AMER,Brazil,Cell Site,T-Mobile US,-31.02478,-65.37083
+ST-00346,EMEA,Netherlands,Warehouse,,44.73845,-5.59571
+ST-00347,APAC,Singapore,Warehouse,,8.80993,95.14547
+ST-00348,EMEA,UK,Cell Site,Telia,46.95228,22.14019
+ST-00349,APAC,Japan,Warehouse,,16.34598,120.99479
+ST-00350,EMEA,Italy,Cell Site,Telenor,51.88615,18.48299
+ST-00351,APAC,South Korea,Cell Site,Maxis,24.6157,117.7044
+ST-00352,EMEA,Italy,Cell Site,A1 Telekom,46.95962,8.94419
+ST-00353,EMEA,UK,Cell Site,Telenor,43.3233,10.18167
+ST-00354,AMER,Chile,Data Center,Claro,8.11516,-87.22294
+ST-00355,EMEA,Poland,Data Center,Telefónica,42.5287,7.84274
+ST-00356,AMER,USA,Cell Site,Rogers,37.27441,-90.09181
+ST-00357,EMEA,Sweden,Cell Site,Deutsche Telekom,56.13488,18.95842
+ST-00358,EMEA,Czechia,Warehouse,,41.5473,-9.44696
+ST-00359,EMEA,Austria,Cell Site,Deutsche Telekom,36.9205,25.31483
+ST-00360,EMEA,Austria,Cell Site,Deutsche Telekom,55.17318,5.18307
+ST-00361,EMEA,Spain,Warehouse,,36.54261,22.44528
+ST-00362,APAC,Thailand,Warehouse,,10.95444,137.65589
+ST-00363,AMER,Canada,Cell Site,AT&T,12.0608,-71.39287
+ST-00364,APAC,South Korea,Cell Site,Bharti Airtel,19.01092,91.38431
+ST-00365,APAC,Singapore,Cell Site,Reliance Jio,3.46368,138.79912
+ST-00366,EMEA,Austria,Cell Site,Deutsche Telekom,45.3061,-2.67303
+ST-00367,EMEA,Czechia,Cell Site,Deutsche Telekom,53.00739,25.28768
+ST-00368,APAC,China,Integration Center,,11.41235,118.55621
+ST-00369,EMEA,Poland,Cell Site,Deutsche Telekom,41.13468,22.90208
+ST-00370,APAC,Australia,Data Center,NTT Docomo,4.38518,108.62627
+ST-00371,EMEA,Poland,Warehouse,,44.4974,15.47698
+ST-00372,EMEA,Netherlands,Cell Site,Deutsche Telekom,39.45524,9.00027
+ST-00373,EMEA,Italy,Integration Center,,48.80115,25.63523
+ST-00374,EMEA,Germany,Warehouse,,48.16631,-4.72307
+ST-00375,EMEA,Austria,Cell Site,Vodafone,37.53337,26.96551
+ST-00376,EMEA,Germany,Cell Site,A1 Telekom,59.49172,-3.31873
+ST-00377,EMEA,UK,Cell Site,Telefónica,53.78385,0.0286
+ST-00378,EMEA,Austria,Warehouse,,55.8229,-6.1357
+ST-00379,EMEA,Poland,Cell Site,A1 Telekom,45.92802,13.84282
+ST-00380,AMER,Chile,Warehouse,,41.72516,-65.73093
+ST-00381,APAC,Vietnam,Integration Center,,8.18749,138.35593
+ST-00382,APAC,Thailand,Integration Center,,25.90355,122.93865
+ST-00383,APAC,India,Cell Site,SK Telecom,35.67073,106.01481
+ST-00384,AMER,Chile,Warehouse,,2.36963,-60.60045
+ST-00385,AMER,Chile,Integration Center,,-33.51157,-65.31364
+ST-00386,APAC,Japan,Cell Site,Telstra,33.85774,103.12065
+ST-00387,EMEA,Germany,Cell Site,Telefónica,55.54237,3.20972
+ST-00388,EMEA,Netherlands,Cell Site,Deutsche Telekom,50.72443,7.87513
+ST-00389,EMEA,France,Cell Site,Orange,37.53323,25.81436
+ST-00390,APAC,Singapore,Cell Site,Telstra,22.26514,114.09055
+ST-00391,EMEA,Spain,Warehouse,,56.98744,3.12082
+ST-00392,EMEA,Spain,Data Center,Orange,49.25856,25.29101
+ST-00393,APAC,Australia,Cell Site,Singtel,14.37236,129.67678
+ST-00394,EMEA,Italy,Warehouse,,47.85927,-3.68934
+ST-00395,APAC,Malaysia,Cell Site,Maxis,2.58307,126.33627
+ST-00396,EMEA,Sweden,Cell Site,Orange,41.54688,22.62915
+ST-00397,AMER,Argentina,Warehouse,,-17.99643,-77.28574
+ST-00398,AMER,Brazil,Data Center,T-Mobile US,-26.58776,-70.56929
+ST-00399,EMEA,Austria,Cell Site,Deutsche Telekom,54.14257,26.66184
+ST-00400,EMEA,Poland,Cell Site,Telia,49.03399,-5.74233
+ST-00401,EMEA,Spain,Cell Site,Telia,55.69413,2.55576
+ST-00402,AMER,Canada,Warehouse,,45.96341,-60.88662
+ST-00403,EMEA,Poland,Data Center,Telenor,38.31221,-6.68161
+ST-00404,AMER,Colombia,Cell Site,Rogers,45.7843,-64.04495
+ST-00405,APAC,Japan,Cell Site,Maxis,23.82271,134.40606
+ST-00406,EMEA,Germany,Cell Site,Orange,58.26304,12.21558
+ST-00407,AMER,Canada,Cell Site,TIM Brasil,26.78754,-75.45709
+ST-00408,EMEA,Sweden,Cell Site,Deutsche Telekom,39.36498,7.44943
+ST-00409,APAC,Thailand,Warehouse,,27.57399,120.51344
+ST-00410,EMEA,France,Cell Site,Orange,40.37745,26.39037
+ST-00411,EMEA,France,Cell Site,Telia,54.60171,-7.2617
+ST-00412,APAC,Indonesia,Data Center,SK Telecom,14.41906,139.77691
+ST-00413,APAC,Japan,Cell Site,Singtel,16.20259,123.1715
+ST-00414,AMER,USA,Integration Center,,-25.93902,-87.56304
+ST-00415,EMEA,Sweden,Warehouse,,57.05135,10.42158
+ST-00416,AMER,USA,Cell Site,TIM Brasil,39.2601,-99.69362
+ST-00417,EMEA,France,Cell Site,Three,51.65352,1.99713
+ST-00418,EMEA,Poland,Warehouse,,56.51941,27.76186
+ST-00419,APAC,Indonesia,Cell Site,China Mobile,27.81714,97.30394
+ST-00420,APAC,China,Cell Site,China Mobile,19.25618,113.22477
+ST-00421,EMEA,Poland,Warehouse,,55.75746,8.42463
+ST-00422,AMER,Mexico,Cell Site,TIM Brasil,-5.06286,-75.54594
+ST-00423,EMEA,UK,Warehouse,,51.17706,22.39792
+ST-00424,EMEA,Netherlands,Warehouse,,57.51103,25.59827
+ST-00425,AMER,Chile,Warehouse,,21.40517,-79.02882
+ST-00426,EMEA,Italy,Cell Site,Three,55.03053,2.27159
+ST-00427,APAC,Japan,Data Center,China Mobile,30.55931,115.30515
+ST-00428,APAC,Malaysia,Cell Site,Bharti Airtel,5.82238,127.64334
+ST-00429,AMER,Colombia,Integration Center,,23.36229,-96.70304
+ST-00430,APAC,Singapore,Warehouse,,18.56438,114.32474
+ST-00431,EMEA,Poland,Cell Site,Three,51.3378,17.13953
+ST-00432,APAC,China,Warehouse,,8.43052,91.68495
+ST-00433,EMEA,Austria,Cell Site,Telefónica,54.85182,29.26379
+ST-00434,AMER,Argentina,Warehouse,,49.66186,-79.96801
+ST-00435,EMEA,Poland,Integration Center,,48.22332,27.22304
+ST-00436,EMEA,Spain,Integration Center,,48.60366,1.1066
+ST-00437,APAC,Indonesia,Cell Site,Telstra,27.42604,113.85991
+ST-00438,EMEA,Netherlands,Integration Center,,54.62501,21.33227
+ST-00439,EMEA,Poland,Integration Center,,58.39897,-4.48719
+ST-00440,EMEA,Czechia,Cell Site,Telefónica,48.03325,21.43444
+ST-00441,APAC,Indonesia,Cell Site,Singtel,17.95882,121.3442
+ST-00442,AMER,Colombia,Data Center,AT&T,38.53286,-81.06534
+ST-00443,EMEA,UK,Integration Center,,45.20704,-2.77772
+ST-00444,EMEA,Germany,Warehouse,,55.61375,21.83116
+ST-00445,EMEA,Spain,Cell Site,Telefónica,53.57876,5.73264
+ST-00446,AMER,USA,Warehouse,,17.48716,-95.04053
+ST-00447,AMER,USA,Cell Site,Claro,-6.2433,-82.57892
+ST-00448,APAC,Singapore,Warehouse,,2.69803,95.17938
+ST-00449,AMER,Colombia,Cell Site,AT&T,39.6752,-61.15184
+ST-00450,EMEA,Italy,Integration Center,,43.04975,-5.73037
+ST-00451,APAC,Indonesia,Cell Site,Reliance Jio,37.4803,135.71558
+ST-00452,APAC,Thailand,Data Center,Telstra,26.53168,106.92953
+ST-00453,EMEA,Spain,Data Center,Deutsche Telekom,37.81426,27.57973
+ST-00454,APAC,China,Cell Site,Bharti Airtel,36.89484,127.16011
+ST-00455,AMER,Argentina,Data Center,Rogers,49.04977,-94.40958
+ST-00456,EMEA,Austria,Cell Site,Vodafone,37.73125,-2.31838
+ST-00457,EMEA,Germany,Warehouse,,40.38731,23.08676
+ST-00458,EMEA,Spain,Cell Site,Deutsche Telekom,58.04337,-1.37639
+ST-00459,APAC,India,Cell Site,NTT Docomo,19.0451,112.72424
+ST-00460,EMEA,Poland,Warehouse,,39.44675,24.13389
+ST-00461,EMEA,UK,Cell Site,Three,48.06232,12.64955
+ST-00462,EMEA,France,Cell Site,Orange,41.4607,12.36634
+ST-00463,EMEA,Poland,Cell Site,Deutsche Telekom,54.8135,2.19726
+ST-00464,AMER,Mexico,Cell Site,Claro,-24.80343,-76.63839
+ST-00465,APAC,Japan,Integration Center,,25.79739,100.1032
+ST-00466,AMER,Chile,Integration Center,,-12.65258,-93.87725
+ST-00467,APAC,India,Cell Site,Reliance Jio,36.93388,100.6506
+ST-00468,AMER,Brazil,Cell Site,Rogers,-34.04257,-66.39389
+ST-00469,EMEA,Germany,Warehouse,,55.08069,8.2614
+ST-00470,APAC,South Korea,Warehouse,,32.08933,112.48084
+ST-00471,EMEA,Netherlands,Warehouse,,40.61286,7.04218
+ST-00472,APAC,Vietnam,Cell Site,Bharti Airtel,19.9881,90.45017
+ST-00473,AMER,USA,Warehouse,,-24.80034,-65.0094
+ST-00474,APAC,Vietnam,Warehouse,,16.30459,106.57336
+ST-00475,EMEA,Sweden,Cell Site,Orange,57.20891,-3.81721
+ST-00476,APAC,Japan,Warehouse,,9.46251,131.39753
+ST-00477,AMER,Chile,Warehouse,,-9.83108,-74.67071
+ST-00478,EMEA,Italy,Data Center,Deutsche Telekom,53.48929,-1.09119
+ST-00479,APAC,Indonesia,Cell Site,Telstra,10.8829,115.81475
+ST-00480,APAC,China,Integration Center,,31.89633,117.71888
+ST-00481,AMER,USA,Cell Site,T-Mobile US,-28.93972,-85.96651
+ST-00482,EMEA,Poland,Integration Center,,43.26595,22.30408
+ST-00483,EMEA,Sweden,Cell Site,Telefónica,42.24159,26.0487
+ST-00484,AMER,Argentina,Cell Site,Claro,-4.85142,-92.23567
+ST-00485,APAC,Malaysia,Cell Site,Maxis,22.05766,109.31936
+ST-00486,AMER,Argentina,Cell Site,Claro,23.28313,-63.37148
+ST-00487,EMEA,France,Warehouse,,58.51938,-0.90542
+ST-00488,EMEA,Czechia,Cell Site,A1 Telekom,39.05678,27.59828
+ST-00489,AMER,Brazil,Cell Site,Claro,38.1185,-89.53296
+ST-00490,AMER,USA,Cell Site,Bell,37.44589,-70.35782
+ST-00491,EMEA,Czechia,Cell Site,Telefónica,41.33905,26.23137
+ST-00492,EMEA,Spain,Cell Site,Deutsche Telekom,43.04512,9.20716
+ST-00493,EMEA,Italy,Cell Site,Three,50.23154,-2.34947
+ST-00494,EMEA,Poland,Cell Site,Three,50.2822,18.25088
+ST-00495,EMEA,Sweden,Warehouse,,37.53868,5.17393
+ST-00496,EMEA,Italy,Cell Site,Three,50.30149,27.04868
+ST-00497,APAC,Malaysia,Cell Site,Reliance Jio,35.74836,98.48337
+ST-00498,EMEA,Germany,Data Center,Three,50.2627,-6.07929
+ST-00499,EMEA,Sweden,Cell Site,Deutsche Telekom,42.34697,13.89081
+ST-00500,EMEA,Italy,Cell Site,Orange,37.03412,25.55448
+ST-00501,AMER,Canada,Cell Site,AT&T,39.60898,-81.0644
+ST-00502,EMEA,Italy,Warehouse,,47.29386,25.25452
+ST-00503,APAC,Singapore,Data Center,Maxis,2.96706,97.19405
+ST-00504,EMEA,Netherlands,Integration Center,,42.70011,4.57537
+ST-00505,AMER,Brazil,Warehouse,,53.87021,-94.10152
+ST-00506,AMER,Chile,Warehouse,,-7.72065,-66.882
+ST-00507,EMEA,Italy,Cell Site,Telenor,54.60887,16.19267
+ST-00508,APAC,South Korea,Warehouse,,13.81352,95.88885
+ST-00509,EMEA,France,Warehouse,,59.58866,0.05706
+ST-00510,EMEA,Austria,Cell Site,Three,56.11591,25.80033
+ST-00511,EMEA,Spain,Cell Site,Deutsche Telekom,46.02249,24.03323
+ST-00512,APAC,Thailand,Cell Site,Telstra,11.88244,134.49556
+ST-00513,EMEA,Germany,Integration Center,,50.89916,-2.22511
+ST-00514,AMER,Chile,Integration Center,,35.78924,-63.45231
+ST-00515,EMEA,Czechia,Warehouse,,49.26074,20.41492
+ST-00516,AMER,Brazil,Cell Site,TIM Brasil,36.53177,-68.50382
+ST-00517,AMER,USA,Cell Site,Verizon,5.89793,-70.4023
+ST-00518,EMEA,Netherlands,Integration Center,,48.71326,6.58639
+ST-00519,EMEA,UK,Cell Site,Telenor,39.14532,26.36153
+ST-00520,EMEA,Germany,Cell Site,Telenor,45.37278,-0.41738
+ST-00521,APAC,South Korea,Warehouse,,10.44953,102.10441
+ST-00522,APAC,Singapore,Cell Site,China Mobile,1.09647,111.91096
+ST-00523,EMEA,Germany,Warehouse,,57.26719,-8.99414
+ST-00524,APAC,South Korea,Warehouse,,38.3073,98.95615
+ST-00525,EMEA,Austria,Integration Center,,52.97186,21.41314
+ST-00526,EMEA,Spain,Cell Site,Deutsche Telekom,53.37789,3.56702
+ST-00527,EMEA,Poland,Cell Site,Three,52.59531,8.91897
+ST-00528,APAC,China,Cell Site,Telstra,6.93569,100.04649
+ST-00529,EMEA,Austria,Cell Site,Vodafone,35.65074,3.27881
+ST-00530,EMEA,UK,Cell Site,A1 Telekom,53.19974,28.76193
+ST-00531,APAC,Malaysia,Integration Center,,6.20877,107.66404
+ST-00532,APAC,Malaysia,Cell Site,NTT Docomo,8.07844,128.04436
+ST-00533,EMEA,Sweden,Cell Site,Telenor,57.98959,-5.43994
+ST-00534,AMER,Chile,Cell Site,TIM Brasil,46.32279,-89.14028
+ST-00535,EMEA,Spain,Warehouse,,40.57659,-7.73462
+ST-00536,EMEA,Sweden,Cell Site,A1 Telekom,37.01171,-7.23101
+ST-00537,EMEA,France,Cell Site,Orange,46.16031,16.34576
+ST-00538,EMEA,Netherlands,Cell Site,Orange,39.61052,-1.29445
+ST-00539,EMEA,Germany,Cell Site,Deutsche Telekom,39.32242,22.26233
+ST-00540,EMEA,Austria,Cell Site,Deutsche Telekom,38.4295,-7.0638
+ST-00541,EMEA,UK,Cell Site,Three,35.91792,-8.39399
+ST-00542,EMEA,Poland,Cell Site,Three,48.66682,-6.24059
+ST-00543,EMEA,Spain,Cell Site,Telia,40.56067,23.30707
+ST-00544,EMEA,Czechia,Data Center,A1 Telekom,59.2027,24.43432
+ST-00545,APAC,Thailand,Data Center,SK Telecom,38.4245,123.52257
+ST-00546,EMEA,Italy,Cell Site,Telia,59.68041,9.85375
+ST-00547,APAC,China,Warehouse,,31.99284,138.58314
+ST-00548,EMEA,Austria,Warehouse,,52.73228,28.2688
+ST-00549,EMEA,Sweden,Data Center,Telia,41.34111,2.01102
+ST-00550,EMEA,Austria,Integration Center,,44.931,8.58347
+ST-00551,APAC,Singapore,Cell Site,Maxis,35.99878,134.39312
+ST-00552,EMEA,Sweden,Cell Site,Deutsche Telekom,51.449,-0.70793
+ST-00553,APAC,Vietnam,Integration Center,,10.37471,121.58716
+ST-00554,AMER,Chile,Cell Site,Bell,10.30492,-89.65869
+ST-00555,APAC,South Korea,Cell Site,NTT Docomo,7.56125,126.13127
+ST-00556,APAC,South Korea,Integration Center,,32.71604,103.06524
+ST-00557,APAC,Japan,Cell Site,Singtel,17.57198,125.67471
+ST-00558,EMEA,Austria,Cell Site,Deutsche Telekom,46.73054,28.45028
+ST-00559,EMEA,UK,Cell Site,Orange,38.23998,24.17391
+ST-00560,EMEA,Netherlands,Integration Center,,42.65184,17.48188
+ST-00561,AMER,Canada,Cell Site,Verizon,-12.16745,-61.34121
+ST-00562,AMER,Argentina,Cell Site,TIM Brasil,-30.48792,-79.45715
+ST-00563,EMEA,Spain,Cell Site,Deutsche Telekom,57.76283,8.79362
+ST-00564,AMER,Mexico,Cell Site,Bell,40.63116,-62.00685
+ST-00565,EMEA,Spain,Data Center,Telefónica,36.69588,9.55229
+ST-00566,EMEA,Spain,Cell Site,Three,52.16056,23.2871
+ST-00567,AMER,Mexico,Cell Site,AT&T,-20.31599,-77.3286
+ST-00568,APAC,South Korea,Cell Site,Reliance Jio,7.35395,127.76984
+ST-00569,AMER,Colombia,Warehouse,,-9.38266,-89.24728
+ST-00570,APAC,South Korea,Warehouse,,31.02227,132.10038
+ST-00571,APAC,Singapore,Warehouse,,14.39012,115.05513
+ST-00572,EMEA,France,Warehouse,,52.33651,19.80681
+ST-00573,EMEA,Italy,Cell Site,Deutsche Telekom,54.25295,5.61551
+ST-00574,EMEA,Spain,Warehouse,,48.40855,-5.61812
+ST-00575,APAC,India,Cell Site,Bharti Airtel,37.99351,125.07079
+ST-00576,EMEA,Germany,Data Center,Orange,44.38882,5.58449
+ST-00577,EMEA,Netherlands,Cell Site,Telenor,37.2621,8.27693
+ST-00578,EMEA,Italy,Cell Site,Telenor,51.8256,28.10218
+ST-00579,EMEA,Italy,Integration Center,,51.18966,16.02846
+ST-00580,EMEA,Sweden,Cell Site,Telia,54.66035,10.3922
+ST-00581,EMEA,France,Cell Site,Telenor,35.80347,25.5943
+ST-00582,AMER,Colombia,Integration Center,,1.22242,-60.61341
+ST-00583,EMEA,Poland,Integration Center,,45.15945,16.73338
+ST-00584,APAC,China,Cell Site,Maxis,18.93507,101.62097
+ST-00585,AMER,Chile,Cell Site,TIM Brasil,48.76944,-74.91239
+ST-00586,APAC,Australia,Cell Site,Reliance Jio,18.57035,97.20837
+ST-00587,EMEA,Netherlands,Data Center,Deutsche Telekom,59.97768,25.80582
+ST-00588,EMEA,Italy,Cell Site,Telia,45.56963,-3.14171
+ST-00589,EMEA,UK,Integration Center,,35.74217,-3.92659
+ST-00590,APAC,South Korea,Cell Site,SK Telecom,21.84274,130.78962
+ST-00591,EMEA,Poland,Cell Site,Deutsche Telekom,44.08804,7.35925
+ST-00592,APAC,Japan,Cell Site,Maxis,19.45761,90.87882
+ST-00593,APAC,Thailand,Cell Site,Bharti Airtel,7.9046,115.04544
+ST-00594,EMEA,Poland,Warehouse,,41.98484,10.93292
+ST-00595,EMEA,Italy,Warehouse,,37.7025,22.11261
+ST-00596,AMER,USA,Cell Site,AT&T,35.537,-73.20564
+ST-00597,AMER,USA,Warehouse,,12.82959,-84.40466
+ST-00598,AMER,Mexico,Cell Site,Rogers,26.4388,-68.72724
+ST-00599,EMEA,Germany,Cell Site,Three,55.21481,3.90323
+ST-00600,APAC,Thailand,Integration Center,,8.564,107.09155
+ST-00601,EMEA,Poland,Cell Site,Orange,35.19313,6.92909
+ST-00602,EMEA,Poland,Cell Site,Vodafone,41.83705,21.6016
+ST-00603,EMEA,Italy,Warehouse,,51.87031,-8.96062
+ST-00604,APAC,India,Cell Site,Bharti Airtel,6.62719,117.10957
+ST-00605,EMEA,Spain,Cell Site,A1 Telekom,50.45243,20.75518
+ST-00606,EMEA,Germany,Cell Site,Telefónica,59.20714,18.07679
+ST-00607,EMEA,Sweden,Cell Site,Three,48.62242,6.57701
+ST-00608,APAC,Singapore,Cell Site,China Mobile,29.78953,136.73757
+ST-00609,EMEA,France,Warehouse,,45.57273,13.38531
+ST-00610,EMEA,Sweden,Cell Site,Orange,40.17586,24.29868
+ST-00611,APAC,Thailand,Cell Site,Maxis,28.82754,107.73536
+ST-00612,EMEA,Czechia,Cell Site,Deutsche Telekom,56.85119,28.83388
+ST-00613,AMER,Argentina,Integration Center,,-9.0332,-92.53482
+ST-00614,EMEA,Austria,Warehouse,,55.7973,13.29721
+ST-00615,EMEA,Czechia,Cell Site,Vodafone,57.10921,3.90072
+ST-00616,EMEA,UK,Cell Site,Orange,49.53135,13.08848
+ST-00617,APAC,Japan,Cell Site,China Mobile,8.34104,139.59658
+ST-00618,EMEA,Austria,Cell Site,Telia,51.60148,16.56581
+ST-00619,EMEA,Netherlands,Cell Site,Telenor,42.42174,16.01529
+ST-00620,APAC,Japan,Warehouse,,33.48607,130.67513
+ST-00621,APAC,Malaysia,Integration Center,,36.86928,97.43391
+ST-00622,EMEA,Sweden,Warehouse,,39.57069,18.40675
+ST-00623,EMEA,Austria,Cell Site,Telia,55.19347,16.9724
+ST-00624,EMEA,Czechia,Data Center,Three,38.57145,13.79794
+ST-00625,AMER,Argentina,Cell Site,Bell,32.35433,-94.52078
+ST-00626,EMEA,Austria,Cell Site,A1 Telekom,36.39586,0.19192
+ST-00627,APAC,Malaysia,Integration Center,,4.53932,97.42697
+ST-00628,EMEA,Poland,Cell Site,Three,40.08435,11.22767
+ST-00629,EMEA,Spain,Cell Site,A1 Telekom,38.89646,14.18729
+ST-00630,AMER,Mexico,Cell Site,Verizon,-8.84057,-87.5778
+ST-00631,AMER,Colombia,Cell Site,TIM Brasil,52.06587,-67.7939
+ST-00632,AMER,Chile,Cell Site,Claro,3.17282,-82.10183
+ST-00633,APAC,Australia,Integration Center,,5.47691,132.22708
+ST-00634,EMEA,France,Warehouse,,35.09973,-4.22078
+ST-00635,AMER,Argentina,Warehouse,,13.06578,-92.46287
+ST-00636,APAC,Singapore,Cell Site,Telstra,25.67843,90.18202
+ST-00637,EMEA,France,Data Center,Three,37.4603,20.58734
+ST-00638,EMEA,Spain,Warehouse,,49.41304,-9.22167
+ST-00639,APAC,South Korea,Cell Site,Singtel,9.02675,101.94817
+ST-00640,EMEA,Poland,Warehouse,,56.22651,13.3015
+ST-00641,EMEA,Netherlands,Integration Center,,48.53562,-6.532
+ST-00642,APAC,South Korea,Cell Site,Telstra,26.62084,97.79445
+ST-00643,EMEA,Austria,Cell Site,Deutsche Telekom,48.04353,13.70542
+ST-00644,APAC,Malaysia,Warehouse,,33.83317,130.32235
+ST-00645,EMEA,Italy,Cell Site,Telenor,39.75264,26.64767
+ST-00646,EMEA,Spain,Warehouse,,35.06886,3.20502
+ST-00647,APAC,South Korea,Cell Site,Telstra,3.58829,126.04825
+ST-00648,EMEA,Sweden,Cell Site,Vodafone,47.50562,-3.00228
+ST-00649,APAC,Japan,Integration Center,,4.3201,101.30421
+ST-00650,EMEA,Spain,Cell Site,Telia,58.01879,17.10619
+ST-00651,APAC,Japan,Warehouse,,10.44739,134.68723
+ST-00652,APAC,Vietnam,Warehouse,,6.32329,124.4221
+ST-00653,EMEA,UK,Warehouse,,45.62114,0.73265
+ST-00654,AMER,Mexico,Cell Site,Bell,-11.39233,-79.96787
+ST-00655,AMER,Chile,Warehouse,,48.83441,-70.30703
+ST-00656,APAC,India,Cell Site,Singtel,26.82263,133.77604
+ST-00657,EMEA,Italy,Warehouse,,49.2584,-2.32257
+ST-00658,APAC,India,Warehouse,,39.10951,116.7372
+ST-00659,EMEA,UK,Data Center,Three,42.88232,21.12683
+ST-00660,AMER,Argentina,Cell Site,Claro,6.75961,-99.50153
+ST-00661,EMEA,Austria,Warehouse,,42.99866,8.28776
+ST-00662,EMEA,Italy,Cell Site,Orange,44.31551,12.0698
+ST-00663,EMEA,Austria,Cell Site,Vodafone,39.58399,12.89744
+ST-00664,EMEA,France,Warehouse,,59.66308,20.15248
+ST-00665,EMEA,Poland,Cell Site,Three,52.11373,-1.9756
+ST-00666,EMEA,Netherlands,Data Center,Telia,49.54435,22.78701
+ST-00667,APAC,South Korea,Cell Site,Telstra,10.3849,94.33924
+ST-00668,EMEA,Spain,Cell Site,Three,51.54412,16.94353
+ST-00669,EMEA,Czechia,Cell Site,A1 Telekom,55.10973,15.18259
+ST-00670,APAC,China,Cell Site,China Mobile,34.0747,103.30485
+ST-00671,EMEA,Czechia,Cell Site,A1 Telekom,35.88207,19.31162
+ST-00672,EMEA,Germany,Cell Site,Telenor,44.64849,-1.61481
+ST-00673,APAC,Malaysia,Cell Site,Bharti Airtel,3.01389,127.76881
+ST-00674,EMEA,UK,Warehouse,,55.65808,5.56091
+ST-00675,EMEA,Austria,Cell Site,Telenor,57.12733,6.62226
+ST-00676,EMEA,Netherlands,Cell Site,Three,58.7887,29.32835
+ST-00677,EMEA,Poland,Warehouse,,55.44066,0.24931
+ST-00678,AMER,USA,Cell Site,Claro,-2.03079,-78.6938
+ST-00679,EMEA,Spain,Cell Site,Telefónica,43.21701,22.75719
+ST-00680,AMER,Brazil,Data Center,Rogers,48.47933,-60.56849
+ST-00681,AMER,Colombia,Cell Site,Verizon,-4.7332,-89.19024
+ST-00682,EMEA,Austria,Warehouse,,39.0267,-8.1015
+ST-00683,EMEA,Czechia,Cell Site,Telenor,39.42537,1.38033
+ST-00684,EMEA,Netherlands,Warehouse,,44.77656,-5.61157
+ST-00685,AMER,Argentina,Cell Site,TIM Brasil,38.82113,-75.23847
+ST-00686,APAC,China,Cell Site,China Mobile,22.94274,117.26378
+ST-00687,EMEA,Czechia,Cell Site,Three,42.24897,27.50172
+ST-00688,APAC,South Korea,Cell Site,China Mobile,10.03764,123.43388
+ST-00689,EMEA,Austria,Warehouse,,41.32768,29.58479
+ST-00690,APAC,China,Warehouse,,36.55487,103.22783
+ST-00691,APAC,India,Data Center,Maxis,39.51135,121.29797
+ST-00692,EMEA,Germany,Cell Site,Telenor,53.21385,1.31664
+ST-00693,EMEA,Netherlands,Cell Site,Vodafone,40.39922,24.32276
+ST-00694,EMEA,Austria,Cell Site,Deutsche Telekom,41.87979,26.70118
+ST-00695,EMEA,France,Cell Site,Deutsche Telekom,44.16614,-9.63411
+ST-00696,AMER,Canada,Cell Site,TIM Brasil,18.29467,-85.85494
+ST-00697,AMER,USA,Integration Center,,52.83762,-84.53133
+ST-00698,APAC,Thailand,Cell Site,NTT Docomo,13.26427,118.31973
+ST-00699,EMEA,Italy,Cell Site,Three,53.24719,28.66066
+ST-00700,EMEA,Poland,Warehouse,,36.74037,6.78034
+ST-00701,APAC,Indonesia,Data Center,Bharti Airtel,26.88343,90.24844
+ST-00702,EMEA,Sweden,Integration Center,,47.22582,22.26127
+ST-00703,APAC,Malaysia,Cell Site,Singtel,2.98399,107.02734
+ST-00704,EMEA,Netherlands,Cell Site,Telenor,45.02296,18.65139
+ST-00705,EMEA,France,Cell Site,Vodafone,42.39297,-0.14929
+ST-00706,EMEA,Czechia,Warehouse,,37.8876,29.83518
+ST-00707,EMEA,UK,Cell Site,Telia,46.79165,-8.07153
+ST-00708,EMEA,Poland,Warehouse,,36.91332,-4.88183
+ST-00709,EMEA,UK,Cell Site,Telefónica,40.29361,19.61701
+ST-00710,EMEA,Spain,Warehouse,,48.96721,21.06638
+ST-00711,EMEA,Austria,Warehouse,,35.49546,0.60464
+ST-00712,EMEA,France,Data Center,Telia,45.13814,7.16055
+ST-00713,AMER,Canada,Cell Site,Verizon,-30.17959,-79.53919
+ST-00714,AMER,Mexico,Warehouse,,-9.20388,-92.34108
+ST-00715,APAC,China,Data Center,China Mobile,27.1753,94.19248
+ST-00716,EMEA,Italy,Warehouse,,56.67519,25.99301
+ST-00717,APAC,Singapore,Warehouse,,13.69592,139.34498
+ST-00718,EMEA,Netherlands,Warehouse,,45.03167,28.49261
+ST-00719,EMEA,UK,Cell Site,Telenor,59.67196,23.07641
+ST-00720,AMER,Brazil,Cell Site,T-Mobile US,-23.76523,-76.62323
+ST-00721,EMEA,Poland,Warehouse,,53.298,-6.90142
+ST-00722,EMEA,France,Warehouse,,57.34105,24.07218
+ST-00723,EMEA,Austria,Cell Site,Telefónica,58.34641,10.57184
+ST-00724,AMER,USA,Cell Site,T-Mobile US,-5.81258,-79.74621
+ST-00725,EMEA,UK,Cell Site,A1 Telekom,53.23388,6.64821
+ST-00726,EMEA,Poland,Cell Site,Telenor,43.79407,-6.91777
+ST-00727,APAC,South Korea,Cell Site,Telstra,18.44222,109.64449
+ST-00728,EMEA,Italy,Cell Site,Telefónica,51.5823,7.5498
+ST-00729,EMEA,Netherlands,Cell Site,Telenor,35.10097,9.37415
+ST-00730,EMEA,Sweden,Cell Site,Vodafone,54.34287,27.81219
+ST-00731,EMEA,Germany,Warehouse,,39.82389,6.90144
+ST-00732,EMEA,Poland,Cell Site,Telenor,56.18652,-8.28615
+ST-00733,APAC,Thailand,Cell Site,China Mobile,14.64592,119.55404
+ST-00734,EMEA,Czechia,Warehouse,,43.5629,9.57545
+ST-00735,AMER,USA,Cell Site,Rogers,49.51969,-99.04294
+ST-00736,EMEA,Italy,Cell Site,Orange,36.94787,-2.12148
+ST-00737,EMEA,Netherlands,Warehouse,,44.62248,8.83159
+ST-00738,EMEA,France,Warehouse,,35.91679,25.30263
+ST-00739,EMEA,France,Warehouse,,53.96475,0.72041
+ST-00740,EMEA,Czechia,Cell Site,Telia,41.41921,-8.97658
+ST-00741,EMEA,Netherlands,Cell Site,Vodafone,44.9783,0.17921
+ST-00742,AMER,Mexico,Cell Site,Rogers,20.6578,-78.08468
+ST-00743,AMER,Chile,Warehouse,,51.14199,-68.19024
+ST-00744,AMER,Mexico,Cell Site,Claro,-27.72218,-71.82852
+ST-00745,EMEA,Netherlands,Warehouse,,37.67788,2.92351
+ST-00746,EMEA,Czechia,Integration Center,,48.87545,9.8287
+ST-00747,APAC,South Korea,Cell Site,NTT Docomo,28.04006,130.50142
+ST-00748,EMEA,UK,Cell Site,Telenor,55.73464,-7.66665
+ST-00749,EMEA,Czechia,Cell Site,Deutsche Telekom,51.04139,28.45512
+ST-00750,EMEA,Netherlands,Warehouse,,53.87552,10.79612
+ST-00751,EMEA,France,Cell Site,Three,59.96349,-8.24072
+ST-00752,EMEA,Austria,Cell Site,Vodafone,37.20382,20.72568
+ST-00753,EMEA,Netherlands,Cell Site,A1 Telekom,48.7437,-5.02302
+ST-00754,AMER,Colombia,Integration Center,,-1.22187,-97.42845
+ST-00755,EMEA,Poland,Cell Site,Telefónica,48.16051,-5.83722
+ST-00756,EMEA,Spain,Cell Site,Telia,35.17246,2.89697
+ST-00757,APAC,Australia,Cell Site,Reliance Jio,10.12084,108.10489
+ST-00758,EMEA,Sweden,Data Center,Orange,43.76142,15.20052
+ST-00759,APAC,Thailand,Data Center,Telstra,27.52058,96.36795
+ST-00760,EMEA,Poland,Cell Site,Telenor,47.21654,25.56605
+ST-00761,APAC,India,Cell Site,Singtel,6.78801,138.34373
+ST-00762,APAC,India,Warehouse,,1.75446,94.98582
+ST-00763,EMEA,Czechia,Warehouse,,39.43944,8.79173
+ST-00764,APAC,South Korea,Cell Site,Maxis,12.66695,110.9085
+ST-00765,AMER,Canada,Data Center,AT&T,49.67306,-86.34475
+ST-00766,EMEA,Spain,Cell Site,Three,56.2029,-7.08771
+ST-00767,APAC,Singapore,Integration Center,,32.66587,135.07796
+ST-00768,EMEA,Austria,Cell Site,Telenor,42.12498,11.88396
+ST-00769,EMEA,Germany,Warehouse,,39.67902,-6.36575
+ST-00770,APAC,Indonesia,Cell Site,SK Telecom,31.04565,121.4915
+ST-00771,AMER,Chile,Warehouse,,32.7019,-82.41256
+ST-00772,EMEA,France,Warehouse,,41.24015,7.074
+ST-00773,EMEA,Austria,Warehouse,,36.61976,1.34108
+ST-00774,EMEA,Germany,Cell Site,Telenor,42.43807,18.58099
+ST-00775,EMEA,France,Cell Site,Telenor,36.32838,-0.18913
+ST-00776,EMEA,Germany,Warehouse,,41.91526,12.05442
+ST-00777,EMEA,Spain,Cell Site,A1 Telekom,41.11736,-4.70284
+ST-00778,APAC,India,Cell Site,Singtel,11.06125,111.09415
+ST-00779,EMEA,Czechia,Data Center,Telefónica,48.13692,-8.53723
+ST-00780,EMEA,Germany,Cell Site,A1 Telekom,42.74527,20.56673
+ST-00781,EMEA,Austria,Warehouse,,49.94043,8.24158
+ST-00782,APAC,South Korea,Warehouse,,18.66589,108.44497
+ST-00783,EMEA,Spain,Warehouse,,43.5511,6.02544
+ST-00784,EMEA,Poland,Cell Site,Deutsche Telekom,56.73018,8.75325
+ST-00785,EMEA,Italy,Cell Site,Telenor,51.73178,22.31395
+ST-00786,AMER,Argentina,Warehouse,,3.87699,-66.4334
+ST-00787,EMEA,Germany,Data Center,A1 Telekom,59.81708,10.16645
+ST-00788,APAC,India,Cell Site,Reliance Jio,16.70711,130.28981
+ST-00789,AMER,Brazil,Cell Site,Bell,23.42529,-75.47219
+ST-00790,EMEA,Poland,Cell Site,A1 Telekom,57.15312,15.97817
+ST-00791,AMER,Brazil,Cell Site,Bell,22.74197,-91.72389
+ST-00792,EMEA,Spain,Cell Site,Telia,52.2057,26.51991
+ST-00793,EMEA,Sweden,Cell Site,Telia,49.40855,26.13491
+ST-00794,EMEA,Poland,Warehouse,,43.48927,-8.29675
+ST-00795,APAC,Singapore,Cell Site,Reliance Jio,18.36001,90.19785
+ST-00796,EMEA,Czechia,Warehouse,,38.87043,-2.37632
+ST-00797,APAC,Japan,Cell Site,Bharti Airtel,21.81958,137.49648
+ST-00798,APAC,Malaysia,Cell Site,China Mobile,1.77291,101.83448
+ST-00799,AMER,USA,Warehouse,,52.25086,-64.73389
+ST-00800,EMEA,Poland,Warehouse,,55.87125,-6.32799
+ST-00801,AMER,Argentina,Warehouse,,22.96885,-91.87459
+ST-00802,EMEA,Poland,Cell Site,Telefónica,51.27561,7.10124
+ST-00803,AMER,Brazil,Cell Site,Rogers,22.21026,-82.84557
+ST-00804,EMEA,Poland,Data Center,Orange,57.6926,-8.98767
+ST-00805,EMEA,Czechia,Integration Center,,39.78915,23.31988
+ST-00806,APAC,India,Warehouse,,29.73321,99.31462
+ST-00807,EMEA,Czechia,Cell Site,Deutsche Telekom,38.03591,2.45045
+ST-00808,EMEA,Poland,Warehouse,,47.04671,-8.12245
+ST-00809,APAC,China,Warehouse,,33.97797,116.04763
+ST-00810,APAC,Malaysia,Cell Site,China Mobile,36.85985,106.28527
+ST-00811,AMER,Argentina,Cell Site,Bell,-30.60529,-65.14559
+ST-00812,APAC,Japan,Cell Site,Telstra,6.83509,106.7821
+ST-00813,APAC,Singapore,Warehouse,,19.10927,114.59732
+ST-00814,APAC,Thailand,Warehouse,,1.91576,116.3371
+ST-00815,EMEA,Czechia,Cell Site,Telenor,36.9258,3.07364
+ST-00816,EMEA,France,Cell Site,Telia,59.3868,1.21483
+ST-00817,EMEA,Spain,Cell Site,Telenor,55.3218,10.41275
+ST-00818,APAC,Australia,Cell Site,Telstra,8.89417,126.09682
+ST-00819,APAC,Indonesia,Warehouse,,22.65044,116.65167
+ST-00820,APAC,Vietnam,Integration Center,,2.16619,106.69226
+ST-00821,EMEA,Poland,Data Center,Deutsche Telekom,53.36766,21.84346
+ST-00822,EMEA,UK,Cell Site,Deutsche Telekom,55.37017,-8.50427
+ST-00823,EMEA,France,Cell Site,Vodafone,39.06778,29.42307
+ST-00824,AMER,Mexico,Cell Site,Rogers,-21.00983,-91.47939
+ST-00825,APAC,Thailand,Cell Site,Telstra,32.30235,109.67188
+ST-00826,EMEA,Poland,Warehouse,,37.90791,-4.99622
+ST-00827,AMER,Brazil,Cell Site,AT&T,-27.46005,-92.77327
+ST-00828,APAC,Australia,Cell Site,Maxis,20.38232,90.75369
+ST-00829,EMEA,Netherlands,Warehouse,,37.92828,26.28493
+ST-00830,APAC,Malaysia,Warehouse,,35.18667,131.65402
+ST-00831,AMER,Argentina,Cell Site,Rogers,28.56535,-73.53913
+ST-00832,AMER,Colombia,Cell Site,T-Mobile US,-10.20358,-86.60022
+ST-00833,APAC,Australia,Cell Site,Maxis,10.19629,139.01568
+ST-00834,EMEA,Sweden,Cell Site,Telefónica,50.85762,28.63069
+ST-00835,AMER,Mexico,Cell Site,Bell,-10.53922,-75.15164
+ST-00836,EMEA,Netherlands,Cell Site,Telenor,53.97377,-6.21044
+ST-00837,EMEA,France,Cell Site,Vodafone,51.67402,-3.2371
+ST-00838,AMER,Mexico,Warehouse,,-5.47258,-71.35388
+ST-00839,EMEA,Spain,Warehouse,,46.00162,26.84647
+ST-00840,AMER,Mexico,Cell Site,Rogers,-13.2918,-93.84875
+ST-00841,EMEA,Czechia,Cell Site,Orange,43.4293,24.07693
+ST-00842,AMER,Colombia,Cell Site,TIM Brasil,41.26821,-85.22778
+ST-00843,APAC,Australia,Cell Site,China Mobile,32.58385,93.88941
+ST-00844,EMEA,Italy,Cell Site,Telefónica,35.19004,24.59219
+ST-00845,EMEA,Spain,Integration Center,,56.85179,-4.26404
+ST-00846,EMEA,UK,Cell Site,A1 Telekom,42.44286,24.02385
+ST-00847,AMER,Mexico,Warehouse,,-27.46097,-65.47629
+ST-00848,APAC,Japan,Cell Site,Reliance Jio,23.41262,122.86386
+ST-00849,EMEA,Spain,Warehouse,,49.87047,13.30129
+ST-00850,APAC,Indonesia,Warehouse,,8.21738,101.8029
+ST-00851,EMEA,Spain,Cell Site,A1 Telekom,49.50134,6.05622
+ST-00852,AMER,Chile,Warehouse,,13.71602,-89.86536
+ST-00853,EMEA,Netherlands,Cell Site,Telia,46.59557,-4.26381
+ST-00854,EMEA,Germany,Cell Site,Telenor,35.95988,28.04465
+ST-00855,EMEA,UK,Cell Site,A1 Telekom,53.07638,9.92255
+ST-00856,EMEA,Sweden,Warehouse,,48.77529,10.44695
+ST-00857,APAC,Japan,Warehouse,,36.05357,128.68193
+ST-00858,EMEA,Italy,Cell Site,Deutsche Telekom,43.12857,-1.27253
+ST-00859,EMEA,Poland,Integration Center,,36.66323,-4.08844
+ST-00860,APAC,Thailand,Cell Site,Bharti Airtel,20.11238,100.12851
+ST-00861,EMEA,UK,Warehouse,,42.80985,-4.66684
+ST-00862,EMEA,Sweden,Cell Site,Orange,58.07035,-8.651
+ST-00863,AMER,Mexico,Warehouse,,-3.33704,-89.67381
+ST-00864,EMEA,Austria,Cell Site,Vodafone,35.20757,27.14392
+ST-00865,APAC,Vietnam,Cell Site,Maxis,13.23069,115.11375
+ST-00866,EMEA,France,Cell Site,Orange,49.56516,14.41919
+ST-00867,APAC,China,Cell Site,Singtel,18.95017,119.69147
+ST-00868,EMEA,Czechia,Warehouse,,53.79403,28.08356
+ST-00869,EMEA,Poland,Data Center,Deutsche Telekom,51.42593,8.48918
+ST-00870,AMER,Mexico,Cell Site,TIM Brasil,5.01441,-71.60571
+ST-00871,EMEA,Germany,Warehouse,,50.67588,6.81546
+ST-00872,EMEA,Czechia,Warehouse,,43.39717,29.72595
+ST-00873,APAC,Japan,Warehouse,,30.90508,100.33878
+ST-00874,EMEA,UK,Warehouse,,42.30429,25.74755
+ST-00875,EMEA,Austria,Data Center,Three,51.52073,2.43011
+ST-00876,APAC,Thailand,Cell Site,Maxis,15.2042,108.94538
+ST-00877,EMEA,Sweden,Integration Center,,39.65738,10.44675
+ST-00878,EMEA,Austria,Cell Site,Vodafone,54.13927,12.5624
+ST-00879,EMEA,Italy,Cell Site,Telefónica,51.39855,13.81546
+ST-00880,EMEA,Italy,Warehouse,,36.47239,-2.4776
+ST-00881,EMEA,Germany,Warehouse,,43.75871,25.5694
+ST-00882,APAC,China,Warehouse,,14.599,106.35585
+ST-00883,AMER,Colombia,Cell Site,AT&T,-27.7472,-61.11683
+ST-00884,APAC,Thailand,Cell Site,Singtel,31.36344,128.29636
+ST-00885,APAC,Indonesia,Data Center,Maxis,15.96452,93.91847
+ST-00886,EMEA,Sweden,Cell Site,Telia,41.58801,24.11599
+ST-00887,EMEA,Spain,Cell Site,Vodafone,39.50745,25.76998
+ST-00888,EMEA,Czechia,Data Center,Orange,48.39386,18.58146
+ST-00889,APAC,Malaysia,Cell Site,Telstra,18.69201,136.61547
+ST-00890,AMER,Colombia,Cell Site,TIM Brasil,-13.43075,-77.10266
+ST-00891,EMEA,UK,Cell Site,Telefónica,36.7279,9.21709
+ST-00892,APAC,Thailand,Cell Site,China Mobile,38.93586,94.40658
+ST-00893,AMER,USA,Cell Site,Verizon,10.60507,-75.90775
+ST-00894,AMER,Chile,Cell Site,Verizon,48.85713,-88.10343
+ST-00895,EMEA,Italy,Cell Site,Telia,47.57352,29.48783
+ST-00896,EMEA,Poland,Cell Site,Telenor,54.22548,22.41658
+ST-00897,AMER,Argentina,Cell Site,Rogers,35.24601,-79.39096
+ST-00898,AMER,Argentina,Cell Site,TIM Brasil,4.09187,-89.80747
+ST-00899,AMER,Mexico,Warehouse,,6.93702,-99.17991
+ST-00900,APAC,South Korea,Cell Site,Singtel,4.78733,104.36288
+ST-00901,EMEA,Italy,Data Center,Three,43.34074,18.30069
+ST-00902,EMEA,Austria,Cell Site,Vodafone,39.29006,21.83091
+ST-00903,AMER,Chile,Integration Center,,37.07214,-76.5185
+ST-00904,EMEA,Netherlands,Data Center,A1 Telekom,47.28741,8.69596
+ST-00905,EMEA,Italy,Integration Center,,45.51348,-6.457
+ST-00906,APAC,Malaysia,Data Center,Maxis,26.5623,118.86483
+ST-00907,AMER,Canada,Warehouse,,-33.58092,-91.89217
+ST-00908,AMER,USA,Data Center,AT&T,4.26919,-63.94769
+ST-00909,EMEA,UK,Warehouse,,59.75697,20.05305
+ST-00910,EMEA,Italy,Cell Site,Telefónica,53.73354,6.61098
+ST-00911,APAC,Japan,Cell Site,Maxis,23.26706,101.64086
+ST-00912,AMER,Chile,Cell Site,Verizon,31.43368,-97.60861
+ST-00913,APAC,Vietnam,Cell Site,Singtel,17.2726,131.56808
+ST-00914,EMEA,UK,Cell Site,Three,59.49649,17.86234
+ST-00915,EMEA,Austria,Warehouse,,39.93164,12.84294
+ST-00916,EMEA,Czechia,Cell Site,Orange,49.01282,28.6306
+ST-00917,EMEA,Spain,Cell Site,Three,56.00467,-8.03954
+ST-00918,AMER,USA,Cell Site,TIM Brasil,-15.19161,-66.32304
+ST-00919,EMEA,Italy,Warehouse,,59.3118,1.78689
+ST-00920,EMEA,Germany,Integration Center,,52.26822,2.31207
+ST-00921,EMEA,Germany,Cell Site,Telefónica,36.02742,23.17922
+ST-00922,EMEA,Sweden,Cell Site,Deutsche Telekom,53.47124,-7.86787
+ST-00923,APAC,India,Cell Site,Singtel,6.67302,139.97664
+ST-00924,EMEA,Germany,Warehouse,,51.26903,22.01723
+ST-00925,EMEA,France,Data Center,Telefónica,44.71563,10.72987
+ST-00926,AMER,Mexico,Data Center,Rogers,20.78935,-67.75918
+ST-00927,AMER,Canada,Warehouse,,-4.49842,-73.10949
+ST-00928,EMEA,Sweden,Cell Site,Telia,54.39145,22.2053
+ST-00929,EMEA,Austria,Cell Site,Telenor,47.48103,8.93455
+ST-00930,APAC,Thailand,Cell Site,Telstra,5.07678,114.88625
+ST-00931,APAC,Australia,Cell Site,SK Telecom,28.3754,136.0294
+ST-00932,AMER,Brazil,Cell Site,AT&T,-23.73204,-61.24459
+ST-00933,EMEA,France,Integration Center,,40.85181,-2.96536
+ST-00934,EMEA,France,Warehouse,,37.86294,29.60546
+ST-00935,EMEA,France,Warehouse,,49.02546,0.824
+ST-00936,EMEA,Austria,Cell Site,Vodafone,42.93835,28.01085
+ST-00937,EMEA,Germany,Warehouse,,57.49921,3.99934
+ST-00938,APAC,Malaysia,Cell Site,Bharti Airtel,3.47983,131.67612
+ST-00939,APAC,South Korea,Cell Site,Bharti Airtel,36.66246,131.87667
+ST-00940,APAC,Singapore,Cell Site,Singtel,36.60619,118.7951
+ST-00941,AMER,Brazil,Cell Site,TIM Brasil,40.5693,-62.24352
+ST-00942,AMER,Canada,Warehouse,,45.09129,-76.51295
+ST-00943,EMEA,Italy,Warehouse,,53.66328,18.85212
+ST-00944,APAC,Indonesia,Data Center,Singtel,32.31562,101.44249
+ST-00945,EMEA,Germany,Cell Site,Telefónica,35.05445,10.39598
+ST-00946,EMEA,Czechia,Warehouse,,54.13877,-4.9951
+ST-00947,AMER,Chile,Warehouse,,12.95085,-87.42364
+ST-00948,EMEA,Germany,Cell Site,Telenor,55.95601,-5.98984
+ST-00949,EMEA,Netherlands,Cell Site,Telia,56.19735,14.43069
+ST-00950,EMEA,Germany,Warehouse,,57.98612,27.42507
+ST-00951,EMEA,Austria,Cell Site,Vodafone,55.22193,11.20441
+ST-00952,EMEA,Spain,Cell Site,Three,38.56397,-0.98304
+ST-00953,EMEA,Sweden,Data Center,Telenor,45.4438,19.16086
+ST-00954,EMEA,Germany,Integration Center,,48.62136,7.53208
+ST-00955,EMEA,Czechia,Cell Site,Telefónica,46.93836,19.65946
+ST-00956,EMEA,Netherlands,Warehouse,,35.85891,7.70524
+ST-00957,APAC,China,Cell Site,NTT Docomo,23.33542,119.43567
+ST-00958,APAC,China,Warehouse,,25.1288,92.67247
+ST-00959,EMEA,UK,Integration Center,,48.9487,12.02198
+ST-00960,EMEA,Italy,Integration Center,,56.37135,20.40308
+ST-00961,APAC,Thailand,Integration Center,,2.21784,117.79577
+ST-00962,APAC,Indonesia,Data Center,NTT Docomo,27.94682,119.00716
+ST-00963,EMEA,Poland,Warehouse,,51.90923,-5.33376
+ST-00964,EMEA,Spain,Cell Site,Vodafone,39.23105,13.30949
+ST-00965,EMEA,Poland,Cell Site,Telefónica,55.01714,-8.96044
+ST-00966,AMER,Canada,Cell Site,Bell,4.26162,-60.31785
+ST-00967,EMEA,Italy,Cell Site,Three,54.14364,8.00746
+ST-00968,EMEA,Czechia,Cell Site,Telefónica,37.45101,4.3673
+ST-00969,EMEA,France,Data Center,Telefónica,38.86072,26.83116
+ST-00970,EMEA,France,Cell Site,Deutsche Telekom,52.14111,24.2279
+ST-00971,APAC,China,Cell Site,China Mobile,36.00112,120.34449
+ST-00972,APAC,Indonesia,Cell Site,Maxis,1.25734,117.8036
+ST-00973,AMER,Canada,Cell Site,TIM Brasil,37.22455,-87.42041
+ST-00974,EMEA,France,Cell Site,Three,58.19379,29.87277
+ST-00975,EMEA,Austria,Integration Center,,48.73157,11.24964
+ST-00976,APAC,India,Integration Center,,26.55238,118.31694
+ST-00977,EMEA,Austria,Cell Site,Deutsche Telekom,39.0114,0.84436
+ST-00978,AMER,USA,Integration Center,,-16.83901,-97.11498
+ST-00979,AMER,USA,Cell Site,AT&T,-22.36498,-61.10691
+ST-00980,APAC,Japan,Warehouse,,22.64423,96.29517
+ST-00981,EMEA,Austria,Cell Site,Vodafone,52.82738,9.07152
+ST-00982,APAC,Singapore,Data Center,Reliance Jio,9.76218,137.17852
+ST-00983,EMEA,Sweden,Cell Site,Orange,40.61358,-6.09641
+ST-00984,EMEA,Austria,Warehouse,,40.14432,26.47713
+ST-00985,APAC,Vietnam,Integration Center,,34.45404,134.71623
+ST-00986,APAC,China,Cell Site,Reliance Jio,36.73098,93.87493
+ST-00987,EMEA,Czechia,Data Center,A1 Telekom,52.7833,16.58085
+ST-00988,AMER,Colombia,Cell Site,AT&T,54.36175,-71.41303
+ST-00989,EMEA,Netherlands,Integration Center,,54.80079,18.59946
+ST-00990,AMER,USA,Cell Site,T-Mobile US,20.85236,-77.87906
+ST-00991,AMER,USA,Data Center,T-Mobile US,52.23344,-62.54632
+ST-00992,AMER,Mexico,Integration Center,,4.40651,-88.63385
+ST-00993,EMEA,UK,Warehouse,,47.72673,19.84458
+ST-00994,AMER,Mexico,Integration Center,,1.08529,-78.51076
+ST-00995,EMEA,Sweden,Data Center,Telefónica,42.46765,7.10817
+ST-00996,AMER,USA,Cell Site,TIM Brasil,51.15659,-91.40567
+ST-00997,EMEA,Sweden,Data Center,A1 Telekom,59.71836,-1.3784
+ST-00998,APAC,China,Warehouse,,13.4502,94.35825
+ST-00999,APAC,South Korea,Cell Site,SK Telecom,30.33172,90.88172
+ST-01000,EMEA,Sweden,Warehouse,,54.69602,13.08533
+ST-01001,APAC,China,Warehouse,,30.20192,129.15602
+ST-01002,EMEA,Netherlands,Cell Site,Orange,38.10956,-9.14435
+ST-01003,APAC,Australia,Cell Site,Telstra,7.58189,109.20338
+ST-01004,AMER,Chile,Cell Site,Bell,-28.40152,-81.73042
+ST-01005,EMEA,Germany,Data Center,Orange,42.12723,4.5534
+ST-01006,EMEA,Spain,Warehouse,,58.50919,18.97083
+ST-01007,APAC,Indonesia,Warehouse,,26.66824,122.67826
+ST-01008,APAC,India,Cell Site,China Mobile,22.65986,115.64902
+ST-01009,AMER,Canada,Cell Site,AT&T,44.39373,-96.99992
+ST-01010,EMEA,Italy,Cell Site,Vodafone,42.213,-5.83491
+ST-01011,EMEA,Germany,Cell Site,Telenor,35.27632,-9.44532
+ST-01012,AMER,Chile,Cell Site,Rogers,-32.83912,-72.7305
+ST-01013,EMEA,Sweden,Warehouse,,37.78512,-1.90364
+ST-01014,APAC,Thailand,Warehouse,,17.34038,103.46251
+ST-01015,EMEA,UK,Cell Site,A1 Telekom,55.41744,14.93816
+ST-01016,AMER,Argentina,Cell Site,Rogers,-5.00223,-87.28868
+ST-01017,EMEA,Czechia,Cell Site,Three,52.09234,-3.1732
+ST-01018,APAC,Singapore,Cell Site,SK Telecom,11.94128,107.67169
+ST-01019,EMEA,Netherlands,Cell Site,Telenor,46.36614,-2.37873
+ST-01020,EMEA,Sweden,Cell Site,Vodafone,38.93082,29.5984
+ST-01021,EMEA,France,Cell Site,Telefónica,57.82995,10.94473
+ST-01022,EMEA,Austria,Cell Site,Orange,54.13876,16.96015
+ST-01023,APAC,Australia,Warehouse,,3.92946,115.89487
+ST-01024,APAC,Thailand,Cell Site,Telstra,8.17286,119.20292
+ST-01025,EMEA,UK,Cell Site,Telenor,36.54479,-3.48365
+ST-01026,EMEA,Poland,Cell Site,Orange,54.54295,23.7299
+ST-01027,AMER,Chile,Data Center,Rogers,46.67145,-64.13094
+ST-01028,AMER,Argentina,Integration Center,,46.63261,-96.21164
+ST-01029,APAC,Indonesia,Cell Site,Singtel,26.72006,125.05269
+ST-01030,EMEA,UK,Cell Site,Orange,41.70488,29.71723
+ST-01031,APAC,South Korea,Integration Center,,12.14731,118.7444
+ST-01032,EMEA,Poland,Cell Site,Vodafone,56.80889,1.56744
+ST-01033,AMER,Colombia,Cell Site,Verizon,19.58548,-71.19941
+ST-01034,EMEA,Germany,Cell Site,Telefónica,50.66777,6.2386
+ST-01035,AMER,Chile,Cell Site,Claro,50.02794,-75.5076
+ST-01036,EMEA,Sweden,Integration Center,,40.60901,22.24517
+ST-01037,EMEA,Czechia,Cell Site,Telia,51.39696,-5.61939
+ST-01038,EMEA,Poland,Cell Site,Telenor,41.95355,-3.67448
+ST-01039,APAC,Japan,Cell Site,NTT Docomo,3.83425,101.50999
+ST-01040,AMER,Canada,Cell Site,Claro,-9.96755,-81.33899
+ST-01041,AMER,Argentina,Cell Site,Bell,52.23367,-62.26925
+ST-01042,AMER,Mexico,Warehouse,,32.83149,-74.13954
+ST-01043,AMER,Argentina,Cell Site,AT&T,50.25454,-94.30211
+ST-01044,EMEA,Netherlands,Cell Site,Telenor,43.25826,12.13309
+ST-01045,EMEA,Czechia,Cell Site,Telia,55.34835,14.95147
+ST-01046,EMEA,Austria,Warehouse,,55.22173,-3.877
+ST-01047,EMEA,France,Cell Site,Orange,39.81837,19.62261
+ST-01048,EMEA,Germany,Warehouse,,43.70789,7.44378
+ST-01049,AMER,Mexico,Data Center,Verizon,36.24981,-97.19855
+ST-01050,EMEA,France,Cell Site,Orange,39.19949,1.83243
+ST-01051,EMEA,Germany,Warehouse,,57.08734,6.19523
+ST-01052,APAC,South Korea,Cell Site,Telstra,10.83225,123.92137
+ST-01053,APAC,India,Cell Site,Bharti Airtel,2.18132,128.75534
+ST-01054,EMEA,Sweden,Cell Site,A1 Telekom,52.44732,-7.79667
+ST-01055,AMER,Canada,Cell Site,Claro,9.8226,-83.83398
+ST-01056,EMEA,Germany,Data Center,Telefónica,38.95348,-3.83821
+ST-01057,EMEA,Germany,Cell Site,Deutsche Telekom,39.00496,13.9865
+ST-01058,APAC,Singapore,Warehouse,,7.67316,92.9798
+ST-01059,APAC,Indonesia,Cell Site,Maxis,38.3455,91.95859
+ST-01060,EMEA,Spain,Cell Site,Orange,51.5974,27.44132
+ST-01061,EMEA,Czechia,Integration Center,,35.94838,28.62928
+ST-01062,AMER,Mexico,Warehouse,,10.21052,-68.59659
+ST-01063,AMER,USA,Cell Site,Verizon,21.26097,-75.32612
+ST-01064,APAC,China,Cell Site,China Mobile,31.76158,93.272
+ST-01065,AMER,Canada,Warehouse,,0.31509,-61.21728
+ST-01066,EMEA,Germany,Cell Site,Orange,36.36468,0.51183
+ST-01067,EMEA,Sweden,Warehouse,,51.80267,-5.98258
+ST-01068,EMEA,France,Warehouse,,48.41684,18.53482
+ST-01069,EMEA,Netherlands,Cell Site,Vodafone,53.93551,12.44758
+ST-01070,EMEA,Austria,Cell Site,Telia,47.51576,18.55555
+ST-01071,EMEA,Netherlands,Cell Site,Vodafone,38.62649,17.22072
+ST-01072,EMEA,Poland,Cell Site,Telia,57.98113,17.31012
+ST-01073,APAC,China,Warehouse,,2.81364,115.29931
+ST-01074,EMEA,Netherlands,Cell Site,Telenor,53.15688,-8.27023
+ST-01075,APAC,Thailand,Cell Site,Singtel,30.72573,104.08014
+ST-01076,EMEA,Czechia,Data Center,Deutsche Telekom,49.71933,28.65374
+ST-01077,APAC,Australia,Cell Site,Singtel,39.80225,121.72038
+ST-01078,EMEA,Sweden,Warehouse,,47.28709,-2.89231
+ST-01079,EMEA,France,Cell Site,Telefónica,40.20834,7.168
+ST-01080,EMEA,UK,Integration Center,,52.55716,20.77212
+ST-01081,EMEA,France,Data Center,Three,40.54771,11.41667
+ST-01082,EMEA,Czechia,Warehouse,,49.79013,25.72312
+ST-01083,AMER,Colombia,Warehouse,,43.87794,-67.30459
+ST-01084,EMEA,Spain,Cell Site,Telia,47.91654,-7.39667
+ST-01085,APAC,Australia,Warehouse,,14.04447,121.08602
+ST-01086,APAC,Malaysia,Integration Center,,25.86668,132.45365
+ST-01087,AMER,Colombia,Cell Site,TIM Brasil,-0.85454,-62.53511
+ST-01088,APAC,Japan,Cell Site,Telstra,7.36618,92.49329
+ST-01089,EMEA,Spain,Cell Site,Telefónica,39.41728,8.49293
+ST-01090,EMEA,Sweden,Cell Site,Telefónica,55.57271,-3.84655
+ST-01091,EMEA,France,Cell Site,Orange,48.70466,21.06366
+ST-01092,EMEA,Spain,Data Center,Deutsche Telekom,35.87154,-8.3392
+ST-01093,AMER,Canada,Warehouse,,9.15321,-92.69415
+ST-01094,APAC,Indonesia,Integration Center,,18.57219,92.19677
+ST-01095,EMEA,France,Cell Site,Telia,59.42177,16.16755
+ST-01096,EMEA,Netherlands,Integration Center,,52.1674,10.38915
+ST-01097,EMEA,Italy,Integration Center,,55.62275,23.33631
+ST-01098,EMEA,Germany,Data Center,Orange,38.97727,20.73581
+ST-01099,EMEA,UK,Cell Site,A1 Telekom,49.16687,20.4954
+ST-01100,EMEA,Czechia,Integration Center,,57.96749,3.40385
+ST-01101,EMEA,UK,Cell Site,Deutsche Telekom,49.27279,21.49932
+ST-01102,APAC,China,Warehouse,,39.48398,120.62881
+ST-01103,EMEA,Netherlands,Cell Site,Three,53.0307,23.8538
+ST-01104,EMEA,Germany,Warehouse,,53.78203,27.69328
+ST-01105,APAC,India,Warehouse,,9.95866,135.38979
+ST-01106,AMER,Argentina,Warehouse,,-16.36048,-77.39488
+ST-01107,APAC,Thailand,Data Center,Telstra,21.39296,131.56659
+ST-01108,APAC,China,Warehouse,,16.54334,97.15914
+ST-01109,EMEA,Netherlands,Cell Site,Three,52.66989,14.26528
+ST-01110,EMEA,UK,Warehouse,,55.67671,20.34523
+ST-01111,EMEA,Sweden,Cell Site,Telefónica,57.37063,23.5647
+ST-01112,AMER,Canada,Cell Site,AT&T,26.74327,-81.37171
+ST-01113,EMEA,Sweden,Cell Site,Telenor,35.50911,2.30374
+ST-01114,EMEA,Germany,Cell Site,Telefónica,53.18806,-7.61988
+ST-01115,APAC,Thailand,Data Center,Bharti Airtel,30.50719,115.81918
+ST-01116,EMEA,Spain,Integration Center,,56.69465,16.39264
+ST-01117,EMEA,Germany,Warehouse,,54.96105,-3.13981
+ST-01118,EMEA,Italy,Cell Site,Deutsche Telekom,39.32285,-1.55636
+ST-01119,EMEA,Netherlands,Data Center,Telefónica,43.33279,26.1771
+ST-01120,EMEA,Spain,Cell Site,A1 Telekom,54.35769,4.58572
+ST-01121,EMEA,Italy,Cell Site,Telia,57.96202,21.15704
+ST-01122,APAC,Indonesia,Warehouse,,26.58624,111.82834
+ST-01123,EMEA,France,Cell Site,Telia,51.2915,13.72916
+ST-01124,EMEA,Poland,Integration Center,,54.54665,-0.97682
+ST-01125,EMEA,Austria,Data Center,Telenor,57.13944,13.6748
+ST-01126,EMEA,France,Warehouse,,55.16896,3.89211
+ST-01127,EMEA,UK,Cell Site,Telefónica,44.79786,27.49153
+ST-01128,EMEA,Czechia,Cell Site,Vodafone,50.54888,2.70949
+ST-01129,APAC,Vietnam,Integration Center,,4.20415,111.71764
+ST-01130,EMEA,Poland,Cell Site,Deutsche Telekom,56.22707,0.05727
+ST-01131,APAC,Vietnam,Data Center,Telstra,34.55119,98.08235
+ST-01132,APAC,India,Cell Site,Reliance Jio,6.06737,120.2846
+ST-01133,AMER,Brazil,Data Center,Rogers,37.41741,-68.79788
+ST-01134,APAC,Indonesia,Warehouse,,22.20074,121.93459
+ST-01135,APAC,South Korea,Warehouse,,11.06977,117.56105
+ST-01136,APAC,Japan,Data Center,NTT Docomo,9.10036,136.41793
+ST-01137,EMEA,Czechia,Warehouse,,51.95142,12.58576
+ST-01138,APAC,Indonesia,Cell Site,Maxis,10.63855,110.44891
+ST-01139,APAC,India,Cell Site,China Mobile,31.42845,101.97042
+ST-01140,EMEA,Netherlands,Cell Site,Orange,38.22143,2.29415
+ST-01141,EMEA,France,Cell Site,Telia,54.86179,25.32464
+ST-01142,EMEA,Netherlands,Cell Site,A1 Telekom,45.35908,21.25031
+ST-01143,EMEA,Czechia,Data Center,Telia,43.3056,10.35162
+ST-01144,EMEA,Poland,Integration Center,,35.50461,18.47984
+ST-01145,EMEA,Italy,Cell Site,Vodafone,52.96777,-5.99185
+ST-01146,EMEA,Germany,Integration Center,,43.97013,9.34187
+ST-01147,AMER,Chile,Cell Site,Rogers,34.66958,-67.05574
+ST-01148,EMEA,Poland,Warehouse,,52.97897,-1.36612
+ST-01149,APAC,India,Cell Site,SK Telecom,14.89729,102.36514
+ST-01150,AMER,Chile,Warehouse,,22.34668,-74.10602
+ST-01151,EMEA,Poland,Integration Center,,35.40423,19.26845
+ST-01152,EMEA,Sweden,Cell Site,Telia,40.73776,22.05504
+ST-01153,AMER,Brazil,Warehouse,,39.95331,-68.12096
+ST-01154,EMEA,UK,Cell Site,Three,45.20283,3.93209
+ST-01155,AMER,Argentina,Cell Site,AT&T,4.1609,-78.91053
+ST-01156,APAC,Australia,Warehouse,,10.74688,136.58182
+ST-01157,EMEA,Sweden,Cell Site,Telia,47.60162,-7.07212
+ST-01158,EMEA,Poland,Cell Site,Orange,59.93005,9.36416
+ST-01159,EMEA,Italy,Data Center,Orange,58.67472,5.61135
+ST-01160,AMER,Colombia,Cell Site,Verizon,-14.77153,-70.5248
+ST-01161,EMEA,Spain,Warehouse,,45.81236,25.25834
+ST-01162,EMEA,Sweden,Warehouse,,46.61228,3.53363
+ST-01163,EMEA,France,Cell Site,Telenor,59.16695,23.21498
+ST-01164,AMER,Canada,Cell Site,Claro,-16.49606,-80.44579
+ST-01165,APAC,India,Integration Center,,5.41935,95.38723
+ST-01166,APAC,India,Cell Site,Maxis,34.2826,136.59129
+ST-01167,APAC,China,Cell Site,Bharti Airtel,29.81447,139.46184
+ST-01168,EMEA,UK,Cell Site,Vodafone,36.13197,3.26038
+ST-01169,EMEA,Italy,Cell Site,Orange,38.30311,21.28074
+ST-01170,APAC,Thailand,Integration Center,,35.72611,112.35593
+ST-01171,EMEA,France,Cell Site,Telefónica,55.73012,23.90486
+ST-01172,AMER,Chile,Cell Site,AT&T,-22.42786,-84.92057
+ST-01173,EMEA,Spain,Cell Site,Vodafone,39.70071,16.80204
+ST-01174,EMEA,Sweden,Cell Site,A1 Telekom,44.68328,16.71099
+ST-01175,EMEA,Czechia,Cell Site,Deutsche Telekom,56.89691,6.51009
+ST-01176,APAC,Australia,Cell Site,NTT Docomo,38.90503,110.4307
+ST-01177,EMEA,Germany,Integration Center,,40.34337,11.17091
+ST-01178,AMER,Argentina,Data Center,Rogers,0.91347,-94.99994
+ST-01179,EMEA,Spain,Data Center,Telenor,35.5798,19.76017
+ST-01180,APAC,Singapore,Cell Site,SK Telecom,37.38152,112.02373
+ST-01181,APAC,China,Warehouse,,3.55088,127.03216
+ST-01182,EMEA,Austria,Warehouse,,56.6768,2.94612
+ST-01183,EMEA,Spain,Cell Site,Telefónica,40.55038,3.48226
+ST-01184,EMEA,Sweden,Data Center,Telia,57.70788,6.71845
+ST-01185,EMEA,Sweden,Warehouse,,51.35395,-7.0258
+ST-01186,AMER,USA,Cell Site,T-Mobile US,-9.6615,-90.87896
+ST-01187,AMER,Argentina,Cell Site,Claro,-29.36382,-95.1755
+ST-01188,EMEA,Italy,Integration Center,,45.41511,12.32019
+ST-01189,EMEA,Poland,Cell Site,Telefónica,42.79797,6.78007
+ST-01190,EMEA,Italy,Cell Site,Telefónica,53.98731,-0.11253
+ST-01191,APAC,Malaysia,Warehouse,,2.33077,102.84944
+ST-01192,EMEA,Poland,Warehouse,,58.03503,-9.27899
+ST-01193,AMER,Chile,Warehouse,,-23.39543,-97.39678
+ST-01194,EMEA,Italy,Data Center,Three,44.42317,15.90991
+ST-01195,EMEA,Netherlands,Cell Site,Telefónica,57.7586,21.76267
+ST-01196,EMEA,France,Cell Site,Telefónica,41.26765,15.3936
+ST-01197,EMEA,Netherlands,Cell Site,A1 Telekom,51.59612,-6.3795
+ST-01198,EMEA,Germany,Data Center,A1 Telekom,45.67836,2.45
+ST-01199,EMEA,Czechia,Warehouse,,38.92785,-7.65313
+ST-01200,EMEA,Sweden,Warehouse,,35.67839,24.34915
+ST-01201,EMEA,Poland,Integration Center,,43.26606,9.72297
+ST-01202,EMEA,UK,Data Center,Telefónica,42.29081,-3.36577
+ST-01203,EMEA,Netherlands,Cell Site,Three,41.53251,-3.20056
+ST-01204,EMEA,Poland,Cell Site,Vodafone,53.94694,26.30055
+ST-01205,AMER,Canada,Warehouse,,4.10515,-67.08303
+ST-01206,APAC,Vietnam,Cell Site,China Mobile,17.60569,112.33909
+ST-01207,EMEA,Spain,Warehouse,,47.12789,22.80945
+ST-01208,APAC,South Korea,Cell Site,Maxis,37.51666,127.22216
+ST-01209,EMEA,France,Integration Center,,57.21108,15.70903
+ST-01210,EMEA,Italy,Cell Site,Deutsche Telekom,55.98143,12.27295
+ST-01211,APAC,Vietnam,Cell Site,Bharti Airtel,31.13553,125.26258
+ST-01212,EMEA,Austria,Data Center,Vodafone,53.73155,-0.62493
+ST-01213,EMEA,Netherlands,Integration Center,,38.84378,16.12118
+ST-01214,APAC,India,Cell Site,NTT Docomo,19.8326,128.233
+ST-01215,APAC,Malaysia,Cell Site,Maxis,6.71367,137.38463
+ST-01216,APAC,Malaysia,Warehouse,,28.45745,91.14945
+ST-01217,EMEA,Sweden,Cell Site,Telenor,49.41335,2.5048
+ST-01218,APAC,Australia,Cell Site,China Mobile,11.71237,135.10823
+ST-01219,AMER,Colombia,Integration Center,,40.23538,-99.61786
+ST-01220,AMER,Brazil,Warehouse,,-18.64957,-71.21873
+ST-01221,EMEA,Spain,Integration Center,,56.20477,18.70415
+ST-01222,EMEA,Italy,Cell Site,Telia,48.1326,29.38309
+ST-01223,EMEA,Poland,Warehouse,,54.93199,8.71713
+ST-01224,AMER,Canada,Integration Center,,17.51288,-98.20724
+ST-01225,AMER,Colombia,Cell Site,Verizon,51.82618,-85.49045
+ST-01226,EMEA,Italy,Cell Site,Orange,51.53798,16.67801
+ST-01227,AMER,Chile,Warehouse,,-29.87522,-89.36589
+ST-01228,AMER,Brazil,Cell Site,AT&T,24.05728,-63.5137
+ST-01229,AMER,Brazil,Data Center,Claro,35.07697,-76.79446
+ST-01230,EMEA,Netherlands,Integration Center,,40.81212,27.9537
+ST-01231,EMEA,Netherlands,Integration Center,,45.09171,-4.0038
+ST-01232,APAC,China,Warehouse,,1.84392,137.50755
+ST-01233,APAC,Australia,Integration Center,,31.3387,100.81922
+ST-01234,EMEA,Germany,Cell Site,Telenor,38.54443,28.37912
+ST-01235,APAC,India,Data Center,Bharti Airtel,10.39087,113.09685
+ST-01236,EMEA,Sweden,Cell Site,A1 Telekom,50.27134,-7.50478
+ST-01237,EMEA,Czechia,Cell Site,Orange,43.61083,27.74561
+ST-01238,EMEA,Poland,Cell Site,Orange,52.50869,4.71141
+ST-01239,EMEA,Sweden,Warehouse,,54.79325,23.48747
+ST-01240,EMEA,France,Warehouse,,38.79448,13.46378
+ST-01241,EMEA,Italy,Cell Site,Vodafone,44.16887,10.27452
+ST-01242,EMEA,Poland,Cell Site,Deutsche Telekom,46.72657,10.15296
+ST-01243,EMEA,Poland,Warehouse,,48.0487,-7.22974
+ST-01244,EMEA,Poland,Integration Center,,39.44236,12.6479
+ST-01245,APAC,Thailand,Cell Site,Singtel,37.50536,127.32579
+ST-01246,APAC,Singapore,Cell Site,Telstra,10.30708,108.0859
+ST-01247,APAC,Japan,Cell Site,Singtel,14.07982,128.47583
+ST-01248,EMEA,Netherlands,Cell Site,Telenor,59.30492,4.21623
+ST-01249,EMEA,Spain,Cell Site,A1 Telekom,35.36902,27.4753
+ST-01250,APAC,Malaysia,Warehouse,,30.3759,131.71778
+ST-01251,APAC,Singapore,Data Center,Maxis,9.13855,122.28286
+ST-01252,APAC,Thailand,Warehouse,,10.07564,90.58087
+ST-01253,AMER,Canada,Integration Center,,-20.86402,-63.08772
+ST-01254,EMEA,France,Cell Site,Orange,40.38299,13.40569
+ST-01255,AMER,Chile,Warehouse,,52.12119,-96.97255
+ST-01256,AMER,Argentina,Cell Site,T-Mobile US,37.71434,-76.09772
+ST-01257,APAC,South Korea,Cell Site,Telstra,13.61259,108.21273
+ST-01258,EMEA,France,Cell Site,Telefónica,35.67957,0.23341
+ST-01259,EMEA,Sweden,Integration Center,,45.58501,18.67654
+ST-01260,EMEA,Poland,Cell Site,Three,41.86946,13.2124
+ST-01261,EMEA,Germany,Cell Site,Telefónica,53.2922,17.94124
+ST-01262,AMER,Canada,Cell Site,Verizon,18.12624,-76.79235
+ST-01263,APAC,Indonesia,Cell Site,China Mobile,29.12723,106.77559
+ST-01264,EMEA,Italy,Data Center,Deutsche Telekom,46.25537,28.64667
+ST-01265,EMEA,Sweden,Data Center,Vodafone,51.71505,10.79569
+ST-01266,EMEA,France,Cell Site,A1 Telekom,49.4578,-5.82285
+ST-01267,EMEA,Czechia,Warehouse,,49.79972,23.45996
+ST-01268,AMER,Chile,Cell Site,Rogers,12.12541,-92.92409
+ST-01269,EMEA,France,Integration Center,,46.20525,1.12095
+ST-01270,EMEA,France,Cell Site,Orange,43.99352,-0.99964
+ST-01271,APAC,China,Cell Site,Singtel,14.02254,131.08492
+ST-01272,EMEA,France,Cell Site,Deutsche Telekom,53.94265,9.62156
+ST-01273,EMEA,Sweden,Cell Site,Telenor,54.56255,29.02261
+ST-01274,APAC,Thailand,Data Center,China Mobile,16.83964,138.99936
+ST-01275,APAC,China,Warehouse,,10.59034,137.72689
+ST-01276,APAC,India,Warehouse,,34.71292,99.95655
+ST-01277,EMEA,Czechia,Cell Site,Three,43.74609,18.31684
+ST-01278,APAC,Malaysia,Cell Site,Reliance Jio,8.47322,119.53533
+ST-01279,EMEA,Poland,Cell Site,Telia,48.37018,1.67496
+ST-01280,EMEA,Spain,Data Center,Deutsche Telekom,42.51334,10.65233
+ST-01281,APAC,South Korea,Cell Site,Singtel,12.69413,99.01273
+ST-01282,EMEA,Poland,Cell Site,Orange,54.33397,13.27046
+ST-01283,APAC,India,Warehouse,,18.06781,99.06238
+ST-01284,EMEA,Italy,Cell Site,A1 Telekom,49.85914,15.14426
+ST-01285,EMEA,Germany,Cell Site,Telefónica,46.99389,4.90958
+ST-01286,EMEA,Netherlands,Cell Site,Orange,56.68117,18.19239
+ST-01287,APAC,Japan,Cell Site,Singtel,14.89069,119.65452
+ST-01288,EMEA,Spain,Cell Site,Telefónica,40.84328,-9.5412
+ST-01289,AMER,Colombia,Data Center,TIM Brasil,43.19626,-67.24444
+ST-01290,AMER,Brazil,Cell Site,TIM Brasil,22.54629,-67.54745
+ST-01291,APAC,Indonesia,Cell Site,Bharti Airtel,31.45208,133.01281
+ST-01292,AMER,Mexico,Cell Site,AT&T,45.26776,-67.24787
+ST-01293,EMEA,Poland,Cell Site,Three,56.29372,10.06783
+ST-01294,EMEA,UK,Warehouse,,52.70019,3.32987
+ST-01295,EMEA,Spain,Warehouse,,56.5283,24.34363
+ST-01296,APAC,Australia,Warehouse,,3.57956,107.35099
+ST-01297,APAC,India,Data Center,Reliance Jio,7.68635,96.79
+ST-01298,AMER,Colombia,Integration Center,,2.34035,-74.97354
+ST-01299,EMEA,Spain,Cell Site,Deutsche Telekom,43.59314,2.3686
+ST-01300,APAC,Australia,Cell Site,Telstra,4.68385,109.14599
+ST-01301,EMEA,Netherlands,Cell Site,Deutsche Telekom,46.77444,5.94824
+ST-01302,EMEA,UK,Cell Site,A1 Telekom,52.00211,1.52633
+ST-01303,AMER,Canada,Integration Center,,29.44384,-64.68923
+ST-01304,EMEA,Sweden,Cell Site,Telia,49.78101,5.54711
+ST-01305,EMEA,Germany,Data Center,Three,39.49232,27.29695
+ST-01306,EMEA,Czechia,Cell Site,Telefónica,53.79639,-0.14236
+ST-01307,EMEA,France,Cell Site,Telefónica,38.76587,-8.02759
+ST-01308,EMEA,Austria,Warehouse,,39.76382,19.29501
+ST-01309,EMEA,Germany,Warehouse,,50.73834,28.69747
+ST-01310,EMEA,France,Cell Site,Orange,43.04927,21.46401
+ST-01311,APAC,Australia,Cell Site,Bharti Airtel,5.6979,118.12913
+ST-01312,EMEA,Poland,Integration Center,,46.66977,23.52798
+ST-01313,APAC,Malaysia,Cell Site,China Mobile,28.36253,99.71577
+ST-01314,EMEA,Italy,Warehouse,,59.59711,22.92573
+ST-01315,EMEA,Italy,Data Center,Vodafone,43.86576,23.04121
+ST-01316,EMEA,UK,Cell Site,Deutsche Telekom,58.92277,25.61128
+ST-01317,EMEA,Austria,Cell Site,A1 Telekom,48.90525,13.08591
+ST-01318,EMEA,Netherlands,Data Center,Deutsche Telekom,37.66497,-3.41174
+ST-01319,APAC,South Korea,Warehouse,,39.32174,128.48951
+ST-01320,EMEA,Poland,Cell Site,A1 Telekom,35.63768,11.90171
+ST-01321,EMEA,Spain,Warehouse,,43.63242,2.46052
+ST-01322,EMEA,Germany,Integration Center,,48.91509,2.80603
+ST-01323,EMEA,Poland,Warehouse,,41.28886,27.51264
+ST-01324,AMER,Argentina,Integration Center,,-31.41285,-82.55316
+ST-01325,EMEA,Czechia,Data Center,Deutsche Telekom,47.77965,7.59807
+ST-01326,EMEA,UK,Cell Site,A1 Telekom,51.43128,-8.97296
+ST-01327,APAC,India,Integration Center,,35.51494,115.01061
+ST-01328,AMER,Colombia,Cell Site,TIM Brasil,14.8307,-81.48916
+ST-01329,EMEA,Austria,Cell Site,Deutsche Telekom,46.11271,-2.53202
+ST-01330,EMEA,Italy,Data Center,Telia,47.60989,6.85389
+ST-01331,EMEA,UK,Cell Site,Orange,46.70299,-9.44676
+ST-01332,APAC,Singapore,Cell Site,China Mobile,6.10485,128.15857
+ST-01333,AMER,USA,Cell Site,Claro,2.71936,-70.28372
+ST-01334,AMER,Mexico,Warehouse,,-19.59999,-72.07159
+ST-01335,EMEA,Sweden,Cell Site,Telenor,42.22779,18.20487
+ST-01336,APAC,Japan,Cell Site,Singtel,4.38457,106.68207
+ST-01337,EMEA,Austria,Cell Site,Vodafone,37.98391,15.18577
+ST-01338,EMEA,Netherlands,Cell Site,Telefónica,44.81495,-7.02892
+ST-01339,AMER,Chile,Cell Site,TIM Brasil,12.37294,-99.00412
+ST-01340,EMEA,Italy,Data Center,Three,55.46194,27.53385
+ST-01341,APAC,Japan,Data Center,NTT Docomo,32.59276,137.57529
+ST-01342,APAC,India,Cell Site,Singtel,35.98736,134.74652
+ST-01343,EMEA,Czechia,Cell Site,Deutsche Telekom,41.136,-0.75325
+ST-01344,AMER,Chile,Cell Site,Claro,37.84808,-80.34461
+ST-01345,EMEA,Poland,Cell Site,Deutsche Telekom,58.55781,25.89035
+ST-01346,AMER,USA,Data Center,Verizon,45.38604,-86.95521
+ST-01347,AMER,Argentina,Warehouse,,-23.0388,-72.88224
+ST-01348,EMEA,Spain,Cell Site,Telia,46.01442,27.3577
+ST-01349,APAC,Vietnam,Warehouse,,34.30061,136.44145
+ST-01350,AMER,Chile,Cell Site,Verizon,16.10796,-78.95089
+ST-01351,EMEA,Spain,Warehouse,,56.17709,10.4756
+ST-01352,EMEA,Spain,Cell Site,Telia,57.50072,-8.62287
+ST-01353,EMEA,UK,Cell Site,Vodafone,43.96974,23.39335
+ST-01354,EMEA,Spain,Data Center,Deutsche Telekom,40.24877,5.95868
+ST-01355,EMEA,France,Data Center,Orange,35.25107,2.06872
+ST-01356,AMER,Canada,Cell Site,Claro,-6.32258,-70.69817
+ST-01357,AMER,Canada,Cell Site,AT&T,25.95993,-82.2017
+ST-01358,EMEA,Austria,Warehouse,,53.21258,7.1334
+ST-01359,EMEA,Italy,Data Center,Vodafone,45.86527,15.82218
+ST-01360,EMEA,Spain,Cell Site,Telenor,53.07208,23.87617
+ST-01361,EMEA,Czechia,Integration Center,,53.78506,16.81261
+ST-01362,APAC,Thailand,Cell Site,Reliance Jio,22.89762,105.40543
+ST-01363,EMEA,Netherlands,Warehouse,,41.5271,23.73004
+ST-01364,EMEA,Italy,Cell Site,A1 Telekom,52.93361,16.61648
+ST-01365,EMEA,Italy,Warehouse,,41.47094,28.7919
+ST-01366,EMEA,Poland,Cell Site,Telenor,37.03283,23.53013
+ST-01367,AMER,Brazil,Cell Site,Verizon,-16.02978,-84.30948
+ST-01368,AMER,Chile,Integration Center,,3.50915,-73.49195
+ST-01369,EMEA,Poland,Data Center,Vodafone,48.66656,-2.55664
+ST-01370,AMER,Brazil,Cell Site,Rogers,-32.29852,-71.31146
+ST-01371,AMER,Chile,Cell Site,Bell,10.44307,-85.52857
+ST-01372,EMEA,UK,Data Center,Vodafone,42.11348,22.92177
+ST-01373,EMEA,UK,Cell Site,Telia,54.88828,23.04201
+ST-01374,EMEA,France,Cell Site,Deutsche Telekom,40.47762,24.0784
+ST-01375,EMEA,Poland,Warehouse,,59.6385,13.96611
+ST-01376,AMER,USA,Cell Site,Bell,-30.75461,-71.90939
+ST-01377,EMEA,Italy,Cell Site,Telefónica,48.45267,18.48189
+ST-01378,APAC,Malaysia,Cell Site,China Mobile,8.34118,120.28994
+ST-01379,AMER,Chile,Cell Site,TIM Brasil,13.52749,-75.90037
+ST-01380,EMEA,France,Data Center,Deutsche Telekom,53.19369,11.76867
+ST-01381,EMEA,Germany,Warehouse,,43.04526,2.36015
+ST-01382,EMEA,Germany,Warehouse,,52.37634,16.55408
+ST-01383,APAC,Thailand,Cell Site,China Mobile,17.45811,107.67695
+ST-01384,EMEA,Germany,Warehouse,,50.5032,2.48643
+ST-01385,AMER,Colombia,Integration Center,,51.69381,-76.14098
+ST-01386,EMEA,Netherlands,Data Center,Telia,49.79857,-4.54667
+ST-01387,EMEA,France,Cell Site,Three,50.2412,1.79701
+ST-01388,APAC,Malaysia,Cell Site,Telstra,18.62135,116.90997
+ST-01389,APAC,China,Cell Site,Reliance Jio,19.64011,130.46966
+ST-01390,EMEA,Poland,Integration Center,,37.48658,-3.30684
+ST-01391,EMEA,Germany,Cell Site,Orange,38.92475,22.67333
+ST-01392,EMEA,Czechia,Cell Site,Telia,37.95561,28.8577
+ST-01393,APAC,China,Integration Center,,38.79745,139.59083
+ST-01394,EMEA,Italy,Cell Site,Vodafone,59.49223,-4.03921
+ST-01395,APAC,Singapore,Integration Center,,26.63928,109.98452
+ST-01396,EMEA,Germany,Warehouse,,53.29558,6.23672
+ST-01397,EMEA,Spain,Warehouse,,44.58097,26.15804
+ST-01398,APAC,South Korea,Cell Site,Singtel,20.28732,126.98791
+ST-01399,APAC,China,Data Center,Telstra,26.34677,122.88542
+ST-01400,AMER,Argentina,Cell Site,Verizon,-3.57941,-89.90207
+ST-01401,EMEA,Austria,Warehouse,,57.13579,-9.01641
+ST-01402,AMER,Mexico,Warehouse,,-19.4367,-94.68851
+ST-01403,AMER,Brazil,Cell Site,TIM Brasil,50.44484,-99.79895
+ST-01404,AMER,Canada,Warehouse,,-34.27799,-90.93087
+ST-01405,AMER,Canada,Warehouse,,-9.88213,-77.60701
+ST-01406,EMEA,Czechia,Cell Site,Telia,59.03073,8.6017
+ST-01407,EMEA,Italy,Cell Site,Vodafone,42.21949,22.68001
+ST-01408,EMEA,Italy,Cell Site,A1 Telekom,44.64455,-4.33013
+ST-01409,EMEA,Sweden,Cell Site,Deutsche Telekom,54.86448,-9.90342
+ST-01410,AMER,Chile,Cell Site,AT&T,-16.53966,-74.59467
+ST-01411,EMEA,France,Cell Site,Telenor,37.56156,0.23273
+ST-01412,EMEA,Czechia,Cell Site,Telenor,44.83261,5.85675
+ST-01413,EMEA,Poland,Warehouse,,59.32007,17.02183
+ST-01414,EMEA,France,Cell Site,Telia,35.92554,-1.14599
+ST-01415,APAC,Indonesia,Warehouse,,25.04081,125.67114
+ST-01416,APAC,Singapore,Warehouse,,15.84325,132.82859
+ST-01417,APAC,Malaysia,Warehouse,,37.79369,120.70312
+ST-01418,AMER,Chile,Data Center,Rogers,15.61507,-69.96778
+ST-01419,EMEA,France,Cell Site,Deutsche Telekom,54.55109,-1.3826
+ST-01420,APAC,Malaysia,Cell Site,Bharti Airtel,19.85922,112.37163
+ST-01421,EMEA,Netherlands,Warehouse,,58.53667,-5.52936
+ST-01422,APAC,Indonesia,Warehouse,,37.79535,118.62973
+ST-01423,EMEA,Germany,Cell Site,Vodafone,42.20132,24.77374
+ST-01424,AMER,Colombia,Cell Site,AT&T,-30.46176,-87.24239
+ST-01425,AMER,Canada,Cell Site,Bell,32.7283,-66.89233
+ST-01426,AMER,Canada,Warehouse,,-19.92519,-62.32922
+ST-01427,APAC,Japan,Cell Site,Singtel,3.09518,111.67774
+ST-01428,EMEA,Sweden,Data Center,Telia,37.43619,-6.09209
+ST-01429,EMEA,Czechia,Warehouse,,57.84747,26.1586
+ST-01430,EMEA,Spain,Cell Site,Three,50.38146,28.65155
+ST-01431,AMER,USA,Integration Center,,9.1948,-68.68578
+ST-01432,EMEA,Poland,Warehouse,,37.43173,5.8247
+ST-01433,APAC,Thailand,Cell Site,Maxis,21.08859,128.90748
+ST-01434,EMEA,France,Cell Site,A1 Telekom,43.36203,29.21345
+ST-01435,EMEA,Poland,Cell Site,Vodafone,53.37075,11.31872
+ST-01436,EMEA,Poland,Cell Site,Telefónica,43.26912,15.68195
+ST-01437,AMER,Colombia,Cell Site,TIM Brasil,25.57567,-72.83272
+ST-01438,EMEA,France,Warehouse,,49.65498,6.01937
+ST-01439,APAC,China,Warehouse,,32.84955,102.91369
+ST-01440,EMEA,Germany,Data Center,A1 Telekom,50.63467,8.86687
+ST-01441,EMEA,Czechia,Cell Site,Orange,57.32094,13.6222
+ST-01442,EMEA,Germany,Cell Site,Vodafone,56.39177,28.13265
+ST-01443,APAC,China,Cell Site,SK Telecom,5.95394,117.75962
+ST-01444,AMER,Colombia,Integration Center,,44.55782,-65.11705
+ST-01445,APAC,India,Data Center,Telstra,8.64046,114.06835
+ST-01446,EMEA,Poland,Cell Site,Telefónica,40.57741,25.87271
+ST-01447,AMER,Brazil,Integration Center,,-34.70936,-91.264
+ST-01448,APAC,India,Cell Site,China Mobile,16.95233,101.05683
+ST-01449,APAC,Thailand,Warehouse,,38.96967,102.20133
+ST-01450,EMEA,Germany,Integration Center,,44.05787,-3.03713
+ST-01451,EMEA,Austria,Warehouse,,58.16674,6.45106
+ST-01452,APAC,Malaysia,Warehouse,,11.21207,102.30595
+ST-01453,APAC,Australia,Warehouse,,23.83902,138.88227
+ST-01454,EMEA,Italy,Warehouse,,59.3543,29.26723
+ST-01455,AMER,Canada,Warehouse,,-0.20211,-63.42323
+ST-01456,EMEA,Poland,Warehouse,,46.10976,10.42268
+ST-01457,AMER,Chile,Warehouse,,11.791,-97.45632
+ST-01458,EMEA,Italy,Warehouse,,39.4267,25.44375
+ST-01459,EMEA,Poland,Cell Site,Orange,57.40891,-1.92026
+ST-01460,APAC,Japan,Cell Site,SK Telecom,12.80287,131.49045
+ST-01461,EMEA,Italy,Integration Center,,40.1042,25.23298
+ST-01462,EMEA,Austria,Warehouse,,55.57978,22.30201
+ST-01463,EMEA,UK,Data Center,Telia,57.29365,25.47683
+ST-01464,EMEA,Austria,Cell Site,Telenor,57.9302,25.18169
+ST-01465,EMEA,Sweden,Cell Site,A1 Telekom,50.17306,-3.69099
+ST-01466,AMER,Chile,Cell Site,T-Mobile US,19.82265,-62.31153
+ST-01467,EMEA,Poland,Integration Center,,59.19188,19.13854
+ST-01468,EMEA,UK,Cell Site,Orange,52.34589,27.5374
+ST-01469,APAC,Australia,Cell Site,Telstra,12.35981,97.54908
+ST-01470,EMEA,Poland,Cell Site,Vodafone,42.25002,27.95794
+ST-01471,APAC,India,Cell Site,Maxis,9.28,101.2369
+ST-01472,EMEA,Czechia,Cell Site,Telenor,39.82373,9.39199
+ST-01473,APAC,Vietnam,Cell Site,Singtel,32.05915,109.09261
+ST-01474,EMEA,Austria,Warehouse,,37.50302,19.60808
+ST-01475,EMEA,Sweden,Integration Center,,50.24573,9.166
+ST-01476,APAC,Japan,Warehouse,,38.59985,113.52122
+ST-01477,EMEA,Austria,Warehouse,,53.31323,-3.65999
+ST-01478,EMEA,Austria,Cell Site,Vodafone,45.4134,-1.50931
+ST-01479,AMER,USA,Warehouse,,-3.66747,-80.81133
+ST-01480,EMEA,Germany,Data Center,A1 Telekom,39.36242,22.12181
+ST-01481,EMEA,Austria,Cell Site,Telenor,44.40028,25.86349
+ST-01482,EMEA,Spain,Cell Site,Vodafone,51.86642,-2.93576
+ST-01483,APAC,Vietnam,Warehouse,,26.03688,91.16238
+ST-01484,EMEA,Czechia,Warehouse,,55.18442,28.96897
+ST-01485,EMEA,Sweden,Cell Site,Telefónica,51.94394,27.05976
+ST-01486,EMEA,Czechia,Cell Site,A1 Telekom,42.36998,6.94355
+ST-01487,EMEA,France,Warehouse,,45.61493,-5.51882
+ST-01488,EMEA,Netherlands,Cell Site,Telia,54.91108,9.80266
+ST-01489,EMEA,Germany,Integration Center,,47.2607,16.73875
+ST-01490,APAC,Japan,Cell Site,Bharti Airtel,7.6685,130.50781
+ST-01491,EMEA,Sweden,Data Center,Vodafone,44.14679,-6.81436
+ST-01492,EMEA,Netherlands,Warehouse,,39.75813,0.1141
+ST-01493,AMER,Argentina,Cell Site,AT&T,-18.98491,-90.31096
+ST-01494,EMEA,Poland,Data Center,A1 Telekom,59.8963,11.50907
+ST-01495,EMEA,Austria,Warehouse,,50.07316,-3.35893
+ST-01496,EMEA,Poland,Cell Site,Telenor,36.10052,2.41403
+ST-01497,APAC,India,Cell Site,SK Telecom,31.02279,117.93909
+ST-01498,AMER,Chile,Cell Site,Verizon,-34.02951,-68.44923
+ST-01499,EMEA,Spain,Integration Center,,37.59999,7.61524
+ST-01500,APAC,South Korea,Data Center,NTT Docomo,39.97947,96.06835
+ST-01501,APAC,Japan,Cell Site,China Mobile,32.78603,129.9604
+ST-01502,EMEA,Germany,Cell Site,Telefónica,46.12602,29.53061
+ST-01503,EMEA,Czechia,Cell Site,A1 Telekom,42.69921,2.63129
+ST-01504,EMEA,Spain,Cell Site,Orange,38.80987,4.79018
+ST-01505,EMEA,France,Integration Center,,42.41035,14.17956
+ST-01506,APAC,Singapore,Integration Center,,2.58858,105.51293
+ST-01507,AMER,Canada,Integration Center,,-34.57641,-99.74759
+ST-01508,EMEA,France,Cell Site,Three,55.50749,19.99264
+ST-01509,EMEA,France,Cell Site,Vodafone,53.60352,4.14539
+ST-01510,APAC,India,Cell Site,Maxis,28.2705,102.82677
+ST-01511,EMEA,Italy,Cell Site,Telefónica,42.73503,12.49938
+ST-01512,EMEA,Netherlands,Cell Site,Vodafone,52.49053,0.62907
+ST-01513,EMEA,Italy,Integration Center,,51.98211,28.49973
+ST-01514,AMER,Argentina,Cell Site,Rogers,9.44526,-83.71571
+ST-01515,EMEA,Austria,Warehouse,,40.81248,4.24595
+ST-01516,EMEA,Netherlands,Warehouse,,48.22051,27.7643
+ST-01517,EMEA,Germany,Cell Site,Deutsche Telekom,41.51882,-0.74147
+ST-01518,APAC,India,Warehouse,,38.46285,120.2922
+ST-01519,EMEA,Czechia,Warehouse,,53.38175,23.18783
+ST-01520,EMEA,Poland,Cell Site,Vodafone,37.04476,9.39253
+ST-01521,AMER,USA,Cell Site,Claro,-22.3908,-75.02745
+ST-01522,EMEA,Germany,Cell Site,Deutsche Telekom,58.8433,-7.74986
+ST-01523,AMER,USA,Data Center,Rogers,-10.33058,-60.01274
+ST-01524,EMEA,Netherlands,Cell Site,Three,35.13719,-4.41776
+ST-01525,EMEA,Austria,Cell Site,Telenor,37.01928,20.56253
+ST-01526,EMEA,Poland,Cell Site,Vodafone,53.77323,21.10339
+ST-01527,EMEA,Poland,Cell Site,Deutsche Telekom,54.37141,23.40881
+ST-01528,AMER,USA,Warehouse,,34.55913,-80.65814
+ST-01529,APAC,Singapore,Cell Site,Telstra,30.07389,119.88082
+ST-01530,AMER,Chile,Warehouse,,-2.01297,-66.53701
+ST-01531,AMER,Argentina,Warehouse,,35.92357,-93.06034
+ST-01532,EMEA,Germany,Cell Site,A1 Telekom,35.61071,2.63899
+ST-01533,APAC,Indonesia,Cell Site,Singtel,16.74693,98.71788
+ST-01534,AMER,USA,Cell Site,Claro,41.96136,-98.65678
+ST-01535,AMER,Chile,Cell Site,Claro,8.5257,-97.7809
+ST-01536,EMEA,Czechia,Cell Site,A1 Telekom,48.41593,8.54597
+ST-01537,EMEA,France,Cell Site,Three,54.5038,17.587
+ST-01538,APAC,Singapore,Warehouse,,33.91426,117.21733
+ST-01539,EMEA,Italy,Cell Site,Three,55.56093,18.76542
+ST-01540,AMER,Brazil,Warehouse,,35.15508,-75.97291
+ST-01541,EMEA,Czechia,Integration Center,,52.9894,6.0686
+ST-01542,EMEA,Spain,Cell Site,Telefónica,37.12455,6.66342
+ST-01543,APAC,South Korea,Warehouse,,7.76262,121.46896
+ST-01544,APAC,China,Cell Site,Bharti Airtel,11.26645,137.90707
+ST-01545,AMER,Mexico,Data Center,AT&T,-10.59257,-96.07469
+ST-01546,EMEA,Italy,Cell Site,Orange,57.01559,6.57645
+ST-01547,APAC,Indonesia,Cell Site,China Mobile,14.87568,134.26942
+ST-01548,APAC,Thailand,Cell Site,Reliance Jio,26.48474,116.60858
+ST-01549,APAC,Indonesia,Cell Site,Reliance Jio,13.75802,104.62471
+ST-01550,APAC,Singapore,Warehouse,,23.60094,115.06973
+ST-01551,EMEA,Czechia,Cell Site,Orange,41.90007,-2.63807
+ST-01552,EMEA,UK,Cell Site,Vodafone,55.45024,17.50988
+ST-01553,EMEA,Italy,Cell Site,Vodafone,59.83233,10.632
+ST-01554,AMER,USA,Integration Center,,54.49491,-81.56694
+ST-01555,AMER,Argentina,Warehouse,,13.14611,-91.63572
+ST-01556,EMEA,Germany,Data Center,Vodafone,38.73773,27.60878
+ST-01557,EMEA,Sweden,Warehouse,,59.53039,11.90239
+ST-01558,EMEA,Austria,Warehouse,,41.80635,28.05611
+ST-01559,AMER,Canada,Cell Site,Verizon,36.70731,-92.80767
+ST-01560,EMEA,Austria,Cell Site,Telenor,42.45852,-9.83174
+ST-01561,EMEA,UK,Cell Site,Three,49.55006,11.05585
+ST-01562,APAC,Australia,Cell Site,NTT Docomo,7.39167,106.96633
+ST-01563,APAC,Vietnam,Cell Site,Maxis,37.6296,122.44968
+ST-01564,EMEA,Netherlands,Warehouse,,56.57499,23.53246
+ST-01565,EMEA,Poland,Cell Site,Vodafone,58.01649,-8.33837
+ST-01566,APAC,China,Integration Center,,11.23636,110.77865
+ST-01567,APAC,Singapore,Warehouse,,25.96381,120.40634
+ST-01568,EMEA,Austria,Data Center,Deutsche Telekom,41.15265,-2.28784
+ST-01569,EMEA,Italy,Warehouse,,45.93529,0.02477
+ST-01570,EMEA,France,Cell Site,Vodafone,59.1278,28.61837
+ST-01571,EMEA,Czechia,Data Center,A1 Telekom,37.83382,18.20375
+ST-01572,APAC,Vietnam,Warehouse,,9.90089,125.87161
+ST-01573,EMEA,Netherlands,Warehouse,,54.17767,-8.07332
+ST-01574,EMEA,Austria,Cell Site,Vodafone,52.38371,25.87188
+ST-01575,EMEA,Poland,Integration Center,,40.40756,-5.37729
+ST-01576,EMEA,France,Cell Site,Deutsche Telekom,49.17061,10.69837
+ST-01577,AMER,USA,Integration Center,,44.71929,-81.95656
+ST-01578,AMER,Canada,Data Center,T-Mobile US,2.21946,-71.4412
+ST-01579,EMEA,Sweden,Cell Site,Telia,36.9357,-7.71827
+ST-01580,EMEA,Netherlands,Cell Site,A1 Telekom,47.62294,-6.43874
+ST-01581,APAC,South Korea,Warehouse,,37.62613,122.71206
+ST-01582,EMEA,France,Warehouse,,53.84121,-0.84509
+ST-01583,EMEA,France,Warehouse,,47.35066,-4.64615
+ST-01584,EMEA,Austria,Cell Site,Telefónica,40.07759,12.72835
+ST-01585,EMEA,Netherlands,Warehouse,,41.99781,26.68513
+ST-01586,EMEA,Netherlands,Cell Site,Telia,59.88107,-9.84293
+ST-01587,AMER,Argentina,Cell Site,T-Mobile US,33.31889,-95.38657
+ST-01588,APAC,Thailand,Cell Site,Maxis,23.41029,101.42418
+ST-01589,EMEA,Netherlands,Cell Site,Orange,59.12185,25.03228
+ST-01590,APAC,China,Cell Site,Telstra,24.22052,98.80083
+ST-01591,EMEA,France,Warehouse,,54.56703,10.81192
+ST-01592,EMEA,France,Integration Center,,50.28908,18.71773
+ST-01593,EMEA,Austria,Cell Site,Telefónica,45.4083,-9.69044
+ST-01594,APAC,Singapore,Cell Site,Reliance Jio,15.20269,110.68131
+ST-01595,EMEA,Spain,Integration Center,,44.17314,23.2422
+ST-01596,APAC,Indonesia,Cell Site,Telstra,13.96174,110.81687
+ST-01597,EMEA,Poland,Cell Site,Telenor,36.54008,18.67431
+ST-01598,APAC,India,Integration Center,,9.40133,101.75058
+ST-01599,EMEA,Italy,Cell Site,Telenor,49.67135,29.34214
+ST-01600,APAC,Japan,Integration Center,,16.99564,106.35788
+ST-01601,AMER,Canada,Warehouse,,-31.74144,-68.50505
+ST-01602,EMEA,Austria,Cell Site,Telia,41.53219,20.7536
+ST-01603,EMEA,Sweden,Data Center,Telenor,42.05664,-8.80444
+ST-01604,EMEA,Czechia,Cell Site,Telefónica,47.45529,26.24232
+ST-01605,EMEA,France,Data Center,A1 Telekom,40.26478,-3.84319
+ST-01606,AMER,Chile,Cell Site,TIM Brasil,-18.36938,-72.38894
+ST-01607,EMEA,France,Cell Site,Three,44.18493,0.24243
+ST-01608,EMEA,Poland,Cell Site,Telenor,43.44244,2.36384
+ST-01609,AMER,Mexico,Warehouse,,13.93994,-94.66666
+ST-01610,EMEA,Sweden,Warehouse,,47.71803,2.46993
+ST-01611,EMEA,Sweden,Cell Site,A1 Telekom,58.31579,6.87266
+ST-01612,EMEA,Italy,Cell Site,Orange,37.50024,27.34436
+ST-01613,APAC,China,Cell Site,Reliance Jio,37.56251,98.77472
+ST-01614,EMEA,Netherlands,Cell Site,Three,55.41061,24.47763
+ST-01615,APAC,Japan,Warehouse,,14.86826,97.97503
+ST-01616,EMEA,Spain,Cell Site,Telefónica,54.96122,-8.86776
+ST-01617,EMEA,Czechia,Cell Site,Telia,50.48519,3.679
+ST-01618,APAC,Vietnam,Warehouse,,24.24504,129.44238
+ST-01619,EMEA,Germany,Data Center,Orange,55.71846,29.93869
+ST-01620,APAC,China,Cell Site,Reliance Jio,25.96879,101.1732
+ST-01621,EMEA,Austria,Warehouse,,41.90256,7.4458
+ST-01622,EMEA,Austria,Cell Site,Deutsche Telekom,56.21177,4.6742
+ST-01623,APAC,Malaysia,Cell Site,NTT Docomo,27.84253,92.25439
+ST-01624,EMEA,Netherlands,Cell Site,Telia,45.75145,-3.31895
+ST-01625,APAC,China,Data Center,Reliance Jio,37.59928,129.57177
+ST-01626,AMER,Canada,Cell Site,Verizon,-22.51333,-83.92595
+ST-01627,APAC,Singapore,Cell Site,China Mobile,4.14308,127.32793
+ST-01628,AMER,Mexico,Data Center,Bell,-17.7771,-67.82664
+ST-01629,AMER,Chile,Warehouse,,-28.33796,-77.0817
+ST-01630,EMEA,France,Warehouse,,50.20503,3.37339
+ST-01631,EMEA,Germany,Cell Site,Three,39.10521,2.95317
+ST-01632,EMEA,Germany,Cell Site,Orange,47.38779,28.76431
+ST-01633,EMEA,Germany,Cell Site,Telia,46.17355,-2.42473
+ST-01634,AMER,Colombia,Cell Site,AT&T,-32.67024,-99.67082
+ST-01635,AMER,Brazil,Cell Site,T-Mobile US,2.50642,-88.14763
+ST-01636,AMER,Colombia,Cell Site,Claro,-24.64263,-93.11298
+ST-01637,EMEA,Czechia,Cell Site,Telia,43.74765,17.46521
+ST-01638,AMER,USA,Integration Center,,19.86292,-96.80179
+ST-01639,AMER,Brazil,Warehouse,,-22.12761,-63.66388
+ST-01640,APAC,Vietnam,Cell Site,NTT Docomo,3.77217,99.94364
+ST-01641,APAC,India,Cell Site,NTT Docomo,13.39974,101.50595
+ST-01642,EMEA,Netherlands,Cell Site,Three,42.27096,19.10962
+ST-01643,EMEA,Sweden,Warehouse,,37.37533,4.08934
+ST-01644,EMEA,Czechia,Integration Center,,50.29323,-8.04636
+ST-01645,APAC,Singapore,Cell Site,NTT Docomo,2.72749,114.92837
+ST-01646,EMEA,Sweden,Data Center,A1 Telekom,57.49561,7.79074
+ST-01647,EMEA,Germany,Data Center,Orange,45.16612,-9.59369
+ST-01648,AMER,USA,Cell Site,TIM Brasil,30.94402,-93.43659
+ST-01649,EMEA,Czechia,Cell Site,Deutsche Telekom,52.46234,3.94025
+ST-01650,AMER,USA,Warehouse,,-30.95103,-86.88397
+ST-01651,AMER,Canada,Cell Site,Bell,24.36043,-69.26645
+ST-01652,APAC,Japan,Cell Site,Bharti Airtel,25.78622,125.55304
+ST-01653,AMER,Mexico,Cell Site,Verizon,-13.76773,-61.39007
+ST-01654,APAC,South Korea,Warehouse,,9.84951,98.50495
+ST-01655,EMEA,France,Cell Site,Telenor,41.24529,28.88221
+ST-01656,APAC,India,Cell Site,Singtel,3.53319,128.67226
+ST-01657,APAC,China,Warehouse,,5.10617,128.66457
+ST-01658,EMEA,Austria,Integration Center,,41.9256,19.06493
+ST-01659,AMER,Argentina,Warehouse,,-30.58995,-86.61618
+ST-01660,AMER,Brazil,Cell Site,Rogers,6.8162,-99.173
+ST-01661,EMEA,Spain,Integration Center,,39.52121,-3.24807
+ST-01662,AMER,USA,Cell Site,TIM Brasil,8.32615,-94.67308
+ST-01663,APAC,India,Cell Site,NTT Docomo,39.10963,134.34649
+ST-01664,EMEA,Germany,Data Center,Telenor,40.60841,-0.6316
+ST-01665,APAC,Malaysia,Integration Center,,37.94967,104.97721
+ST-01666,EMEA,Poland,Warehouse,,45.58222,18.05917
+ST-01667,EMEA,Germany,Cell Site,Vodafone,43.60092,26.09827
+ST-01668,EMEA,Germany,Warehouse,,49.72591,12.68943
+ST-01669,EMEA,Austria,Cell Site,Vodafone,48.85739,-5.51811
+ST-01670,EMEA,Spain,Cell Site,A1 Telekom,54.76105,12.88455
+ST-01671,AMER,Canada,Cell Site,AT&T,-30.18327,-65.98558
+ST-01672,EMEA,Italy,Warehouse,,53.23645,1.55557
+ST-01673,EMEA,Spain,Cell Site,Orange,42.15098,10.18864
+ST-01674,EMEA,Austria,Data Center,Telenor,35.1808,22.38483
+ST-01675,EMEA,Italy,Cell Site,Three,58.55114,7.86409
+ST-01676,EMEA,Italy,Data Center,Orange,48.41435,22.39139
+ST-01677,EMEA,Italy,Warehouse,,41.93997,9.66922
+ST-01678,EMEA,Germany,Warehouse,,37.77485,18.07631
+ST-01679,AMER,Brazil,Data Center,Rogers,36.35695,-97.32377
+ST-01680,EMEA,Italy,Cell Site,Telia,57.06049,4.98078
+ST-01681,EMEA,Poland,Warehouse,,58.05517,26.0069
+ST-01682,EMEA,Sweden,Cell Site,Telenor,54.77249,23.20598
+ST-01683,AMER,Canada,Cell Site,Rogers,-8.95639,-85.30853
+ST-01684,EMEA,France,Cell Site,A1 Telekom,41.00153,4.18019
+ST-01685,EMEA,France,Cell Site,Vodafone,49.04763,24.56122
+ST-01686,AMER,Canada,Warehouse,,14.24651,-72.13255
+ST-01687,AMER,Brazil,Cell Site,T-Mobile US,-22.77884,-62.41728
+ST-01688,EMEA,Germany,Cell Site,Telia,49.57943,21.03238
+ST-01689,AMER,USA,Cell Site,AT&T,54.87093,-65.61098
+ST-01690,EMEA,Austria,Cell Site,Deutsche Telekom,47.60922,24.72163
+ST-01691,EMEA,France,Cell Site,Three,51.47314,19.20073
+ST-01692,AMER,Mexico,Warehouse,,22.35653,-88.49465
+ST-01693,AMER,Brazil,Cell Site,AT&T,-4.89705,-77.66644
+ST-01694,APAC,Singapore,Warehouse,,35.08897,112.62715
+ST-01695,EMEA,France,Warehouse,,48.51419,4.76386
+ST-01696,EMEA,Austria,Cell Site,Vodafone,35.45339,15.74158
+ST-01697,APAC,South Korea,Warehouse,,23.07149,138.91282
+ST-01698,EMEA,Spain,Cell Site,A1 Telekom,47.69917,11.39791
+ST-01699,APAC,China,Warehouse,,12.00822,94.97995
+ST-01700,EMEA,France,Cell Site,Telia,52.68932,22.33663
+ST-01701,EMEA,Spain,Data Center,Telia,56.74246,6.17087
+ST-01702,EMEA,Sweden,Warehouse,,52.58912,0.50768
+ST-01703,EMEA,Spain,Cell Site,Telenor,41.31978,29.82901
+ST-01704,EMEA,Austria,Cell Site,Deutsche Telekom,56.23598,0.24853
+ST-01705,EMEA,Netherlands,Warehouse,,45.83498,12.59874
+ST-01706,EMEA,Poland,Cell Site,Telenor,35.32429,28.37094
+ST-01707,EMEA,Netherlands,Integration Center,,37.71929,22.68958
+ST-01708,EMEA,Sweden,Warehouse,,59.39826,18.16916
+ST-01709,EMEA,Spain,Cell Site,Orange,59.16726,-9.2124
+ST-01710,EMEA,Austria,Warehouse,,43.86371,9.05808
+ST-01711,APAC,Malaysia,Cell Site,Telstra,31.53466,122.72659
+ST-01712,EMEA,Netherlands,Warehouse,,53.40023,-4.21353
+ST-01713,APAC,Singapore,Integration Center,,33.94585,131.11129
+ST-01714,EMEA,Austria,Integration Center,,54.22281,22.718
+ST-01715,EMEA,Netherlands,Integration Center,,40.33987,-4.38932
+ST-01716,APAC,Malaysia,Cell Site,Telstra,35.9074,137.85052
+ST-01717,EMEA,Austria,Cell Site,Three,45.60666,7.87999
+ST-01718,EMEA,Spain,Cell Site,Orange,53.52443,9.79996
+ST-01719,EMEA,Italy,Cell Site,Telia,42.83889,-2.39616
+ST-01720,AMER,Canada,Cell Site,Rogers,-32.96139,-76.49205
+ST-01721,APAC,South Korea,Data Center,China Mobile,6.544,132.91755
+ST-01722,APAC,Japan,Cell Site,Bharti Airtel,39.33188,112.88701
+ST-01723,APAC,India,Data Center,Maxis,5.50723,119.15087
+ST-01724,EMEA,Sweden,Cell Site,Telefónica,49.34697,-4.66585
+ST-01725,APAC,Australia,Cell Site,Maxis,26.23028,105.80314
+ST-01726,EMEA,Sweden,Cell Site,Three,56.1373,13.51672
+ST-01727,EMEA,Austria,Cell Site,Orange,45.82377,28.53272
+ST-01728,EMEA,France,Cell Site,Vodafone,47.28061,25.49177
+ST-01729,EMEA,Germany,Cell Site,Vodafone,41.60775,7.67101
+ST-01730,AMER,Brazil,Cell Site,Bell,-27.45006,-83.08969
+ST-01731,EMEA,Austria,Cell Site,Telenor,57.36232,23.17849
+ST-01732,EMEA,Italy,Data Center,Telia,59.39265,19.98936
+ST-01733,APAC,South Korea,Warehouse,,11.58804,98.04157
+ST-01734,APAC,Indonesia,Cell Site,NTT Docomo,8.00114,123.06913
+ST-01735,AMER,Chile,Warehouse,,-0.59776,-83.43852
+ST-01736,EMEA,Italy,Warehouse,,56.51435,19.0666
+ST-01737,EMEA,Sweden,Data Center,A1 Telekom,40.23185,-3.15595
+ST-01738,EMEA,UK,Cell Site,Telia,55.54832,28.14435
+ST-01739,EMEA,Austria,Cell Site,Telefónica,39.62856,28.07046
+ST-01740,AMER,Chile,Cell Site,Rogers,3.67635,-63.77364
+ST-01741,EMEA,Netherlands,Cell Site,Vodafone,53.77143,26.20443
+ST-01742,EMEA,Netherlands,Integration Center,,51.12869,-3.71961
+ST-01743,EMEA,Sweden,Warehouse,,36.50915,15.08449
+ST-01744,EMEA,Spain,Cell Site,Orange,36.45889,-0.56054
+ST-01745,APAC,Japan,Warehouse,,9.04299,111.35519
+ST-01746,APAC,Australia,Warehouse,,24.29783,135.55822
+ST-01747,EMEA,Spain,Integration Center,,58.4048,29.29495
+ST-01748,AMER,Chile,Cell Site,Claro,33.74411,-63.14812
+ST-01749,EMEA,Austria,Warehouse,,54.76564,26.42405
+ST-01750,APAC,Malaysia,Cell Site,Reliance Jio,5.06283,138.07875
+ST-01751,EMEA,France,Cell Site,Vodafone,40.86408,12.7388
+ST-01752,EMEA,Poland,Warehouse,,47.92069,12.57848
+ST-01753,EMEA,Italy,Cell Site,Telefónica,52.55074,11.5839
+ST-01754,EMEA,Spain,Cell Site,Vodafone,52.2187,11.37554
+ST-01755,EMEA,France,Cell Site,Three,35.30108,15.09466
+ST-01756,APAC,Thailand,Data Center,Reliance Jio,22.65285,119.29221
+ST-01757,AMER,Chile,Integration Center,,-34.85956,-81.25013
+ST-01758,APAC,Vietnam,Cell Site,NTT Docomo,35.12411,106.62777
+ST-01759,EMEA,Sweden,Integration Center,,46.12205,-5.10223
+ST-01760,EMEA,Spain,Integration Center,,46.25586,5.83114
+ST-01761,APAC,China,Warehouse,,35.43858,91.77202
+ST-01762,EMEA,Germany,Cell Site,Telefónica,58.7804,13.05613
+ST-01763,EMEA,Czechia,Integration Center,,48.24086,25.44809
+ST-01764,EMEA,Italy,Cell Site,A1 Telekom,39.77524,-1.63946
+ST-01765,APAC,Indonesia,Cell Site,NTT Docomo,35.10261,136.47221
+ST-01766,AMER,Brazil,Cell Site,Verizon,40.40302,-98.3494
+ST-01767,APAC,Indonesia,Cell Site,Reliance Jio,26.4307,112.55687
+ST-01768,AMER,Chile,Warehouse,,37.70423,-93.67464
+ST-01769,AMER,USA,Cell Site,T-Mobile US,47.82994,-86.58397
+ST-01770,APAC,Japan,Data Center,Singtel,13.60594,98.92137
+ST-01771,AMER,Brazil,Warehouse,,-34.37447,-87.49027
+ST-01772,AMER,Brazil,Cell Site,TIM Brasil,-21.65083,-70.47442
+ST-01773,EMEA,Czechia,Warehouse,,53.91594,23.1173
+ST-01774,EMEA,Poland,Cell Site,Vodafone,35.13604,4.05934
+ST-01775,APAC,Singapore,Cell Site,SK Telecom,1.2265,115.38575
+ST-01776,APAC,Australia,Data Center,Maxis,36.4513,110.39451
+ST-01777,EMEA,Germany,Cell Site,Deutsche Telekom,56.84158,27.90315
+ST-01778,EMEA,UK,Cell Site,Telenor,40.94666,-9.5938
+ST-01779,APAC,China,Warehouse,,29.8432,118.95051
+ST-01780,EMEA,Austria,Cell Site,Telia,43.67872,4.70415
+ST-01781,APAC,China,Cell Site,Singtel,4.15811,133.55337
+ST-01782,APAC,Thailand,Cell Site,Maxis,10.44052,94.85522
+ST-01783,EMEA,Italy,Cell Site,Telenor,54.48835,9.40298
+ST-01784,AMER,Argentina,Data Center,Claro,33.66072,-63.92501
+ST-01785,APAC,Japan,Warehouse,,15.90295,92.72356
+ST-01786,EMEA,Austria,Integration Center,,41.33099,-7.9572
+ST-01787,EMEA,Spain,Data Center,Telia,38.72887,23.95788
+ST-01788,APAC,Japan,Cell Site,Maxis,37.71539,123.84565
+ST-01789,EMEA,France,Cell Site,Deutsche Telekom,53.29555,19.25943
+ST-01790,EMEA,Germany,Warehouse,,38.08389,-8.1155
+ST-01791,AMER,Argentina,Integration Center,,27.85594,-98.50333
+ST-01792,EMEA,France,Warehouse,,55.29387,13.64552
+ST-01793,EMEA,Germany,Warehouse,,37.83776,16.37172
+ST-01794,EMEA,Poland,Cell Site,Telefónica,50.15768,5.05238
+ST-01795,EMEA,Sweden,Cell Site,Telenor,55.443,2.18433
+ST-01796,EMEA,Netherlands,Cell Site,Telefónica,44.44774,17.86492
+ST-01797,EMEA,Czechia,Integration Center,,53.80078,0.94244
+ST-01798,APAC,India,Integration Center,,1.65466,98.81519
+ST-01799,APAC,Australia,Cell Site,Maxis,11.26467,135.25036
+ST-01800,EMEA,Poland,Warehouse,,57.34026,16.42791
+ST-01801,EMEA,France,Cell Site,A1 Telekom,52.73299,14.85012
+ST-01802,EMEA,France,Cell Site,Telia,54.47963,4.04801
+ST-01803,EMEA,France,Data Center,Telia,48.66765,16.82636
+ST-01804,AMER,Chile,Warehouse,,7.15861,-69.09324
+ST-01805,AMER,Mexico,Warehouse,,48.93288,-73.44799
+ST-01806,EMEA,Poland,Integration Center,,36.86677,14.40946
+ST-01807,EMEA,Netherlands,Warehouse,,52.40789,1.33006
+ST-01808,AMER,USA,Cell Site,TIM Brasil,-6.0409,-76.18464
+ST-01809,EMEA,Italy,Data Center,Deutsche Telekom,52.67784,24.8572
+ST-01810,EMEA,UK,Warehouse,,54.06305,-4.64117
+ST-01811,AMER,Colombia,Warehouse,,-3.67177,-94.04938
+ST-01812,EMEA,Spain,Warehouse,,53.92353,0.65795
+ST-01813,EMEA,Austria,Cell Site,Telia,38.08769,-6.1508
+ST-01814,EMEA,France,Cell Site,A1 Telekom,37.8624,-0.11526
+ST-01815,EMEA,Czechia,Cell Site,Telia,54.55887,-0.49089
+ST-01816,EMEA,Italy,Cell Site,Deutsche Telekom,42.03411,25.22775
+ST-01817,APAC,Vietnam,Cell Site,Singtel,18.25029,115.44139
+ST-01818,EMEA,France,Cell Site,Telia,35.06806,-6.7157
+ST-01819,EMEA,Spain,Cell Site,Telenor,53.51491,3.33852
+ST-01820,EMEA,Netherlands,Cell Site,A1 Telekom,38.73846,7.15225
+ST-01821,EMEA,Netherlands,Warehouse,,36.12744,18.37505
+ST-01822,APAC,Thailand,Warehouse,,4.1275,92.74373
+ST-01823,EMEA,Netherlands,Warehouse,,45.49252,13.48298
+ST-01824,AMER,Argentina,Cell Site,TIM Brasil,33.75079,-97.16155
+ST-01825,AMER,Brazil,Cell Site,Bell,-4.86622,-89.25737
+ST-01826,EMEA,Austria,Warehouse,,53.59396,4.77704
+ST-01827,APAC,Thailand,Cell Site,Bharti Airtel,25.4863,114.46891
+ST-01828,EMEA,Germany,Cell Site,Orange,49.24146,4.6251
+ST-01829,EMEA,UK,Warehouse,,40.98149,-7.6104
+ST-01830,EMEA,Netherlands,Cell Site,A1 Telekom,39.33673,-3.09598
+ST-01831,EMEA,UK,Cell Site,Three,58.37103,27.49523
+ST-01832,EMEA,Netherlands,Warehouse,,41.39503,-5.77433
+ST-01833,AMER,Chile,Data Center,Rogers,-9.64536,-68.1421
+ST-01834,AMER,Canada,Warehouse,,43.36895,-79.95593
+ST-01835,EMEA,Sweden,Cell Site,Three,48.50298,8.34814
+ST-01836,AMER,Mexico,Data Center,TIM Brasil,-18.5475,-98.00905
+ST-01837,EMEA,France,Cell Site,Deutsche Telekom,50.53492,21.9492
+ST-01838,APAC,India,Cell Site,Bharti Airtel,30.22454,135.01477
+ST-01839,APAC,India,Data Center,Telstra,32.73227,104.37881
+ST-01840,EMEA,Czechia,Integration Center,,37.92034,7.22935
+ST-01841,AMER,Brazil,Integration Center,,-3.65229,-70.85669
+ST-01842,APAC,Indonesia,Cell Site,Singtel,3.65097,137.15051
+ST-01843,EMEA,Germany,Cell Site,Telefónica,58.9292,-6.46621
+ST-01844,EMEA,Germany,Cell Site,Orange,45.84909,25.96583
+ST-01845,EMEA,Italy,Data Center,Orange,39.68203,17.68856
+ST-01846,EMEA,Poland,Warehouse,,52.78035,-0.65612
+ST-01847,APAC,India,Cell Site,SK Telecom,1.24049,123.22345
+ST-01848,APAC,Malaysia,Data Center,Singtel,25.07301,122.48545
+ST-01849,APAC,Vietnam,Cell Site,Maxis,7.1013,120.18671
+ST-01850,EMEA,Spain,Data Center,A1 Telekom,48.54186,8.10221
+ST-01851,EMEA,UK,Warehouse,,54.42307,5.53192
+ST-01852,EMEA,Germany,Data Center,Telia,43.83168,11.64022
+ST-01853,APAC,Vietnam,Data Center,NTT Docomo,37.8235,107.21287
+ST-01854,AMER,Brazil,Warehouse,,5.0797,-89.34708
+ST-01855,APAC,Malaysia,Cell Site,Telstra,27.50489,108.20426
+ST-01856,APAC,Australia,Cell Site,China Mobile,28.01517,97.28551
+ST-01857,EMEA,Czechia,Warehouse,,41.59411,-1.74773
+ST-01858,EMEA,Germany,Warehouse,,54.43507,-6.41729
+ST-01859,EMEA,France,Warehouse,,41.29865,10.29561
+ST-01860,AMER,Brazil,Cell Site,Rogers,-27.09575,-99.55779
+ST-01861,APAC,Australia,Cell Site,Maxis,27.95455,120.67895
+ST-01862,EMEA,Sweden,Data Center,Three,35.21037,-8.05858
+ST-01863,APAC,South Korea,Integration Center,,9.55546,135.30894
+ST-01864,AMER,USA,Cell Site,Verizon,23.74543,-67.79999
+ST-01865,EMEA,Czechia,Warehouse,,53.98695,29.321
+ST-01866,APAC,South Korea,Cell Site,Singtel,38.05613,93.36531
+ST-01867,EMEA,Italy,Data Center,Telefónica,35.56721,9.88275
+ST-01868,EMEA,Italy,Cell Site,Orange,41.79313,10.18266
+ST-01869,APAC,Malaysia,Integration Center,,4.53626,135.44313
+ST-01870,APAC,Singapore,Cell Site,China Mobile,31.18989,117.60583
+ST-01871,EMEA,France,Integration Center,,46.62677,8.73976
+ST-01872,EMEA,Austria,Cell Site,Telefónica,50.4117,11.81364
+ST-01873,EMEA,Poland,Integration Center,,47.05595,17.17027
+ST-01874,EMEA,Poland,Integration Center,,54.12452,15.71815
+ST-01875,EMEA,Spain,Cell Site,Orange,44.78468,6.57296
+ST-01876,EMEA,Germany,Data Center,Telia,37.46329,6.58182
+ST-01877,EMEA,Netherlands,Cell Site,Three,54.64481,-7.34118
+ST-01878,EMEA,Poland,Warehouse,,39.38798,23.70466
+ST-01879,APAC,China,Integration Center,,23.14995,123.55995
+ST-01880,APAC,Indonesia,Data Center,China Mobile,13.5408,114.43996
+ST-01881,EMEA,Czechia,Data Center,Deutsche Telekom,54.03941,25.04174
+ST-01882,EMEA,Sweden,Warehouse,,59.35516,24.04102
+ST-01883,EMEA,Poland,Data Center,Three,36.68708,3.73427
+ST-01884,EMEA,Austria,Data Center,Telefónica,53.72224,6.71813
+ST-01885,APAC,Vietnam,Integration Center,,18.01847,129.71568
+ST-01886,EMEA,Italy,Cell Site,A1 Telekom,55.83547,21.65633
+ST-01887,EMEA,Spain,Cell Site,Telia,43.86562,-0.87946
+ST-01888,EMEA,Sweden,Integration Center,,43.96857,18.05534
+ST-01889,EMEA,Germany,Warehouse,,44.11786,-7.78471
+ST-01890,EMEA,Austria,Cell Site,Three,55.01892,-7.46291
+ST-01891,AMER,Colombia,Data Center,AT&T,54.65202,-65.53731
+ST-01892,EMEA,UK,Cell Site,Vodafone,58.90843,23.33025
+ST-01893,EMEA,Italy,Integration Center,,37.52673,6.75021
+ST-01894,AMER,Colombia,Cell Site,Rogers,46.71414,-96.36482
+ST-01895,AMER,Brazil,Cell Site,Rogers,-7.52788,-81.31605
+ST-01896,EMEA,UK,Cell Site,Deutsche Telekom,46.24786,27.75605
+ST-01897,EMEA,France,Cell Site,Deutsche Telekom,44.87796,-0.44155
+ST-01898,AMER,Colombia,Cell Site,Claro,5.04411,-84.16025
+ST-01899,EMEA,Poland,Warehouse,,50.58257,29.76589
+ST-01900,EMEA,Austria,Integration Center,,48.78543,8.48907
+ST-01901,EMEA,Italy,Cell Site,A1 Telekom,49.8463,29.19196
+ST-01902,EMEA,Spain,Cell Site,Orange,50.62,-5.08262
+ST-01903,EMEA,Poland,Cell Site,Three,57.8172,13.63287
+ST-01904,AMER,USA,Cell Site,AT&T,-20.77051,-90.78032
+ST-01905,APAC,India,Cell Site,Singtel,5.70088,138.03801
+ST-01906,AMER,Canada,Cell Site,AT&T,-28.62351,-69.4229
+ST-01907,EMEA,UK,Data Center,Telefónica,43.44146,-6.75549
+ST-01908,AMER,USA,Warehouse,,4.04625,-99.98921
+ST-01909,AMER,Argentina,Data Center,T-Mobile US,38.55454,-78.32341
+ST-01910,APAC,India,Warehouse,,18.61812,131.46138
+ST-01911,EMEA,Poland,Cell Site,Telenor,47.98301,13.81193
+ST-01912,APAC,South Korea,Cell Site,SK Telecom,32.77788,126.02853
+ST-01913,EMEA,Netherlands,Cell Site,Three,51.47598,18.16564
+ST-01914,APAC,South Korea,Data Center,SK Telecom,11.25582,95.86239
+ST-01915,EMEA,France,Integration Center,,50.56668,-1.03934
+ST-01916,EMEA,Italy,Cell Site,Telefónica,36.19051,0.17288
+ST-01917,EMEA,Sweden,Cell Site,Telia,53.00674,18.33686
+ST-01918,EMEA,Poland,Warehouse,,57.58149,17.0091
+ST-01919,APAC,Malaysia,Data Center,Singtel,18.14934,103.02497
+ST-01920,EMEA,Netherlands,Cell Site,Vodafone,53.96001,6.47884
+ST-01921,AMER,Mexico,Data Center,Verizon,38.39397,-65.93499
+ST-01922,AMER,Chile,Cell Site,AT&T,-3.35892,-86.24702
+ST-01923,EMEA,Italy,Cell Site,Deutsche Telekom,57.84083,5.89039
+ST-01924,APAC,South Korea,Integration Center,,28.56541,108.89085
+ST-01925,APAC,Vietnam,Cell Site,NTT Docomo,29.51996,98.67999
+ST-01926,EMEA,Netherlands,Warehouse,,55.89714,29.32638
+ST-01927,APAC,Thailand,Cell Site,Bharti Airtel,30.86513,107.95623
+ST-01928,EMEA,Poland,Warehouse,,48.8801,16.78401
+ST-01929,APAC,Australia,Integration Center,,8.52203,104.14511
+ST-01930,EMEA,Spain,Warehouse,,55.04427,27.81141
+ST-01931,APAC,India,Data Center,Telstra,11.61905,97.37916
+ST-01932,EMEA,Italy,Cell Site,Orange,59.54055,2.79874
+ST-01933,APAC,Japan,Cell Site,Telstra,31.36052,108.95056
+ST-01934,EMEA,UK,Cell Site,Telefónica,58.72695,13.98145
+ST-01935,EMEA,Sweden,Cell Site,Telia,45.37785,-2.86668
+ST-01936,AMER,Argentina,Warehouse,,-11.99771,-65.72122
+ST-01937,AMER,Argentina,Cell Site,Rogers,-29.87483,-93.72628
+ST-01938,APAC,Malaysia,Data Center,Telstra,8.51253,93.53398
+ST-01939,EMEA,Austria,Warehouse,,52.141,29.25088
+ST-01940,APAC,Indonesia,Cell Site,NTT Docomo,6.42879,129.94663
+ST-01941,AMER,Mexico,Cell Site,AT&T,-19.11451,-61.04878
+ST-01942,EMEA,Austria,Cell Site,Telenor,47.67628,23.90064
+ST-01943,EMEA,Netherlands,Data Center,Deutsche Telekom,39.2639,25.41027
+ST-01944,APAC,Singapore,Cell Site,Singtel,4.18393,91.14461
+ST-01945,APAC,Indonesia,Warehouse,,28.64946,95.32606
+ST-01946,APAC,China,Data Center,Bharti Airtel,34.76628,121.06371
+ST-01947,AMER,Argentina,Cell Site,Bell,-5.21165,-88.90901
+ST-01948,APAC,China,Integration Center,,4.19519,124.33585
+ST-01949,APAC,South Korea,Integration Center,,36.76408,127.8386
+ST-01950,APAC,Japan,Data Center,Telstra,25.15638,95.93541
+ST-01951,AMER,Argentina,Integration Center,,39.48664,-61.38464
+ST-01952,APAC,Japan,Cell Site,Maxis,11.24988,111.01817
+ST-01953,EMEA,Spain,Warehouse,,35.35128,23.27619
+ST-01954,AMER,Colombia,Data Center,Rogers,-33.1329,-80.53967
+ST-01955,EMEA,France,Cell Site,Telenor,49.41174,-7.77832
+ST-01956,EMEA,Sweden,Cell Site,Telenor,39.3917,21.63336
+ST-01957,AMER,USA,Cell Site,AT&T,-12.27197,-71.01111
+ST-01958,APAC,India,Data Center,SK Telecom,30.2183,110.36592
+ST-01959,EMEA,Sweden,Data Center,Telefónica,36.59378,-9.56773
+ST-01960,EMEA,Austria,Cell Site,Three,47.31284,-7.14183
+ST-01961,EMEA,Germany,Cell Site,Telenor,53.16181,5.23296
+ST-01962,AMER,Mexico,Cell Site,Rogers,26.49609,-83.67353
+ST-01963,EMEA,Italy,Cell Site,A1 Telekom,50.7084,23.32071
+ST-01964,EMEA,UK,Cell Site,Three,57.11132,-9.32469
+ST-01965,EMEA,Italy,Cell Site,Deutsche Telekom,51.13764,12.56538
+ST-01966,EMEA,Austria,Data Center,Orange,50.92596,-7.6762
+ST-01967,AMER,Chile,Warehouse,,-28.70934,-80.1208
+ST-01968,EMEA,Germany,Cell Site,Orange,36.42787,21.05643
+ST-01969,AMER,Canada,Cell Site,Rogers,34.52291,-95.30704
+ST-01970,EMEA,France,Cell Site,Vodafone,46.37645,13.79924
+ST-01971,EMEA,Czechia,Warehouse,,56.48614,29.5372
+ST-01972,AMER,Canada,Cell Site,Claro,-33.45008,-80.94644
+ST-01973,EMEA,Netherlands,Integration Center,,55.08212,21.8346
+ST-01974,APAC,Australia,Cell Site,Maxis,22.13152,99.11288
+ST-01975,APAC,China,Cell Site,Maxis,22.80476,109.57771
+ST-01976,APAC,Indonesia,Cell Site,Telstra,16.95555,106.43342
+ST-01977,AMER,Mexico,Cell Site,Rogers,-21.99617,-70.47044
+ST-01978,EMEA,Netherlands,Data Center,Deutsche Telekom,52.7122,11.71329
+ST-01979,EMEA,Netherlands,Integration Center,,43.86989,22.9074
+ST-01980,EMEA,Poland,Cell Site,Three,38.99751,7.3828
+ST-01981,AMER,Brazil,Integration Center,,23.81605,-67.14007
+ST-01982,AMER,Brazil,Cell Site,TIM Brasil,23.46493,-95.29183
+ST-01983,EMEA,Netherlands,Cell Site,Deutsche Telekom,37.53232,-7.98271
+ST-01984,EMEA,Netherlands,Cell Site,Three,48.99942,-0.28242
+ST-01985,AMER,Colombia,Cell Site,Rogers,-20.64227,-96.60109
+ST-01986,EMEA,Germany,Cell Site,Telenor,51.04468,20.13656
+ST-01987,AMER,Canada,Integration Center,,42.19887,-76.18349
+ST-01988,APAC,Singapore,Data Center,Bharti Airtel,14.81521,113.52071
+ST-01989,EMEA,Spain,Cell Site,Orange,50.90376,18.5201
+ST-01990,EMEA,France,Cell Site,A1 Telekom,51.12103,28.47617
+ST-01991,EMEA,Czechia,Cell Site,Vodafone,53.75522,20.02484
+ST-01992,EMEA,Poland,Cell Site,Telia,55.49514,8.41514
+ST-01993,APAC,Indonesia,Warehouse,,11.29391,130.81195
+ST-01994,AMER,USA,Warehouse,,6.7762,-75.71296
+ST-01995,EMEA,Netherlands,Cell Site,Telefónica,45.73979,5.84234
+ST-01996,EMEA,Germany,Cell Site,Deutsche Telekom,51.78151,16.61375
+ST-01997,EMEA,UK,Integration Center,,42.7256,-2.4406
+ST-01998,APAC,Indonesia,Cell Site,Bharti Airtel,6.12165,95.68893
+ST-01999,AMER,Chile,Warehouse,,38.59298,-88.55401
+ST-02000,EMEA,Spain,Cell Site,Vodafone,51.96355,1.49698

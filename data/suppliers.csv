@@ -1,0 +1,201 @@
+supplier_id,region,country,primary_vendor,on_time_performance,iso_certified
+S-0001,APAC,Malaysia,Huawei,0.882,True
+S-0002,EMEA,Germany,NEC,0.842,True
+S-0003,EMEA,Austria,Cisco,0.933,True
+S-0004,APAC,South Korea,Ericsson,0.959,True
+S-0005,EMEA,Spain,Nokia,0.873,True
+S-0006,EMEA,Netherlands,Ciena,0.833,True
+S-0007,AMER,Colombia,HPE Aruba,0.867,False
+S-0008,APAC,Australia,ZTE,1.0,True
+S-0009,AMER,Canada,Juniper,0.822,True
+S-0010,EMEA,Czechia,Huawei,0.82,True
+S-0011,EMEA,Italy,Huawei,1.0,True
+S-0012,EMEA,Germany,Samsung,0.887,True
+S-0013,APAC,Thailand,Samsung,0.802,False
+S-0014,APAC,Singapore,Nokia,0.787,False
+S-0015,EMEA,Italy,NEC,0.946,True
+S-0016,EMEA,Germany,Samsung,0.927,True
+S-0017,EMEA,Sweden,Huawei,0.947,True
+S-0018,APAC,Malaysia,Ciena,0.831,True
+S-0019,AMER,Canada,Huawei,0.805,True
+S-0020,APAC,Vietnam,Huawei,0.943,True
+S-0021,AMER,Argentina,HPE Aruba,0.816,True
+S-0022,APAC,Vietnam,Cisco,0.887,True
+S-0023,EMEA,Czechia,Juniper,0.829,True
+S-0024,EMEA,France,Huawei,1.0,False
+S-0025,EMEA,UK,ZTE,0.974,True
+S-0026,APAC,Australia,Cisco,1.0,True
+S-0027,EMEA,UK,HPE Aruba,0.951,False
+S-0028,EMEA,Sweden,Ciena,0.925,True
+S-0029,APAC,Indonesia,Cisco,0.954,True
+S-0030,APAC,China,ZTE,0.774,True
+S-0031,APAC,Singapore,Ericsson,0.757,True
+S-0032,EMEA,France,Juniper,0.957,True
+S-0033,APAC,Australia,Nokia,0.854,True
+S-0034,AMER,Canada,NEC,0.9,True
+S-0035,APAC,India,HPE Aruba,0.77,False
+S-0036,APAC,Singapore,Nokia,0.859,True
+S-0037,EMEA,Austria,Nokia,0.871,True
+S-0038,AMER,Chile,Juniper,0.974,True
+S-0039,AMER,Canada,Nokia,0.911,False
+S-0040,APAC,Japan,ZTE,0.79,True
+S-0041,EMEA,Netherlands,Ericsson,0.858,True
+S-0042,EMEA,Italy,Nokia,0.989,True
+S-0043,APAC,Australia,Samsung,0.864,True
+S-0044,AMER,Argentina,ZTE,0.972,False
+S-0045,APAC,Vietnam,Ciena,0.856,True
+S-0046,AMER,Mexico,Ciena,0.927,True
+S-0047,EMEA,Netherlands,Nokia,0.905,False
+S-0048,APAC,South Korea,NEC,0.891,True
+S-0049,AMER,Brazil,Juniper,0.795,True
+S-0050,AMER,Brazil,Cisco,0.771,False
+S-0051,APAC,Thailand,Ericsson,0.919,False
+S-0052,AMER,Canada,Juniper,0.903,True
+S-0053,AMER,Argentina,ZTE,0.857,False
+S-0054,EMEA,UK,Juniper,0.83,True
+S-0055,APAC,China,Ciena,1.0,True
+S-0056,EMEA,Spain,Cisco,0.979,True
+S-0057,EMEA,Czechia,Juniper,0.96,True
+S-0058,APAC,India,Nokia,1.0,True
+S-0059,AMER,Canada,Cisco,0.812,True
+S-0060,EMEA,Germany,Juniper,0.922,False
+S-0061,EMEA,Czechia,ZTE,0.789,True
+S-0062,APAC,Thailand,Nokia,0.868,True
+S-0063,AMER,Argentina,HPE Aruba,0.875,False
+S-0064,EMEA,Sweden,Cisco,0.846,True
+S-0065,APAC,India,Ciena,0.897,True
+S-0066,AMER,Mexico,Huawei,1.0,False
+S-0067,EMEA,France,Huawei,0.921,True
+S-0068,EMEA,Italy,Samsung,0.978,True
+S-0069,APAC,Singapore,Juniper,0.908,True
+S-0070,AMER,Argentina,Ericsson,0.766,True
+S-0071,EMEA,Germany,Ciena,0.85,True
+S-0072,AMER,Colombia,Juniper,0.857,True
+S-0073,EMEA,Sweden,Samsung,0.897,False
+S-0074,APAC,China,Ericsson,0.948,True
+S-0075,EMEA,Sweden,NEC,0.969,True
+S-0076,AMER,Chile,Ciena,0.928,True
+S-0077,AMER,Brazil,Huawei,0.985,True
+S-0078,AMER,Brazil,Ciena,0.848,True
+S-0079,EMEA,France,HPE Aruba,0.945,True
+S-0080,EMEA,Netherlands,NEC,0.94,True
+S-0081,APAC,South Korea,ZTE,0.972,True
+S-0082,EMEA,Spain,NEC,0.841,True
+S-0083,APAC,South Korea,ZTE,1.0,True
+S-0084,EMEA,UK,Ericsson,0.837,True
+S-0085,EMEA,UK,Huawei,0.863,True
+S-0086,AMER,Canada,Juniper,0.96,True
+S-0087,EMEA,UK,Cisco,0.774,True
+S-0088,APAC,Australia,Huawei,0.825,True
+S-0089,APAC,Malaysia,Nokia,0.907,True
+S-0090,APAC,South Korea,Ericsson,0.754,True
+S-0091,AMER,Colombia,Huawei,0.836,True
+S-0092,EMEA,UK,ZTE,0.907,True
+S-0093,AMER,Canada,HPE Aruba,0.834,True
+S-0094,APAC,Japan,NEC,1.0,True
+S-0095,EMEA,UK,Juniper,0.958,True
+S-0096,APAC,Singapore,NEC,0.936,True
+S-0097,AMER,Canada,Huawei,0.911,True
+S-0098,APAC,Singapore,HPE Aruba,0.961,True
+S-0099,AMER,Mexico,Samsung,0.905,True
+S-0100,APAC,Vietnam,Ciena,0.821,True
+S-0101,EMEA,Germany,Huawei,0.927,False
+S-0102,EMEA,France,Samsung,0.843,True
+S-0103,AMER,Mexico,Ericsson,0.934,True
+S-0104,AMER,Chile,Samsung,0.924,False
+S-0105,APAC,China,Juniper,0.849,False
+S-0106,EMEA,Netherlands,Samsung,1.0,True
+S-0107,APAC,Vietnam,ZTE,1.0,True
+S-0108,AMER,Mexico,NEC,0.896,True
+S-0109,AMER,Chile,Cisco,0.941,True
+S-0110,EMEA,Austria,Cisco,0.927,True
+S-0111,AMER,Argentina,Ericsson,0.857,True
+S-0112,AMER,USA,Huawei,0.946,True
+S-0113,EMEA,France,Cisco,0.884,True
+S-0114,AMER,Colombia,Juniper,0.788,True
+S-0115,EMEA,Spain,Ericsson,0.859,True
+S-0116,AMER,USA,ZTE,0.86,False
+S-0117,AMER,Colombia,HPE Aruba,0.745,True
+S-0118,APAC,Australia,Ericsson,1.0,True
+S-0119,EMEA,Netherlands,Ciena,0.858,False
+S-0120,EMEA,France,HPE Aruba,0.87,True
+S-0121,APAC,Indonesia,Samsung,1.0,True
+S-0122,EMEA,UK,HPE Aruba,0.822,True
+S-0123,APAC,India,Nokia,0.892,True
+S-0124,EMEA,Austria,Cisco,0.773,True
+S-0125,APAC,India,ZTE,0.849,False
+S-0126,EMEA,Netherlands,Ciena,0.858,True
+S-0127,AMER,Canada,Juniper,0.99,False
+S-0128,APAC,China,Ericsson,0.833,True
+S-0129,EMEA,France,HPE Aruba,0.968,False
+S-0130,EMEA,UK,HPE Aruba,1.0,True
+S-0131,AMER,Mexico,Nokia,1.0,True
+S-0132,APAC,Japan,Ciena,0.672,True
+S-0133,EMEA,Austria,Huawei,0.94,False
+S-0134,APAC,Thailand,Ericsson,1.0,True
+S-0135,APAC,Vietnam,Juniper,0.834,True
+S-0136,EMEA,France,Juniper,0.893,True
+S-0137,EMEA,Sweden,Ericsson,0.875,False
+S-0138,EMEA,Czechia,Ericsson,0.976,False
+S-0139,AMER,Mexico,Ciena,0.862,True
+S-0140,AMER,Chile,Juniper,1.0,True
+S-0141,EMEA,UK,Huawei,0.998,True
+S-0142,AMER,USA,Nokia,0.775,True
+S-0143,AMER,Brazil,Huawei,0.776,True
+S-0144,EMEA,UK,Samsung,0.917,True
+S-0145,APAC,Australia,Samsung,0.883,True
+S-0146,APAC,Vietnam,ZTE,0.894,True
+S-0147,EMEA,Germany,Cisco,0.854,False
+S-0148,APAC,Singapore,NEC,0.815,False
+S-0149,APAC,Indonesia,Cisco,0.902,True
+S-0150,EMEA,Germany,ZTE,0.938,True
+S-0151,EMEA,Poland,Ciena,0.983,True
+S-0152,APAC,Malaysia,Ciena,0.996,False
+S-0153,APAC,Thailand,NEC,0.903,True
+S-0154,APAC,Thailand,ZTE,0.929,True
+S-0155,EMEA,Germany,Ciena,0.766,True
+S-0156,EMEA,Austria,Ericsson,0.957,True
+S-0157,AMER,Chile,Huawei,1.0,True
+S-0158,EMEA,Sweden,NEC,0.952,True
+S-0159,EMEA,Poland,Juniper,0.896,True
+S-0160,AMER,Canada,Nokia,0.823,True
+S-0161,AMER,Canada,HPE Aruba,0.824,True
+S-0162,EMEA,Czechia,Cisco,0.885,True
+S-0163,APAC,India,Huawei,0.937,True
+S-0164,EMEA,Netherlands,Cisco,0.734,True
+S-0165,AMER,USA,Juniper,0.794,True
+S-0166,AMER,Colombia,HPE Aruba,0.975,True
+S-0167,EMEA,Italy,Cisco,1.0,False
+S-0168,APAC,Australia,HPE Aruba,0.886,True
+S-0169,APAC,Singapore,NEC,0.952,True
+S-0170,AMER,Colombia,Ciena,0.891,False
+S-0171,APAC,Japan,ZTE,0.91,True
+S-0172,EMEA,France,Nokia,0.812,False
+S-0173,EMEA,Netherlands,Ericsson,0.945,True
+S-0174,AMER,Brazil,Juniper,0.841,True
+S-0175,APAC,Singapore,ZTE,0.92,True
+S-0176,AMER,Chile,Nokia,0.96,True
+S-0177,EMEA,France,Samsung,0.95,True
+S-0178,AMER,Mexico,Ericsson,0.835,True
+S-0179,EMEA,Netherlands,NEC,0.922,True
+S-0180,AMER,USA,NEC,0.854,True
+S-0181,EMEA,France,HPE Aruba,0.959,False
+S-0182,AMER,Mexico,NEC,0.967,False
+S-0183,APAC,Singapore,Huawei,0.962,True
+S-0184,EMEA,Austria,Juniper,1.0,True
+S-0185,APAC,Australia,Cisco,0.943,True
+S-0186,EMEA,Netherlands,Ciena,1.0,True
+S-0187,EMEA,Netherlands,Huawei,0.96,True
+S-0188,AMER,Argentina,ZTE,0.846,True
+S-0189,APAC,Thailand,HPE Aruba,0.922,True
+S-0190,EMEA,France,ZTE,0.988,True
+S-0191,APAC,Thailand,Cisco,0.994,False
+S-0192,AMER,Brazil,Ericsson,0.869,False
+S-0193,APAC,China,Ciena,0.868,True
+S-0194,APAC,Thailand,Ciena,0.954,True
+S-0195,AMER,Argentina,NEC,0.843,False
+S-0196,AMER,USA,NEC,0.889,True
+S-0197,AMER,Colombia,Ciena,0.914,True
+S-0198,APAC,Indonesia,Nokia,0.894,False
+S-0199,EMEA,Germany,NEC,0.971,True
+S-0200,APAC,Singapore,NEC,0.965,False
