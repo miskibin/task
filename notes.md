@@ -89,3 +89,14 @@ order_date                  ship_date                  eta_date                 
 
 ## !IMPORTANT
 sometimes `order date` is after `ship date` due to data quality issues.
+
+
+
+
+- Forecast site-level inventory for each SKU for the next 30/60/90 days
+
+ile jakiego produktu(SKU) jest w danym magazynie
+
+inventory snapshot mowi nam ile go bylo w poszczegolnych dniach
+
+na podstawie #pucharse_orders - wiemy kiedy ile zamowilismy `qty_ordered` i kiedy powinno do nas dotrzec `promised_date`
