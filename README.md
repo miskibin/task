@@ -12,8 +12,8 @@ You can answer one or more of the following problem statements:
 - What is the probability this shipment will be delayed?
 - Forecast site-level inventory for each SKU for the next 30/60/90 days
 - Predict the probability that a SKU will be returned under warranty.
-- Detect abnormal shipment transit times (e.g., lost shipments).
-- Detect sites with abnormal failure rates (RMA spike detection).
-- Which Incoterm tends to minimize total cost for each region?
+- Detect abnormal shipment transit times (e.g., lost shipments).[abnormal_shippement_times](research/abnormal_shippement_times.ipynb)
+- Detect sites with abnormal failure rates (RMA spike detection). [rma_analysis](research/rma_analysis.ipynb)
+- Which Incoterm tends to minimize total cost for each region? [Incoterm](research/Incoterm.ipynb)
 Or come up with your own. 
 Feel free to create UI, visualize, document, or enrich the data. 

@@ -3,7 +3,7 @@
 import { ColumnDef } from "@tanstack/react-table"
 import { ArrowUpDown } from "lucide-react"
 import { Anomaly } from "@/lib/types"
-import { DataTable } from "@/components/data-table"
+import { DataTable, FilterableColumn } from "@/components/data-table"
 import { Button } from "@/components/ui/button"
 
 const columns: ColumnDef<Anomaly>[] = [
@@ -85,5 +85,24 @@ interface AnomaliesTableProps {
 }
 
 export function AnomaliesTable({ data }: AnomaliesTableProps) {
-  return <DataTable columns={columns} data={data} filterColumn="site_id" filterPlaceholder="Filter by Site ID..." />
+  const filterableColumns: FilterableColumn[] = [
+    { id: "site_id", title: "Site ID" },
+    { 
+      id: "region", 
+      title: "Region", 
+      options: Array.from(new Set(data.map(d => d.region))).map(r => ({ label: r, value: r })) 
+    },
+    { 
+      id: "country", 
+      title: "Country", 
+      options: Array.from(new Set(data.map(d => d.country))).map(c => ({ label: c, value: c })) 
+    },
+    { 
+      id: "site_type", 
+      title: "Site Type", 
+      options: Array.from(new Set(data.map(d => d.site_type))).map(st => ({ label: st, value: st })) 
+    },
+  ]
+
+  return <DataTable columns={columns} data={data} filterableColumns={filterableColumns} />
 }

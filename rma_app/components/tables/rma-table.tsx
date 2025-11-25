@@ -3,7 +3,7 @@
 import { ColumnDef } from "@tanstack/react-table"
 import { ArrowUpDown } from "lucide-react"
 import { RMAEnriched } from "@/lib/types"
-import { DataTable } from "@/components/data-table"
+import { DataTable, FilterableColumn } from "@/components/data-table"
 import { Button } from "@/components/ui/button"
 
 const columns: ColumnDef<RMAEnriched>[] = [
@@ -99,5 +99,30 @@ interface RMATableProps {
 }
 
 export function RMATable({ data }: RMATableProps) {
-  return <DataTable columns={columns} data={data} filterColumn="sku_id" filterPlaceholder="Filter by SKU ID..." />
+  const filterableColumns: FilterableColumn[] = [
+    { id: "sku_id", title: "SKU ID" },
+    { id: "site_id", title: "Site ID" },
+    { 
+      id: "reason_code", 
+      title: "Reason Code", 
+      options: Array.from(new Set(data.map(d => d.reason_code))).map(code => ({ label: code, value: code })) 
+    },
+    { 
+      id: "vendor", 
+      title: "Vendor", 
+      options: Array.from(new Set(data.map(d => d.vendor))).map(v => ({ label: v, value: v })) 
+    },
+    { 
+      id: "region", 
+      title: "Region", 
+      options: Array.from(new Set(data.map(d => d.region))).map(r => ({ label: r, value: r })) 
+    },
+    { 
+      id: "technology", 
+      title: "Technology", 
+      options: Array.from(new Set(data.map(d => d.technology))).map(t => ({ label: t, value: t })) 
+    },
+  ]
+
+  return <DataTable columns={columns} data={data} filterableColumns={filterableColumns} />
 }

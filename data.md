@@ -43,3 +43,54 @@
 4. **Deployment Readiness Signals**: Blend shipment ETA, inventory levels, and RMA backlog to explain which sites miss their planned go-live and how much pre-build buffer is needed.
 
 _Analyses performed in `research/comprehensive_analysis.ipynb`, which consolidates all CSV sources and cross-validates with transit events._
+
+
+project_id,site_id,operator,sku_id,phase,planned_date,actual_date
+PJ-0000001,ST-01502,Telefónica,SKU-03396,Materials Ready,2024-02-11,
+PJ-0000002,ST-01637,Telia,SKU-02125,Materials Ready,2024-01-01,
+PJ-0000003,ST-01988,Bharti Airtel,SKU-00348,Materials Ready,2025-01-01,
+PJ-0000004,ST-01992,Telia,SKU-04214,Materials Ready,2023-08-22,
+
+site_id,sku_id,snapshot_date,on_hand_qty,allocated_qty,in_transit_qty
+ST-01489,SKU-03098,2025-10-03,9,4,2
+ST-00841,SKU-00755,2025-01-08,18,2,3
+ST-00771,SKU-01482,2025-04-08,7,2,4
+
+
+po_id,supplier_id,sku_id,order_qty,unit_price_usd,order_date,promised_date,region,country,status
+PO-0000001,S-0161,SKU-02137,14,305.99,2024-02-17,2024-03-15,EMEA,France,Closed
+PO-0000002,S-0043,SKU-04868,6,197.63,2024-12-31,2025-01-23,EMEA,UK,Open
+PO-0000003,S-0055,SKU-02915,9,140.06,2023-05-04,2023-05-26,EMEA,UK,Closed
+
+rma_id,sku_id,site_id,reason_code,rma_date,under_warranty
+RMA-0000001,SKU-00206,ST-01094,DOA,2024-10-15,True
+RMA-0000002,SKU-02303,ST-01174,RF_FAULT,2023-11-05,False
+RMA-0000003,SKU-04015,ST-01643,RF_FAULT,2025-03-26,True
+
+
+shipment_id,po_id,ship_qty,mode,incoterm,origin_country,dest_site_id,ship_date,eta_date,status
+SH-00000001,PO-0104861,6,Road,CIF,Mexico,ST-00452,2025-02-03,2025-02-10,Delivered
+SH-00000002,PO-0099598,3,Sea,EXW,India,ST-00086,2024-08-21,2024-09-27,Delayed
+SH-00000003,PO-0110843,8,Road,FOB,Italy,ST-00252,2023-01-21,2023-01-30,In Transit
+
+site_id,region,country,site_type,operator,latitude,longitude
+ST-00001,EMEA,Italy,Cell Site,Three,44.65748,-3.44596
+ST-00002,APAC,South Korea,Cell Site,Singtel,19.46501,122.29595
+ST-00003,EMEA,Austria,Warehouse,,41.41491,27.7507
+ST-00004,EMEA,Italy,Integration Center,,51.17115,-1.20329
+
+sku_id,vendor,category,technology,unit_weight_kg,unit_volume_m3,std_cost_usd,supplier_nominal_lead_time_days
+SKU-00001,Juniper,Cabling,5G,11.01,0.1236,360.72,27
+SKU-00002,ZTE,Power,5G,8.82,0.098,965.54,81
+SKU-00003,Ciena,Microwave,4G,26.61,0.284,1022.4,20
+
+supplier_id,region,country,primary_vendor,on_time_performance,iso_certified
+S-0001,APAC,Malaysia,Huawei,0.882,True
+S-0002,EMEA,Germany,NEC,0.842,True
+S-0003,EMEA,Austria,Cisco,0.933,True
+
+shipment_id,event_ts,location_type,event_status
+SH-00145406,2023-01-01 00:00:00,On Vehicle,Picked
+SH-00074867,2023-01-01 00:00:00,Regional Hub,Out for Delivery
+SH-00132727,2023-01-01 00:00:00,Destination,In Transit
+SH-00196731,2023-01-01 00:00:00,Seaport,Out for Delivery

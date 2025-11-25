@@ -20,23 +20,23 @@ const data = {
   navMain: [
     {
       title: "Datasets",
-      url: "/dashboard",
+      url: "#",
       items: [
         {
           title: "RMA Enriched",
-          url: "/dashboard",
+          url: "/dashboard/rma",
         },
         {
           title: "Sites",
-          url: "/dashboard",
+          url: "/dashboard/sites",
         },
         {
           title: "SKU Health",
-          url: "/dashboard",
+          url: "/dashboard/sku",
         },
         {
           title: "Anomalies",
-          url: "/dashboard",
+          url: "/dashboard/anomalies",
         },
       ],
     },

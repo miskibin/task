@@ -44,6 +44,13 @@ interface DataTableProps<TData, TValue> {
   data: TData[]
   filterColumn?: string
   filterPlaceholder?: string
+  filterableColumns?: FilterableColumn[]
+}
+
+export interface FilterableColumn {
+  id: string
+  title: string
+  options?: { label: string; value: string }[]
 }
 
 export function DataTable<TData, TValue>({
@@ -51,6 +58,7 @@ export function DataTable<TData, TValue>({
   data,
   filterColumn,
   filterPlaceholder = "Filter...",
+  filterableColumns,
 }: DataTableProps<TData, TValue>) {
   const [sorting, setSorting] = React.useState<SortingState>([])
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
@@ -84,22 +92,75 @@ export function DataTable<TData, TValue>({
 
   return (
     <div className="w-full space-y-4">
-      <div className="flex items-center gap-4">
-        {filterColumn && (
-          <Input
-            placeholder={filterPlaceholder}
-            value={
-              (table
-                .getColumn(filterColumn)
-                ?.getFilterValue() as string) ?? ""
-            }
-            onChange={(event) =>
-              table
-                .getColumn(filterColumn)
-                ?.setFilterValue(event.target.value)
-            }
-            className="max-w-sm"
-          />
+      <div className="flex flex-col gap-4">
+        {(filterColumn || filterableColumns) && (
+          <div className="flex flex-wrap items-end gap-3">
+            {filterColumn && (
+              <div className="flex flex-col gap-2">
+                <label className="text-sm font-medium">Search</label>
+                <Input
+                  placeholder={filterPlaceholder}
+                  value={
+                    (table
+                      .getColumn(filterColumn)
+                      ?.getFilterValue() as string) ?? ""
+                  }
+                  onChange={(event) =>
+                    table
+                      .getColumn(filterColumn)
+                      ?.setFilterValue(event.target.value)
+                  }
+                  className="max-w-sm"
+                />
+              </div>
+            )}
+            {filterableColumns?.map((col) => (
+              <div key={col.id} className="flex flex-col gap-2">
+                <label className="text-sm font-medium">{col.title}</label>
+                {col.options ? (
+                  <Select
+                    value={
+                      (table
+                        .getColumn(col.id)
+                        ?.getFilterValue() as string) ?? "__all__"
+                    }
+                    onValueChange={(value) => {
+                      table
+                        .getColumn(col.id)
+                        ?.setFilterValue(value === "__all__" ? undefined : value)
+                    }}
+                  >
+                    <SelectTrigger className="w-[180px]">
+                      <SelectValue placeholder={`Select ${col.title}`} />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="__all__">All</SelectItem>
+                      {col.options.map((opt) => (
+                        <SelectItem key={opt.value} value={opt.value}>
+                          {opt.label}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                ) : (
+                  <Input
+                    placeholder={`Filter ${col.title}...`}
+                    value={
+                      (table
+                        .getColumn(col.id)
+                        ?.getFilterValue() as string) ?? ""
+                    }
+                    onChange={(event) =>
+                      table
+                        .getColumn(col.id)
+                        ?.setFilterValue(event.target.value)
+                    }
+                    className="w-[180px]"
+                  />
+                )}
+              </div>
+            ))}
+          </div>
         )}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
