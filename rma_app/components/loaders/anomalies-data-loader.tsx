@@ -26,8 +26,21 @@ export function AnomaliesDataLoader() {
       Papa.parse(text, {
         header: true,
         skipEmptyLines: true,
+        dynamicTyping: true,
         complete: (results: ParseResult<Anomaly>) => {
-          setData(results.data as Anomaly[])
+          const parsedData = results.data.map((row: any) => ({
+            ...row,
+            rma_count: Number(row.rma_count) || 0,
+            rolling_mean: Number(row.rolling_mean) || 0,
+            rolling_std: Number(row.rolling_std) || 0,
+            z_score: Number(row.z_score) || 0,
+            deviation: Number(row.deviation) || 0,
+            pct_change: Number(row.pct_change) || 0,
+            consecutive_count: Number(row.consecutive_count) || 0,
+            week_number: Number(row.week_number) || 0,
+            year: Number(row.year) || 0,
+          }))
+          setData(parsedData as Anomaly[])
           setError(null)
         },
         error: (error: Error) => {
@@ -58,9 +71,10 @@ export function AnomaliesDataLoader() {
   return (
     <div className="w-full space-y-4">
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold">Anomalies Data</h1>
+        <h1 className="text-3xl font-bold">RMA Spike Detection</h1>
         <p className="text-muted-foreground">
-          {data.length.toLocaleString()} records
+          Identifying sites with abnormal failure rates using statistical anomaly detection.
+          Total: {data.length.toLocaleString()} anomalous weeks detected across {new Set(data.map(d => d.site_id)).size} sites.
         </p>
       </div>
       <AnomaliesTable data={data} />

@@ -72,9 +72,16 @@ export interface Anomaly {
   rolling_mean: number;
   rolling_std: number;
   z_score: number;
+  deviation: number;
+  pct_change: number;
+  severity: 'Critical' | 'High' | 'Medium' | 'Normal';
+  consecutive_count: number;
   region: string;
   site_type: string;
   country: string;
+  operator: string;
+  week_number: number;
+  year: number;
 }
 
 // Reason Codes Union Type

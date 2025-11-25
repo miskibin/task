@@ -26,8 +26,28 @@ export function SKUHealthDataLoader() {
       Papa.parse(text, {
         header: true,
         skipEmptyLines: true,
+        dynamicTyping: true,
         complete: (results: ParseResult<SKUHealth>) => {
-          setData(results.data as SKUHealth[])
+          const parsedData = results.data.map((row: any) => ({
+            ...row,
+            total_returns: Number(row.total_returns) || 0,
+            avg_inventory: Number(row.avg_inventory) || 0,
+            total_shipped_qty: Number(row.total_shipped_qty) || 0,
+            failure_rate: Number(row.failure_rate) || 0,
+            unit_weight_kg: Number(row.unit_weight_kg) || 0,
+            unit_volume_m3: Number(row.unit_volume_m3) || 0,
+            std_cost_usd: Number(row.std_cost_usd) || 0,
+            supplier_nominal_lead_time_days: Number(row.supplier_nominal_lead_time_days) || 0,
+            DOA: Number(row.DOA) || 0,
+            FIRMWARE: Number(row.FIRMWARE) || 0,
+            INTERMITTENT: Number(row.INTERMITTENT) || 0,
+            MECH_DAMAGE: Number(row.MECH_DAMAGE) || 0,
+            NO_POWER: Number(row.NO_POWER) || 0,
+            OTHER: Number(row.OTHER) || 0,
+            OVERHEAT: Number(row.OVERHEAT) || 0,
+            RF_FAULT: Number(row.RF_FAULT) || 0,
+          }))
+          setData(parsedData as SKUHealth[])
           setError(null)
         },
         error: (error: Error) => {

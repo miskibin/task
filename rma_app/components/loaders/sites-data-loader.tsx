@@ -26,8 +26,22 @@ export function SitesDataLoader() {
       Papa.parse(text, {
         header: true,
         skipEmptyLines: true,
+        dynamicTyping: true,
         complete: (results: ParseResult<SiteEnriched>) => {
-          setData(results.data as SiteEnriched[])
+          const parsedData = results.data.map((row: any) => ({
+            ...row,
+            DOA: Number(row.DOA) || 0,
+            FIRMWARE: Number(row.FIRMWARE) || 0,
+            INTERMITTENT: Number(row.INTERMITTENT) || 0,
+            MECH_DAMAGE: Number(row.MECH_DAMAGE) || 0,
+            NO_POWER: Number(row.NO_POWER) || 0,
+            OTHER: Number(row.OTHER) || 0,
+            OVERHEAT: Number(row.OVERHEAT) || 0,
+            RF_FAULT: Number(row.RF_FAULT) || 0,
+            latitude: Number(row.latitude) || 0,
+            longitude: Number(row.longitude) || 0,
+          }))
+          setData(parsedData as SiteEnriched[])
           setError(null)
         },
         error: (error: Error) => {

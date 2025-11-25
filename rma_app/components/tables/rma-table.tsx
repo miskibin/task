@@ -108,19 +108,26 @@ export function RMATable({ data }: RMATableProps) {
 
   const chartData = useMemo(() => {
     const reasonCounts = filteredData.reduce((acc, item) => {
-      acc[item.reason_code] = (acc[item.reason_code] || 0) + 1
+      const reason = item.reason_code || 'UNKNOWN'
+      acc[reason] = (acc[reason] || 0) + 1
       return acc
     }, {} as Record<string, number>)
 
     const vendorCounts = filteredData.reduce((acc, item) => {
-      acc[item.vendor] = (acc[item.vendor] || 0) + 1
+      const vendor = item.vendor || 'UNKNOWN'
+      acc[vendor] = (acc[vendor] || 0) + 1
       return acc
     }, {} as Record<string, number>)
 
-    return {
-      reasons: Object.entries(reasonCounts).map(([name, value]) => ({ name, value })),
-      vendors: Object.entries(vendorCounts).map(([name, value]) => ({ name, value }))
-    }
+    const reasons = Object.entries(reasonCounts)
+      .map(([name, value]) => ({ name, value }))
+      .sort((a, b) => b.value - a.value)
+
+    const vendors = Object.entries(vendorCounts)
+      .map(([name, value]) => ({ name, value }))
+      .sort((a, b) => b.value - a.value)
+
+    return { reasons, vendors }
   }, [filteredData])
 
   const filterableColumns: FilterableColumn[] = [

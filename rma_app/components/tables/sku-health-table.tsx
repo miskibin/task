@@ -106,18 +106,29 @@ export function SKUHealthTable({ data }: SKUHealthTableProps) {
       }))
 
     const vendorStats = filteredData.reduce((acc, item) => {
-      if (!acc[item.vendor]) {
-        acc[item.vendor] = { total_returns: 0, count: 0 }
+      const vendor = item.vendor || 'UNKNOWN'
+      if (!acc[vendor]) {
+        acc[vendor] = { 
+          total_returns: 0, 
+          sku_count: 0,
+          total_shipped: 0
+        }
       }
-      acc[item.vendor].total_returns += Number(item.total_returns) || 0
-      acc[item.vendor].count += 1
+      acc[vendor].total_returns += Number(item.total_returns) || 0
+      acc[vendor].total_shipped += Number(item.total_shipped_qty) || 0
+      acc[vendor].sku_count += 1
       return acc
-    }, {} as Record<string, { total_returns: number; count: number }>)
+    }, {} as Record<string, { total_returns: number; sku_count: number; total_shipped: number }>)
 
-    const vendors = Object.entries(vendorStats).map(([name, stats]) => ({
-      name,
-      avg_returns: stats.count > 0 ? Math.round(stats.total_returns / stats.count) : 0
-    }))
+    const vendors = Object.entries(vendorStats)
+      .map(([name, stats]) => ({
+        name,
+        total_returns: stats.total_returns,
+        failure_rate: stats.total_shipped > 0 
+          ? parseFloat(((stats.total_returns / stats.total_shipped) * 100).toFixed(2))
+          : 0
+      }))
+      .sort((a, b) => b.total_returns - a.total_returns)
 
     return { topSKUs, vendors }
   }, [filteredData])
@@ -162,16 +173,30 @@ export function SKUHealthTable({ data }: SKUHealthTableProps) {
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle>Avg Returns by Vendor</CardTitle>
+            <CardTitle>Total Returns by Vendor</CardTitle>
           </CardHeader>
           <CardContent>
             <ResponsiveContainer width="100%" height={300}>
               <BarChart data={chartData.vendors}>
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
+                <XAxis dataKey="name" tick={{ fontSize: 11 }} />
                 <YAxis />
-                <Tooltip />
-                <Bar dataKey="avg_returns" fill="#8884d8" />
+                <Tooltip 
+                  content={({ active, payload }) => {
+                    if (active && payload && payload.length) {
+                      const data = payload[0].payload
+                      return (
+                        <div className="bg-white p-3 border border-gray-200 rounded shadow-lg">
+                          <p className="font-semibold">{data.name}</p>
+                          <p className="text-sm">Total Returns: <span className="font-semibold">{data.total_returns.toLocaleString()}</span></p>
+                          <p className="text-sm">Failure Rate: <span className="font-semibold">{data.failure_rate}%</span></p>
+                        </div>
+                      )
+                    }
+                    return null
+                  }}
+                />
+                <Bar dataKey="total_returns" fill="#8884d8" />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>

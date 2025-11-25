@@ -26,8 +26,19 @@ export function RMADataLoader() {
       Papa.parse(text, {
         header: true,
         skipEmptyLines: true,
+        dynamicTyping: true,
         complete: (results: ParseResult<RMAEnriched>) => {
-          setData(results.data as RMAEnriched[])
+          const parsedData = results.data.map((row: any) => ({
+            ...row,
+            under_warranty: row.under_warranty === true || row.under_warranty === 'True' || row.under_warranty === '1',
+            unit_weight_kg: Number(row.unit_weight_kg) || 0,
+            unit_volume_m3: Number(row.unit_volume_m3) || 0,
+            std_cost_usd: Number(row.std_cost_usd) || 0,
+            supplier_nominal_lead_time_days: Number(row.supplier_nominal_lead_time_days) || 0,
+            latitude: Number(row.latitude) || 0,
+            longitude: Number(row.longitude) || 0,
+          }))
+          setData(parsedData as RMAEnriched[])
           setError(null)
         },
         error: (error: Error) => {
