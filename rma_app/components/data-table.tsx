@@ -45,6 +45,7 @@ interface DataTableProps<TData, TValue> {
   filterColumn?: string
   filterPlaceholder?: string
   filterableColumns?: FilterableColumn[]
+  onFilteredDataChange?: (data: TData[]) => void
 }
 
 export interface FilterableColumn {
@@ -59,6 +60,7 @@ export function DataTable<TData, TValue>({
   filterColumn,
   filterPlaceholder = "Filter...",
   filterableColumns,
+  onFilteredDataChange,
 }: DataTableProps<TData, TValue>) {
   const [sorting, setSorting] = React.useState<SortingState>([])
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
@@ -68,7 +70,7 @@ export function DataTable<TData, TValue>({
     React.useState<VisibilityState>({})
   const [pagination, setPagination] = React.useState({
     pageIndex: 0,
-    pageSize: 50,
+    pageSize: 10,
   })
 
   const table = useReactTable({
@@ -89,6 +91,13 @@ export function DataTable<TData, TValue>({
     },
     onPaginationChange: setPagination,
   })
+
+  React.useEffect(() => {
+    if (onFilteredDataChange) {
+      const filteredData = table.getFilteredRowModel().rows.map(row => row.original)
+      onFilteredDataChange(filteredData)
+    }
+  }, [columnFilters, table, onFilteredDataChange])
 
   return (
     <div className="w-full space-y-4">

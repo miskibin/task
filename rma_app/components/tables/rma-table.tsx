@@ -5,6 +5,11 @@ import { ArrowUpDown } from "lucide-react"
 import { RMAEnriched } from "@/lib/types"
 import { DataTable, FilterableColumn } from "@/components/data-table"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend } from "recharts"
+import { useState, useMemo } from "react"
+
+const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#82ca9d', '#ffc658', '#8dd1e1']
 
 const columns: ColumnDef<RMAEnriched>[] = [
   {
@@ -99,6 +104,25 @@ interface RMATableProps {
 }
 
 export function RMATable({ data }: RMATableProps) {
+  const [filteredData, setFilteredData] = useState<RMAEnriched[]>(data)
+
+  const chartData = useMemo(() => {
+    const reasonCounts = filteredData.reduce((acc, item) => {
+      acc[item.reason_code] = (acc[item.reason_code] || 0) + 1
+      return acc
+    }, {} as Record<string, number>)
+
+    const vendorCounts = filteredData.reduce((acc, item) => {
+      acc[item.vendor] = (acc[item.vendor] || 0) + 1
+      return acc
+    }, {} as Record<string, number>)
+
+    return {
+      reasons: Object.entries(reasonCounts).map(([name, value]) => ({ name, value })),
+      vendors: Object.entries(vendorCounts).map(([name, value]) => ({ name, value }))
+    }
+  }, [filteredData])
+
   const filterableColumns: FilterableColumn[] = [
     { id: "sku_id", title: "SKU ID" },
     { id: "site_id", title: "Site ID" },
@@ -124,5 +148,45 @@ export function RMATable({ data }: RMATableProps) {
     },
   ]
 
-  return <DataTable columns={columns} data={data} filterableColumns={filterableColumns} />
+  return (
+    <div className="space-y-4">
+      <div className="grid gap-4 md:grid-cols-2">
+        <Card>
+          <CardHeader>
+            <CardTitle>RMAs by Reason Code</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ResponsiveContainer width="100%" height={300}>
+              <BarChart data={chartData.reasons}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip />
+                <Bar dataKey="value" fill="#8884d8" />
+              </BarChart>
+            </ResponsiveContainer>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader>
+            <CardTitle>RMAs by Vendor</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ResponsiveContainer width="100%" height={300}>
+              <PieChart>
+                <Pie data={chartData.vendors} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={80} label>
+                  {chartData.vendors.map((_, index) => (
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                  ))}
+                </Pie>
+                <Tooltip />
+                <Legend />
+              </PieChart>
+            </ResponsiveContainer>
+          </CardContent>
+        </Card>
+      </div>
+      <DataTable columns={columns} data={data} filterableColumns={filterableColumns} onFilteredDataChange={setFilteredData} />
+    </div>
+  )
 }

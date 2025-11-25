@@ -5,6 +5,9 @@ import { ArrowUpDown } from "lucide-react"
 import { SiteEnriched } from "@/lib/types"
 import { DataTable, FilterableColumn } from "@/components/data-table"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts"
+import { useState, useMemo } from "react"
 
 const columns: ColumnDef<SiteEnriched>[] = [
   {
@@ -84,6 +87,26 @@ interface SitesTableProps {
 }
 
 export function SitesTable({ data }: SitesTableProps) {
+  const [filteredData, setFilteredData] = useState<SiteEnriched[]>(data)
+
+  const chartData = useMemo(() => {
+    const reasonCodes = ['DOA', 'FIRMWARE', 'INTERMITTENT', 'MECH_DAMAGE', 'NO_POWER', 'OTHER', 'OVERHEAT', 'RF_FAULT'] as const
+    const totals = reasonCodes.map(code => ({
+      name: code,
+      value: filteredData.reduce((sum, site) => sum + (site[code] || 0), 0)
+    })).filter(item => item.value > 0)
+
+    const regionCounts = filteredData.reduce((acc, item) => {
+      acc[item.region] = (acc[item.region] || 0) + 1
+      return acc
+    }, {} as Record<string, number>)
+
+    return {
+      reasons: totals,
+      regions: Object.entries(regionCounts).map(([name, value]) => ({ name, value }))
+    }
+  }, [filteredData])
+
   const filterableColumns: FilterableColumn[] = [
     { id: "site_id", title: "Site ID" },
     { 
@@ -103,5 +126,43 @@ export function SitesTable({ data }: SitesTableProps) {
     },
   ]
 
-  return <DataTable columns={columns} data={data} filterableColumns={filterableColumns} />
+  return (
+    <div className="space-y-4">
+      <div className="grid gap-4 md:grid-cols-2">
+        <Card>
+          <CardHeader>
+            <CardTitle>Issues by Reason Code</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ResponsiveContainer width="100%" height={300}>
+              <BarChart data={chartData.reasons}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip />
+                <Bar dataKey="value" fill="#8884d8" />
+              </BarChart>
+            </ResponsiveContainer>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader>
+            <CardTitle>Sites by Region</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ResponsiveContainer width="100%" height={300}>
+              <BarChart data={chartData.regions}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip />
+                <Bar dataKey="value" fill="#82ca9d" />
+              </BarChart>
+            </ResponsiveContainer>
+          </CardContent>
+        </Card>
+      </div>
+      <DataTable columns={columns} data={data} filterableColumns={filterableColumns} onFilteredDataChange={setFilteredData} />
+    </div>
+  )
 }
