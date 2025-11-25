@@ -16,4 +16,5 @@ You can answer one or more of the following problem statements:
 - Detect sites with abnormal failure rates (RMA spike detection). [rma_analysis](research/rma_analysis.ipynb)
 - Which Incoterm tends to minimize total cost for each region? [Incoterm](research/Incoterm.ipynb)
 Or come up with your own. 
+
 Feel free to create UI, visualize, document, or enrich the data. 
