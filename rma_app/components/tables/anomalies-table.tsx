@@ -152,23 +152,24 @@ const columns: ColumnDef<Anomaly>[] = [
 
 interface AnomaliesTableProps {
   data: Anomaly[]
+  completeData: Anomaly[]
 }
 
-export function AnomaliesTable({ data }: AnomaliesTableProps) {
-  const [filteredData, setFilteredData] = useState<Anomaly[]>(data)
+export function AnomaliesTable({ data, completeData }: AnomaliesTableProps) {
+  const [filteredData, setFilteredData] = useState<Anomaly[]>(completeData)
   const [startDate, setStartDate] = useState<string>("")
   const [endDate, setEndDate] = useState<string>("")
   const [selectedCardType, setSelectedCardType] = useState<string | null>(null)
 
-  // Get min and max dates from data
+  // Get min and max dates from complete data
   const dateRange = useMemo(() => {
-    const dates = data.map(d => new Date(d.rma_date).getTime())
+    const dates = completeData.map(d => new Date(d.rma_date).getTime())
     const minDate = new Date(Math.min(...dates)).toISOString().split('T')[0]
     const maxDate = new Date(Math.max(...dates)).toISOString().split('T')[0]
     return { minDate, maxDate }
-  }, [data])
+  }, [completeData])
 
-  // Apply date filter
+  // Apply date filter to the already table-filtered data
   const dateFilteredData = useMemo(() => {
     if (!startDate && !endDate) return filteredData
     
@@ -201,7 +202,7 @@ export function AnomaliesTable({ data }: AnomaliesTableProps) {
       (b.Critical + b.High + b.Medium) - (a.Critical + a.High + a.Medium)
     )
 
-    // Timeline with weekly aggregation
+    // Timeline with weekly aggregation using COMPLETE data (all severity levels)
     const weeklyMap = dateFilteredData.reduce((acc, item) => {
       const weekKey = item.rma_date.substring(0, 10)
       if (!acc[weekKey]) {
@@ -211,15 +212,19 @@ export function AnomaliesTable({ data }: AnomaliesTableProps) {
           critical: 0, 
           high: 0, 
           medium: 0,
+          normal: 0,
           avg_z_score: 0,
-          total_z: 0
+          total_z: 0,
+          total_rmas: 0
         }
       }
       acc[weekKey].spikes++
       acc[weekKey].total_z += item.z_score
+      acc[weekKey].total_rmas += item.rma_count
       if (item.severity === 'Critical') acc[weekKey].critical++
-      if (item.severity === 'High') acc[weekKey].high++
-      if (item.severity === 'Medium') acc[weekKey].medium++
+      else if (item.severity === 'High') acc[weekKey].high++
+      else if (item.severity === 'Medium') acc[weekKey].medium++
+      else acc[weekKey].normal++
       return acc
     }, {} as Record<string, any>)
 
@@ -261,22 +266,22 @@ export function AnomaliesTable({ data }: AnomaliesTableProps) {
     { 
       id: "severity", 
       title: "Severity", 
-      options: ['Critical', 'High', 'Medium'].map(s => ({ label: s, value: s })) 
+      options: ['Critical', 'High', 'Medium', 'Normal'].map(s => ({ label: s, value: s })) 
     },
     { 
       id: "region", 
       title: "Region", 
-      options: Array.from(new Set(data.map(d => d.region))).map(r => ({ label: r, value: r })) 
+      options: Array.from(new Set(completeData.map(d => d.region))).map(r => ({ label: r, value: r })) 
     },
     { 
       id: "country", 
       title: "Country", 
-      options: Array.from(new Set(data.map(d => d.country))).map(c => ({ label: c, value: c })) 
+      options: Array.from(new Set(completeData.map(d => d.country))).map(c => ({ label: c, value: c })) 
     },
     { 
       id: "site_type", 
       title: "Site Type", 
-      options: Array.from(new Set(data.map(d => d.site_type))).map(st => ({ label: st, value: st })) 
+      options: Array.from(new Set(completeData.map(d => d.site_type))).map(st => ({ label: st, value: st })) 
     },
   ]
 
@@ -349,7 +354,7 @@ export function AnomaliesTable({ data }: AnomaliesTableProps) {
           </div>
           {(startDate || endDate) && (
             <p className="text-sm text-muted-foreground mt-3">
-              Showing: {startDate || 'Beginning'} to {endDate || 'End'} ({dateFilteredData.length} of {data.length} anomalies)
+              Showing: {startDate || 'Beginning'} to {endDate || 'End'} ({dateFilteredData.length.toLocaleString()} of {completeData.length.toLocaleString()} records)
             </p>
           )}
         </CardContent>
@@ -367,7 +372,7 @@ export function AnomaliesTable({ data }: AnomaliesTableProps) {
           <CardContent>
             <div className="text-3xl font-bold">{summaryStats.totalSites}</div>
             <p className="text-xs text-muted-foreground mt-1">
-              {dateFilteredData.length} anomalous weeks
+              {dateFilteredData.filter(d => d.severity !== 'Normal').length} anomalous / {dateFilteredData.length} total weeks
             </p>
             <p className="text-xs text-blue-600 mt-2">Click for details →</p>
           </CardContent>
@@ -582,8 +587,8 @@ export function AnomaliesTable({ data }: AnomaliesTableProps) {
       {/* Spike Timeline - Full Width */}
       <Card>
         <CardHeader>
-          <CardTitle>RMA Spike Timeline</CardTitle>
-          <CardDescription>Weekly anomaly distribution over time - Critical issues require immediate attention</CardDescription>
+          <CardTitle>Weekly RMA Timeline</CardTitle>
+          <CardDescription>Complete weekly RMA activity with severity levels - showing all sites and anomaly detection</CardDescription>
         </CardHeader>
         <CardContent>
           <ResponsiveContainer width="100%" height={400}>
@@ -594,16 +599,21 @@ export function AnomaliesTable({ data }: AnomaliesTableProps) {
                 tick={{ fontSize: 11 }}
                 tickFormatter={(val) => new Date(val).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
               />
-              <YAxis yAxisId="left" label={{ value: 'Spike Count', angle: -90, position: 'insideLeft', fontSize: 12 }} />
+              <YAxis yAxisId="left" label={{ value: 'Site Count', angle: -90, position: 'insideLeft', fontSize: 12 }} />
               <YAxis yAxisId="right" orientation="right" label={{ value: 'Avg Z-Score', angle: 90, position: 'insideRight', fontSize: 12 }} />
               <Tooltip 
                 labelFormatter={(val) => new Date(val).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
                 contentStyle={{ backgroundColor: 'white', border: '1px solid #ccc', borderRadius: '8px', padding: '10px' }}
+                formatter={(value: any, name: string) => {
+                  if (name === 'Avg Z-Score') return [value.toFixed(2), name]
+                  return [value, name]
+                }}
               />
               <Legend />
-              <Bar yAxisId="left" dataKey="critical" stackId="a" fill="#dc2626" name="Critical" />
-              <Bar yAxisId="left" dataKey="high" stackId="a" fill="#f97316" name="High" />
-              <Bar yAxisId="left" dataKey="medium" stackId="a" fill="#facc15" name="Medium" />
+              <Bar yAxisId="left" dataKey="critical" stackId="a" fill="#dc2626" name="Critical Spikes" />
+              <Bar yAxisId="left" dataKey="high" stackId="a" fill="#f97316" name="High Spikes" />
+              <Bar yAxisId="left" dataKey="medium" stackId="a" fill="#facc15" name="Medium Spikes" />
+              <Bar yAxisId="left" dataKey="normal" stackId="a" fill="#22c55e" name="Normal Activity" />
               <Line yAxisId="right" type="monotone" dataKey="avg_z_score" stroke="#8b5cf6" strokeWidth={3} name="Avg Z-Score" dot={{ r: 4 }} />
             </ComposedChart>
           </ResponsiveContainer>
@@ -668,7 +678,7 @@ export function AnomaliesTable({ data }: AnomaliesTableProps) {
       </div>
 
       {/* Data Table */}
-      <DataTable columns={columns} data={data} filterableColumns={filterableColumns} onFilteredDataChange={setFilteredData} />
+      <DataTable columns={columns} data={completeData} filterableColumns={filterableColumns} onFilteredDataChange={setFilteredData} />
     </div>
   )
 }

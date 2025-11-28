@@ -9,6 +9,7 @@ import { Loader2 } from "lucide-react"
 
 export function AnomaliesDataLoader() {
   const [data, setData] = useState<Anomaly[]>([])
+  const [completeData, setCompleteData] = useState<Anomaly[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -19,11 +20,19 @@ export function AnomaliesDataLoader() {
   const loadData = async () => {
     try {
       setLoading(true)
-      const response = await fetch("/rma/anomalies.csv")
-      if (!response.ok) throw new Error("Failed to load CSV")
-      const text = await response.text()
+      
+      // Load filtered anomalies (Medium+) for the table
+      const anomaliesResponse = await fetch("/rma/anomalies.csv")
+      if (!anomaliesResponse.ok) throw new Error("Failed to load anomalies CSV")
+      const anomaliesText = await anomaliesResponse.text()
 
-      Papa.parse(text, {
+      // Load complete weekly data (all severities) for timeline chart
+      const completeResponse = await fetch("/rma/weekly_timeseries_complete.csv")
+      if (!completeResponse.ok) throw new Error("Failed to load complete timeseries CSV")
+      const completeText = await completeResponse.text()
+
+      // Parse anomalies data
+      Papa.parse(anomaliesText, {
         header: true,
         skipEmptyLines: true,
         dynamicTyping: true,
@@ -41,10 +50,35 @@ export function AnomaliesDataLoader() {
             year: Number(row.year) || 0,
           }))
           setData(parsedData as Anomaly[])
+        },
+        error: (error: Error) => {
+          setError(`Failed to parse anomalies CSV: ${error.message}`)
+        },
+      })
+
+      // Parse complete timeseries data
+      Papa.parse(completeText, {
+        header: true,
+        skipEmptyLines: true,
+        dynamicTyping: true,
+        complete: (results: ParseResult<Anomaly>) => {
+          const parsedData = results.data.map((row: any) => ({
+            ...row,
+            rma_count: Number(row.rma_count) || 0,
+            rolling_mean: Number(row.rolling_mean) || 0,
+            rolling_std: Number(row.rolling_std) || 0,
+            z_score: Number(row.z_score) || 0,
+            deviation: Number(row.deviation) || 0,
+            pct_change: Number(row.pct_change) || 0,
+            consecutive_count: Number(row.consecutive_count) || 0,
+            week_number: Number(row.week_number) || 0,
+            year: Number(row.year) || 0,
+          }))
+          setCompleteData(parsedData as Anomaly[])
           setError(null)
         },
         error: (error: Error) => {
-          setError(`Failed to parse CSV: ${error.message}`)
+          setError(`Failed to parse complete timeseries CSV: ${error.message}`)
         },
       })
     } catch (err) {
@@ -73,11 +107,11 @@ export function AnomaliesDataLoader() {
       <div className="space-y-2">
         <h1 className="text-3xl font-bold">RMA Spike Detection</h1>
         <p className="text-muted-foreground">
-          Identifying sites with abnormal failure rates using statistical anomaly detection.
-          Total: {data.length.toLocaleString()} anomalous weeks detected across {new Set(data.map(d => d.site_id)).size} sites.
+          Comprehensive weekly RMA analysis with statistical anomaly detection. 
+          Showing {completeData.length.toLocaleString()} total weekly records with {data.length.toLocaleString()} anomalies detected across {new Set(data.map(d => d.site_id)).size} sites.
         </p>
       </div>
-      <AnomaliesTable data={data} />
+      <AnomaliesTable data={data} completeData={completeData} />
     </div>
   )
 }
